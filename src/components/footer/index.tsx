@@ -5,22 +5,16 @@ import IPFS from '@/constants/svg/ipfs.svg';
 
 const productLinks = [`Features`, `Customers`, `Platform`, `Pricing`, `Enterprise`, `What's new?`];
 const aboutLinks = [`About Us`, `Careers`, `Leadership`, `Blog`, `Events`, `Press`];
-const resourceLinks = [
-  `Design`,
-  `Development`,
-  `Tools`,
-  `Resources`
-];
+const resourceLinks = [`Design`, `Development`, `Tools`, `Resources`];
 
 const Footer = () => (
   <footer className={tw(`bg-white border-t border-gray-400 pt-14 pb-16`)}>
-     <div className={tw(`flex justify-center w-full`)}>
+    <div className={tw(`flex justify-center w-full`)}>
       <div className={tw(`mt-4 w-full`)}>
         {/* <p className={tw(`font-mono uppercase text-center font-medium text-lg text-gray-600 mb-6 lg:mb-12`)}>building with</p> */}
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
           {/* <Kilt className={tw(`mb-6 mb-8 mt-6 mr-10`)} width={200} /> */}
           {/* <IPFS className={tw(`mb-6 mb-4 mt-6`) }   /> */}
-         
         </div>
       </div>
     </div>

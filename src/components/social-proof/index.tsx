@@ -3,8 +3,6 @@ import { useState } from 'react';
 import Quote from '@/constants/svg/quote.svg';
 
 const socialProofs = [
-
-
   {
     name: `Yoko Ono`,
     company: `Multimedia artist, singer, songwriter and peace activist`,

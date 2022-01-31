@@ -47,7 +47,7 @@ const articles = [
   {
     title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
     summary: `consensus-powered`,
-  
+
     image: `/images/case-3.webp`,
     alt: `Proident pariatur est.`,
   },
@@ -64,7 +64,6 @@ const articles = [
     image: `/images/case-2.webp`,
     alt: `Proident pariatur est.`,
   },
-
 ];
 
 const CasesSection = () => (
