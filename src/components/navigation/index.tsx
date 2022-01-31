@@ -12,24 +12,24 @@ type Link = {
   href: string;
 };
 
-const links = [
-  // {
-  //   label: `Expression of Peace`,
-  //   href: `/`,
-  // },
-  // {
-  //   label: `Why?`,
-  //   href: `/`,
-  // },
-  // {
-  //   label: `How?`,
-  //   href: `/`,
-  // },
-  // {
-  //   label: `Blog`,
-  //   href: `/`,
-  // },
-];
+// const links = [
+//   // {
+//   //   label: `Expression of Peace`,
+//   //   href: `/`,
+//   // },
+//   // {
+//   //   label: `Why?`,
+//   //   href: `/`,
+//   // },
+//   // {
+//   //   label: `How?`,
+//   //   href: `/`,
+//   // },
+//   // {
+//   //   label: `Blog`,
+//   //   href: `/`,
+//   // },
+// ];
 
 const secondaryLinks = [
   {
