@@ -13,11 +13,10 @@ type Link = {
 };
 
 const links = [
-  
-  {
-    label: `Expression of Peace`,
-    href: `/`,
-  },
+  // {
+  //   label: `Expression of Peace`,
+  //   href: `/`,
+  // },
   // {
   //   label: `Why?`,
   //   href: `/`,
@@ -139,9 +138,11 @@ const Navigation = () => {
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-            <Button modifier="border-0 mr-2">Contact sales</Button>
+              <Button primary modifier="border-20 sm:mr-4 md:mr-8 lg:mr-12 ">
+                community
+              </Button>
 
-              <Button primary>open app</Button>
+              <Button modifier="border-60 text-black bg-red-600">manifest</Button>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>

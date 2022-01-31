@@ -12,10 +12,7 @@ import Footer from '@/components/footer';
 export default function Home() {
   return (
     <Page>
-      <NextSeo
-        title="Peace, on blockchain"
-        description="World peace as a service, on blockchain"
-      />
+      <NextSeo title="Peace, on blockchain" description="World peace as a service, on blockchain" />
       <Header />
       <main>
         <SocialProof />
@@ -25,7 +22,7 @@ export default function Home() {
         <FeatureSection />
         {/* <PricingTable /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </Page>
   );
 }

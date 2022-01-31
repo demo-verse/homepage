@@ -59,7 +59,7 @@ const PricingTable = () => (
             $99/mo
           </div>
           <Button primary modifier="mt-6">
-            Contact sales
+            Resources
           </Button>
         </div>
       </div>

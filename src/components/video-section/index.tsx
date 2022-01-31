@@ -26,11 +26,14 @@ const VideoSection = () => (
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/45cYwDMibGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             {/* <iframe width="100%" height="520" src="https://www.youtube.com/embed/AR9BwHSO0_8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/45cYwDMibGo" allowFullScreen></iframe> */}
+            {/* come together */}
             <iframe width="100%" height="420" src="https://www.youtube.com/embed/45cYwDMibGo" allowFullScreen></iframe>
+
             {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/08BmDkcHg9w" allowFullScreen></iframe> */}
             {/* <iframe width="100%" height="520" src="https://www.youtube.com/embed/PTlsKfEmIFM" allowFullScreen></iframe> */}
+            {/* thrill is gone */}
+            {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/SgXSomPE_FY" allowFullScreen></iframe> */}
 
-            
             {/* <PlayButton /> */}
           </div>
         </div>
