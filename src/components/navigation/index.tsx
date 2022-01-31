@@ -122,7 +122,7 @@ const Navigation = () => {
             <div className={tw(`flex-shrink-0`)}>
               <img className={tw(`h-16 w-16`)} src="logo.png" alt="logo" width={120} height={120} />
             </div>
-            <div className={tw(`hidden md:block`)}>
+            {/* <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
                 {links.map((link: Link) => (
                   <a
@@ -134,7 +134,7 @@ const Navigation = () => {
                   </a>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
