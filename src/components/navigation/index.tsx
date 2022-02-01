@@ -1,6 +1,7 @@
 import { tw } from 'twind';
 import { useState } from 'react';
 import Button from '@/components/button';
+import Link from 'next/link';
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -138,11 +139,13 @@ const Navigation = () => {
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-              <Button primary modifier="border-20 sm:mr-4 md:mr-8 lg:mr-12 ">
-                community
+              <Button modifier="border-60 text-black bg-red-600">
+                <Link href="https://discord.gg/CfGzp3st3k">
+                  <a className={tw(`bg-black-200`)} target="_blank">
+                    community
+                  </a>
+                </Link>
               </Button>
-
-              <Button modifier="border-60 text-black bg-red-600">manifest</Button>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>

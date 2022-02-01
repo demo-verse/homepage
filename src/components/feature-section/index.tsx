@@ -7,15 +7,13 @@ const FeatureSection = () => (
     <div className={tw(`max-w-7xl mx-auto p-4 sm:p-6 lg:p-8`)}>
       <div className={tw(`container mx-auto px-6 p-6 bg-white`)}>
         <div className={tw(`mb-16 text-center`)}>
-          <h4 className={tw(`text-4xl text-blue-600 font-semibold tracking-wide `)}>
-            Peace as a Service, on Blockchain
-          </h4>
-          <p className={tw(`mt-10 text-xl lg:text-2xl font-bold tracking-tight text-gray-900`)}>
+          <h4 className={tw(`text-4xl text-blue-600  tracking-wide `)}>Peace as a service, on blockchain</h4>
+          <p className={tw(`mt-10 text-xl lg:text-2xl ftracking-tight text-gray-900`)}>
             First time in the history, as collective expressions and acknowledgements of billions, instead of
             negotiations of hundreds.
           </p>
-          <p className={tw(`bg-yellow-200 mb-12 mt-2 text-xl lg:text-2xl font-bold tracking-tight text-gray-900`)}>
-            The revolutions will be minted..
+          <p className={tw(` mb-12 mt-4 text-xl lg:text-2xl font-bold tracking-tight text-gray-900`)}>
+            "the revolution will be minted"
           </p>
 
           <ExpressonOfPeace />
@@ -25,7 +23,7 @@ const FeatureSection = () => (
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="orange" className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}> Read the Social Contract(s) </div>
+              <div className={tw(`ml-4 text-xl`)}> Read the Social Contract </div>
             </div>
             <p className={tw(`leading-loose text-gray-800`)}>
               Read an Expression of Peace (EoP). Beware, there exist highly anti-militarist and even anarchist
@@ -35,7 +33,7 @@ const FeatureSection = () => (
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="red" className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Sign one for World Peace</div>
+              <div className={tw(`ml-4 text-xl`)}>Sign it for World Peace</div>
             </div>
             <p className={tw(`leading-loose text-gray-800 `)}>
               Connect your crypto wallet {'&'} sign an Expression of Peace, on blockchain. That's how our motivations
@@ -46,9 +44,9 @@ const FeatureSection = () => (
           <div className={tw(`w-full md:w-1/2 lg:w-1/3 p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="currentColor" className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl mt-2`)}>You have an NFT!</div>
+              <div className={tw(`ml-4 text-xl mt-2`)}>You've got an NFT!</div>
             </div>
-            <p className={tw(`leading-loose text-gray-800 mt-8`)}>
+            <p className={tw(`leading-loose text-gray-800`)}>
               Following this intentional move towards world peace, a Non-Fungible and Non-Tradable Token will be minted
               to your wallet.
             </p>
