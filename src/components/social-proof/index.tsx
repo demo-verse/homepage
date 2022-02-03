@@ -29,10 +29,19 @@ const socialProofs = [
     text: `Peace cannot be kept by force; it can only be achieved by understanding.`,
   },
   {
-    name: `Albert Einstein`,
-    company: `Theoretical Physicist`,
-    image: `/images/einstein.jpg`,
-    text: `Peace cannot be kept by force; it can only be achieved by understanding.`,
+    name: `Alexander von Humbold`,
+    company: `Polymath, geographer, naturalist, explorer, and proponent of Romantic philosophy and science`,
+    image: `/images/alexander_von_humboldt.jpg`,
+    text: `The most dangerous worldviews are the worldviews of those who have never viewed the world.
+    `,
+  },
+
+  {
+    name: `Charles Montesquieu`,
+    company: `Judge, man of letters, historian, and political philosopher`,
+    image: `/images/charles_montesquieu.jpg`,
+    text: `The tyranny of a prince in an oligarchy is not so dangerous to the public welfare as the apathy
+    of a citizen in a democracy`,
   },
 ];
 
