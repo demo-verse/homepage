@@ -17,7 +17,22 @@ const PricingTable = () => (
       <div className={tw(`overflow-hidden lg:max-w-none lg:flex`)}>
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
           <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>Why blockchain?</h2>
-          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>social contracts</p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            Resources and rights are like chicken-egg problems. With blockchain, we can share resources in a borderless
+            fashion.
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            Since more than 10 years, we are experiencing decentralised and empowering, as well as liberating
+            structures.
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            And for some, it's the opposite. Yet, any existing state is seemingly incapable of solving the problems
+            peacefully.
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            As we move forward as civilisation, to #web3, with a web browser, we'll have our sovereignity, in our
+            pockets. It's about expressing that.
+          </p>
           <div className={tw(`mt-8`)}>
             <div className={tw(`flex items-center`)}>
               <h3
@@ -49,11 +64,7 @@ const PricingTable = () => (
           )}
         >
           {/* <p className={tw(`text-lg font-medium text-gray-800`)}>Resilient</p> */}
-          <div
-            className={tw(`my-4 flex items-center justify-center lg:bg-red-300 text-4xl leading-none text-gray-800`)}
-          >
-            open & real
-          </div>
+
           {/* <Button primary modifier="mt-6"> */}
           <div>
             <img src="/images/morpheus.png"></img>
