@@ -22,6 +22,7 @@ const socialProofs = [
     text: `If we are to have peace on earth.. Our loyalties must transcend our race, our 
     tribe, our class, and our nation; and this means we must develop a world perspective.`,
   },
+
   {
     name: `Albert Einstein`,
     company: `Theoretical Physicist`,
@@ -34,6 +35,13 @@ const socialProofs = [
     image: `/images/alexander_von_humboldt.jpg`,
     text: `The most dangerous worldviews are the worldviews of those who have never viewed the world.
     `,
+  },
+
+  {
+    name: `Jürgen Habermas`,
+    company: `Philosopher and sociologist in the tradition of critical theory and pragmatism`,
+    image: `/images/juergen_habermas.png`,
+    text: `A 'post-truth democracy' would no longer be a democracy.`,
   },
 
   {
