@@ -41,6 +41,28 @@ const PricingTable = () => (
             future on blockchain.
           </p>
 
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            Blockchain not be essentially changing the world with artificial or augmented realities. It will bring new
+            realities.
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            This will be our restoration as civilisation, a game theory imagined for the 21st century.
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            Expecting governments of relatively democratic countries, relatively earlier:
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            So that they'll be known in the history as peace and solution makers and signers, showing intention on
+            reflecting the societies.
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            In fact, this project is a global empowerment of existing politicians to reflect societies and peaceful
+            calls and demands, via taking action around achieving world peace.
+          </p>
+
           <div className={tw(`mt-8`)}>
             <div className={tw(`flex items-center`)}>
               <h3
