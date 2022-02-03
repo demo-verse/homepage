@@ -59,10 +59,12 @@ const PricingTable = () => (
             reflecting the societies.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            In fact, this project is a global empowerment of existing politicians to reflect societies and peaceful
-            calls and demands, via taking action around achieving world peace.
+            In fact, this project is giving a chance to existing powers to adapt themselves to the soul of time and
+            location, planet earth.
           </p>
-
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            We don't need oracles to tell us peace can be only achieved via globally desiring it.
+          </p>
           <div className={tw(`mt-8`)}>
             <div className={tw(`flex items-center`)}>
               <h3
@@ -101,8 +103,12 @@ const PricingTable = () => (
           </div>
 
           <div className={tw(`mt-20`)}>
+            <iframe width="100%" height="420" src="https://www.youtube.com/embed/OTFbLA1JDIU" allowFullScreen></iframe>
+          </div>
+          <div className={tw(`mt-20`)}>
             <iframe width="100%" height="420" src="https://www.youtube.com/embed/jW4VZ5J0fNQ" allowFullScreen></iframe>
           </div>
+
           {/* </Button> */}
         </div>
       </div>
