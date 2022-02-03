@@ -18,24 +18,21 @@ const PricingTable = () => (
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
           <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>Why blockchain?</h2>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            Resources and rights are like chicken-egg problems. With blockchain, we can share resources in a borderless
-            fashion.
-          </p>
-          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
             Since more than 10 years, we are experiencing decentralised and empowering, as well as liberating
             structures.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            Centralisation means talking about thousands and millions maybe. Decentralisation is about billions of
-            people.
+            Resources and rights are like chicken-egg problems.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            As we move forward as civilisation, to #web3, we'll have our sovereignity, in our pockets.
+            Decentralisation is about empowerment of freedom, for 7+ billions of people. With blockchain, we can
+            reliably share resources in a borderless and incentivising fashion.
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            As we move forward as civilisation, to #web3, we'll have our sovereignity, in our pockets. It's about
+            expressing that and acknowledging for each other.
           </p>
 
-          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            It's about expressing that and acknowledging for each other.
-          </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
             By this perspective, blockchain is also enabling the share of rights, along with resources and writing a
             future on blockchain.
@@ -47,16 +44,17 @@ const PricingTable = () => (
           </p>
 
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            This will be our restoration as civilisation, a game theory imagined for the 21st century.
+            This will be our restoration as civilisation, a game theory imagined for the 21st century:
           </p>
 
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            Expecting governments of relatively democratic countries, relatively earlier:
+            Hereby, expecting governments of relatively democratic countries, taking better and earlier actions, and
+            achieve their full potential in positive, creative and emancipating direction.
           </p>
 
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            So that they'll be known in the history as peace and solution makers and signers, showing intention on
-            reflecting the societies.
+            Those will be known in the history, as peace and solution makers and signers, showing intention on
+            reflecting the societies. Others will be known as fossils, with fossil energy and strategic resources.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
             In fact, this project is giving a chance to existing people with governing entitlements to seal common
