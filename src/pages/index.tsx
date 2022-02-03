@@ -9,7 +9,7 @@ import SocialProof from '@/components/social-proof';
 // import PricingTable from '@/components/pricing-table';
 import Footer from '@/components/footer';
 import PricingTable from '@/components/pricing-table';
-import ListSection from '@/components/list-section';
+// import ListSection from '@/components/list-section';
 
 export default function Home() {
   return (

@@ -141,7 +141,7 @@ const Navigation = () => {
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
               <Button modifier="border-60 text-black bg-red-600">
                 <Link href="https://discord.gg/CfGzp3st3k">
-                  <a className={tw(`bg-black-200`)} target="_blank">
+                  <a className={tw(`bg-black-200 text-bolder sm:text-md lg:text-xl`)} target="_blank">
                     community
                   </a>
                 </Link>

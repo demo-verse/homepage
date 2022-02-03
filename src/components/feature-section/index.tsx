@@ -23,17 +23,20 @@ const FeatureSection = () => (
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="orange" className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}> Read the Social Contract </div>
+              <div className={tw(`ml-4 text-xl`)}> Read a Social Contract </div>
             </div>
             <p className={tw(`leading-loose text-gray-800`)}>
-              Read an Expression of Peace (EoP). Beware, there exist highly anti-militarist and even anarchist
-              statements. So be it; live and let live, peacefully.
+              Read a version of Expression of Peace. This is version zero (EoP #0). There'll be new versions proposed
+              individually and collectively.
             </p>
           </div>
+
+          {/* Including demands, and hopes, denouncing wars and and speaking to people mostly, that are invited to co-imagine peace. */}
+
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="red" className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Sign it for World Peace</div>
+              <div className={tw(`ml-4 text-xl`)}>Sign one for World Peace</div>
             </div>
             <p className={tw(`leading-loose text-gray-800 `)}>
               Connect your crypto wallet {'&'} sign an Expression of Peace, on blockchain. That's how our motivations

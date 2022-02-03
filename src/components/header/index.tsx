@@ -15,8 +15,8 @@ const Header = () => {
           Change the world, with one move.
         </h1>
         <div className={tw(`max-w-xl mx-auto`)}>
-          <p className={tw(`mt-10 text-gray-500 text-center text-2xl lg:text-4xl`)}>
-            A global, peer-to-peer consensus of billions, for solving planetary problems.
+          <p className={tw(`mt-10 text-gray-800 text-center text-2xl lg:text-4xl`)}>
+            A global, peer-to-peer consensus of billions, for solving planetary problems // fear no more.
           </p>
         </div>
       </div>

@@ -20,13 +20,11 @@ export default function ExpressionOfPeace() {
                 )}
               >
                 {/*header*/}
-                <div
-                  className={tw(
-                    `flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t`,
-                  )}
-                >
-                  <h3 className={tw(`text-3xl bg-red font-semibold mx-auto justify-center items-center`)}>
-                    Expression of Peace
+                <div className={tw(`flex  p-5 border-b border-solid border-blueGray-200 rounded-t`)}>
+                  <h3
+                    className={tw(`text-center text-2xl bg-red-200 font-semibold mx-auto justify-center items-center`)}
+                  >
+                    Expression of Peace #0
                   </h3>
                   <button
                     className={tw(
@@ -139,7 +137,7 @@ export default function ExpressionOfPeace() {
         type="button"
         onClick={() => setShowModal(true)}
       >
-        Expression of Peace
+        Expression of Peace #0
       </button>
     </>
   );
