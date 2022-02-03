@@ -42,8 +42,8 @@ const PricingTable = () => (
           </p>
 
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            Blockchain not be essentially changing the world with artificial or augmented realities. It will bring new
-            realities.
+            Blockchain not changing the world with artificial or augmented realities. It has already broghth new
+            realities and an open space for learning and non-violent and impact-driven and creative communities.
           </p>
 
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
@@ -98,6 +98,10 @@ const PricingTable = () => (
           {/* <Button primary modifier="mt-6"> */}
           <div>
             <img src="/images/morpheus.png"></img>
+          </div>
+
+          <div className={tw(`mt-20`)}>
+            <iframe width="100%" height="420" src="https://www.youtube.com/embed/jW4VZ5J0fNQ" allowFullScreen></iframe>
           </div>
           {/* </Button> */}
         </div>
