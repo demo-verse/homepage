@@ -59,12 +59,15 @@ const PricingTable = () => (
             reflecting the societies.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            In fact, this project is giving a chance to existing powers to adapt themselves to the soul of time and
-            location, planet earth.
+            In fact, this project is giving a chance to existing people with governing entitlements to seal common
+            wishes and realities: a desire to live in peace, rather than resting in peace only.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            We don't need oracles to tell us peace can be only achieved via globally desiring it.
+            We don't need oracles to tell us peace can be only achieved via globally desiring it. We don't need eyes to
+            see, we need a world vision.
           </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>Best, in peace.</p>
           <div className={tw(`mt-8`)}>
             <div className={tw(`flex items-center`)}>
               <h3
@@ -95,20 +98,16 @@ const PricingTable = () => (
             lg:flex lg:flex-col lg:justify-center lg:p-12`,
           )}
         >
-          {/* <p className={tw(`text-lg font-medium text-gray-800`)}>Resilient</p> */}
-
-          {/* <Button primary modifier="mt-6"> */}
           <div>
             <img src="/images/morpheus.png"></img>
           </div>
-
-          <div className={tw(`mt-20`)}>
+          <div className={tw(`mt-10`)}>
             <iframe width="100%" height="420" src="https://www.youtube.com/embed/OTFbLA1JDIU" allowFullScreen></iframe>
           </div>
-          <div className={tw(`mt-20`)}>
+
+          <div className={tw(`mt-10`)}>
             <iframe width="100%" height="420" src="https://www.youtube.com/embed/jW4VZ5J0fNQ" allowFullScreen></iframe>
           </div>
-
           {/* </Button> */}
         </div>
       </div>
