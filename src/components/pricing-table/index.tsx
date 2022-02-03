@@ -12,7 +12,7 @@ const features = [
 ];
 
 const PricingTable = () => (
-  <section className={tw(`bg-gradient-to-b from-gray-100 to-white shadow-inner pt-12`)}>
+  <section className={tw(`bg-gradient-to-b   pt-12 sm:ml-6 sm:mr-6 lg:ml-20 lg:mr-20`)}>
     <div className={tw(`relative max-w-7xl mx-auto mb-24`)}>
       <div className={tw(`overflow-hidden lg:max-w-none lg:flex`)}>
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
@@ -26,13 +26,21 @@ const PricingTable = () => (
             structures.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            And for some, it's the opposite. Yet, any existing state is seemingly incapable of solving the problems
-            peacefully.
+            Centralisation means talking about thousands and millions maybe. Decentralisation is about billions of
+            people.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
-            As we move forward as civilisation, to #web3, with a web browser, we'll have our sovereignity, in our
-            pockets. It's about expressing that.
+            As we move forward as civilisation, to #web3, we'll have our sovereignity, in our pockets.
           </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            It's about expressing that and acknowledging for each other.
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-500 lg:text-xl`)}>
+            By this perspective, blockchain is also enabling the share of rights, along with resources and writing a
+            future on blockchain.
+          </p>
+
           <div className={tw(`mt-8`)}>
             <div className={tw(`flex items-center`)}>
               <h3
