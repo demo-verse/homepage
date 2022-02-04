@@ -55,13 +55,13 @@ const PricingTable = () => (
 
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             <a href="https://iep.utm.edu/soc-cont/" target="_blank" className={tw(`underline`)}>
-              A social
+              Social
             </a>
             +
             <a href="https://iep.utm.edu/soc-cont/" target="_blank" className={tw(`underline`)}>
               environmental
             </a>
-            ~ EnvironMental Contracts (e-mc) for the 21st century and forwards.
+            ~ EnvironMental Contracts (e-mc) to be gifted for the 21st century and forwards.
           </p>
 
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
