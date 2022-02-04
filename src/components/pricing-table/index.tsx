@@ -60,7 +60,7 @@ const PricingTable = () => (
               Social
             </a>
             +
-            <a href="https://iep.utm.edu/soc-cont/" target="_blank" className={tw(`underline`)}>
+            <a href="https://ceobs.org/" target="_blank" className={tw(`underline`)}>
               environmental
             </a>
             ~ EnvironMental Contracts (e-mc) to be gifted for the 21st century and forwards.
@@ -82,7 +82,7 @@ const PricingTable = () => (
           </p>
 
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            No need to say, feel invited to {'>> '}
+            Needless to say, feel invited to {'>> '}
             <Button modifier="border-60 text-black bg-violet-700">
               <Link href="https://discord.gg/CfGzp3st3k">
                 <a className={tw(`text-bolder sm:text-md lg:text-xl`)} target="_blank">
