@@ -5,15 +5,17 @@ import Quote from '@/constants/svg/quote.svg';
 import Link from 'next/link';
 
 const features = [
-  `non-violent`,
+  `peaceful/non-violent`,
   `carbon-offsetter`,
-  `undeniable`,
+  `observable/undeniable`,
   `freedom-oriented`,
   `based on consensus`,
   `resilient as planet`,
-  `censorship-free`,
+  `censorship-free/resistant`,
   `decentralised`,
-  `free of charge`,
+  `highly demanding`,
+
+  `(almost) free of charge`,
 ];
 
 const PricingTable = () => (
