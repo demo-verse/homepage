@@ -66,8 +66,12 @@ export default function ExpressionOfPeace() {
                     change things in a protest/demonstration.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    residents in other countries are my not my enemies. I am sharing what they are suffering and
-                    enjoying life more, when they achieve what's good for us, our civilisation.
+                    I am sharing what they are suffering and enjoying life more, when they achieve what's good for us,
+                    our civilisation.
+                  </p>
+                  <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
+                    Residents or states in other countries are not my enemies. In the age I was born, people were
+                    leaving for power, and gaining and sustaining that with fear and domination.
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">

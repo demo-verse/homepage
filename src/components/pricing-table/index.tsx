@@ -2,6 +2,7 @@ import { tw } from 'twind';
 import Check from '@/constants/svg/check.svg';
 import Button from '@/components/button';
 import Quote from '@/constants/svg/quote.svg';
+import Link from 'next/link';
 
 const features = [
   `non-violent`,
@@ -42,6 +43,55 @@ const PricingTable = () => (
             With this perspective, this technology also enabling us on sharing rights, as well as resources and hence,
             as a civilisation, on co-imagining and shaping the future, from now.
           </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            As now our world is connected, we feel that it's the same roof on all, or we are all on the same boat; those
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            shall be, continuous and reflective and harmonious upgrade resonating to the soul of time and planet,
+            holistically.
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            <a href="https://iep.utm.edu/soc-cont/" target="_blank" className={tw(`underline`)}>
+              A social
+            </a>
+            +
+            <a href="https://iep.utm.edu/soc-cont/" target="_blank" className={tw(`underline`)}>
+              environmental
+            </a>
+            ~ EnvironMental Contracts (e-mc) for the 21st century and forwards.
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            We have this tech already. People, and tech are open and connected to each other.
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            We have this tech already. People, and tech are open and connected to each other.
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            The project exists for opening discussions on co-imagining and initiating a historical change for a peaceful
+            regeneration.
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            All have a born right to offer a change and take initiative.
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            No need to say, feel invited to {'>> '}
+            <Button modifier="border-60 text-black bg-violet-700">
+              <Link href="https://discord.gg/CfGzp3st3k">
+                <a className={tw(`text-bolder sm:text-md lg:text-xl`)} target="_blank">
+                  discord
+                </a>
+              </Link>
+            </Button>
+          </p>
+          {/* <div className={tw(`ml-4 flex items-center mt:20 md:ml-6` )}>
+            
+          </div> */}
 
           <div className={tw(`md:mt-8 md:mb-8 lg:mt-12`)}>
             <img src="/images/morpheus.png"></img>
