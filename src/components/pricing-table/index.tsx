@@ -23,8 +23,12 @@ const PricingTable = () => (
     <div className={tw(`relative max-w-7xl mx-auto mb-24`)}>
       <div className={tw(`overflow-hidden lg:max-w-none lg:flex `)}>
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
-          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12`)}>Why blockchain?</h2>
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <div className={tw(`lg:w-1/2 lg:mb-4 mt:12`)}>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/5r98tT0j1a0" allowFullScreen></iframe>
+          </div>
+
+          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12 mt-10`)}>Why blockchain?</h2>
+          <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Resources and rights are like chicken-egg problems. One expects the other one before coming alive.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
@@ -81,7 +85,7 @@ const PricingTable = () => (
             All have a born right to offer a change and take initiative.
           </p>
 
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl mb-6 lg:mb-12`)}>
             Needless to say, feel invited to {'>> '}
             <Button modifier="border-60 text-black bg-violet-700">
               <Link href="https://discord.gg/CfGzp3st3k">
@@ -136,7 +140,8 @@ const PricingTable = () => (
             </a>
           </p>
 
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>Best, in peace.</p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl mb-6 lg:mb-12`)}>Best, in peace.</p>
+
           <div className={tw(`mt-8`)}>
             <div className={tw(`flex items-center`)}>
               <h3

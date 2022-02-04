@@ -79,23 +79,33 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className={tw(`lg:w-1/2 lg:mb-4`)}>
-          <iframe width="60%" src="https://www.youtube.com/embed/22GEvDupWGo" allowFullScreen></iframe>
+        <div className={tw(`flex-shrink lg:w-1/2 lg:mb-4`)}>
+          <iframe width="80%" src="https://www.youtube.com/embed/22GEvDupWGo" allowFullScreen></iframe>
         </div>
-        <div className={tw(`w-full lg:w-full md:w-1/3 mt-12 lg:m-w/10 ml-4 lg:ml-12 lg:mt-0`)}>
+        <div className={tw(`w-full items-center lg:w-full md:w-1/3 mt-12 lg:m-w/10 ml-4 lg:ml-12 lg:mt-0`)}>
           <div className={tw(`text-center border border-gray-900 rounded py-5 px-4 lg:mr-20 text-black bg:violet-700`)}>
-            <p className={tw(`underline text-lg`)}>WorldPeace #1</p>
-            <p className={tw(`mt-2`)}>started in Hamburg, Germany. </p>
-            <p className={tw(`mt-2`)}> (re)generating peace, </p>
+            <p className={tw(`underline upperline text-lg`)}>WorldPeace #1</p>
+            <p className={tw(`mt-4`)}>
+              <a href="https://www.youtube.com/watch?v=4Dyh3WCAj7M" target="_blank" referrerPolicy="no-referrer">
+                (already)
+              </a>
+            </p>
+            <p>started </p>
+
+            <p className={tw(`mt-2`)}>in Hamburg, Germany. </p>
+
+            <p className={tw(`mt-6`)}> (re)generating peace, </p>
             <p className={tw(`mt-2`)}> essentially and globally. </p>
 
             <p className={tw(`mt-2`)}> // no more fear. </p>
           </div>
         </div>
 
-        <div className={tw(`w-full lg:w-full md:w-1/3 mt-12 lg:m-w/10 ml-4 lg:ml-12 lg:mt-0`)}>
-          <div className={tw(`text-center border border-gray-900 rounded py-5 px-4 lg:mr-20 text-black bg:violet-700`)}>
-            💚
+        <div className={tw(`w-full item-center lg:w-full md:w-1/3 mt-12 lg:m-w/10 ml-4 lg:ml-12 lg:mt-0`)}>
+          <div className={tw(`text-center  rounded py-5 px-4 lg:mr-20 text-black bg:violet-700`)}>
+            <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
+              <img className={tw(`h-10 w-10`)} src="logo.png" alt="world peace" />
+            </a>
           </div>
         </div>
 
