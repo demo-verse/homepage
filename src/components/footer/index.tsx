@@ -31,7 +31,7 @@ const Footer = () => {
         <img className={tw(` mr-4`)} src="demoverse.svg" alt="logo" width={120} height={120} />
       </div> */}
         <div className={tw(`w-full lg:w-1/2`)}>
-          <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>
+          <ul className={tw(`text-lg font-light flex flex-wrap w-full lg:ml-8`)}>
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
               {/* <div className={tw(``)}> */}
               <div>
@@ -79,7 +79,17 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+
         <div className={tw(`w-full lg:w-1/2 mt-12 lg:mt-0`)}>
+          <div className={tw(`border border-gray-900 rounded py-5 px-4 lg:mr-20 text-black bg:violet-700`)}>
+            <p>WorldPeace #1</p>
+            <p className={tw(`mt-2`)}>started in Hamburg, Germany. </p>
+            <p className={tw(`mt-2`)}> generating peace, essentially and globally. // no more fear. </p>
+          </div>
+        </div>
+
+        {/* newsletter subs  */}
+        {/* <div className={tw(`w-full lg:w-1/2 mt-12 lg:mt-0`)}>
           <div className={tw(`border border-gray-400 rounded py-5 px-4`)}>
             <h4 className={tw(`font-mono text-sm uppercase text-gray-500 mb-3`)}>subscribe to newsletter</h4>
             <div className={tw(`flex w-full`)}>
@@ -92,7 +102,7 @@ const Footer = () => {
               <Button>Subscribe</Button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
