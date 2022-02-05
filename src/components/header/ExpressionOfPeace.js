@@ -5,6 +5,15 @@ export default function ExpressionOfPeace() {
   const [showModal, setShowModal] = React.useState(false);
   return (
     <>
+      <button
+        className={tw(
+          `bg-red-600 text-white active:bg-pink-600 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`,
+        )}
+        type="button"
+        onClick={() => setShowModal(true)}
+      >
+        Expression of Peace #0
+      </button>
       {showModal ? (
         <>
           <div
@@ -20,31 +29,18 @@ export default function ExpressionOfPeace() {
                 )}
               >
                 {/*header*/}
-                <div className={tw(`flex  p-5 border-b border-solid border-blueGray-200 rounded-t`)}>
-                  <h3
-                    className={tw(`text-center text-2xl bg-red-200 font-semibold mx-auto justify-center items-center`)}
-                  >
-                    Expression of Peace #0
-                  </h3>
-                  <button
-                    className={tw(
-                      `p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none`,
-                    )}
-                    onClick={() => setShowModal(false)}
-                  >
-                    {/* {tw(``)} */}
-                    <span
-                      className={tw(
-                        `bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none`,
-                      )}
-                    >
-                      ×
-                    </span>
-                  </button>
+
+                <div
+                  className={tw(
+                    `justify-center items-center flex overflow-y-auto text-2xl  inset-0 z-50 outline-none focus:outline-none`,
+                  )}
+                >
+                  Expression of Peace
                 </div>
+
                 {/*body*/}
-                <div className={tw(`relative p-6 flex-auto`)}>
-                  <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>Hello, world!</p>
+                <div className={tw(`relative p-6 flex-auto text-center`)}>
+                  <p className={tw(`my-4 text-blueGray-500 mb-6flex overflow-y-auto `)}>Hello, world!</p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
                     Hereby, I am signing this petition to be effective and intentional for the world peace, as a
@@ -52,13 +48,18 @@ export default function ExpressionOfPeace() {
                   </p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
-                    consensus is what we need to solve global problems. peace is that consensus, that needs consensus in
+                    Consensus is what we need to solve global problems. peace is that consensus, that needs consensus in
                     the first place.
                   </p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
-                    I do not want any resources or assets being reserved towards violent investments and activities (eg.
-                    wars) etc on my behalf.
+                    I do not want any resources or assets being reserved towards violent investments and activities on
+                    my behalf.
+                  </p>
+                  <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
+                    Wars and progress towards violence are not my thing. From now on, I pledge for this to the rest of
+                    the world, individually assuring that sustaining conflicts, and any progress towards violence, not
+                    my things.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     I'd like this petition as statement as exemption on tax for defence. I don't need that defence. That
@@ -81,7 +82,7 @@ export default function ExpressionOfPeace() {
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     I respect each individual's peaceful opinions and values, from any time and location and would like
-                    to be among billions, that says yes to peace. Wars and progress towards violence are not my thing.
+                    to be among billions, that says yes to peace.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     I demand to have this consensus, from any other individual in the world, then sealed by people with
@@ -111,12 +112,12 @@ export default function ExpressionOfPeace() {
                 >
                   <button
                     className={tw(
-                      `text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`,
+                      `text-red-500 background-transparent font-bold uppercase px-6 py-2 text-xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`,
                     )}
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
-                    close
+                    wow!
                   </button>
                   {/* <button
                       className={tw(`bg-emerald-500 text-black active:bg-green-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`)} 
@@ -134,15 +135,6 @@ export default function ExpressionOfPeace() {
           {/* <div className={tw(`opacity-25 fixed inset-0 z-40 bg-black`)}></div> */}
         </>
       ) : null}
-      <button
-        className={tw(
-          `bg-red-600 text-white active:bg-pink-600 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`,
-        )}
-        type="button"
-        onClick={() => setShowModal(true)}
-      >
-        Expression of Peace #0
-      </button>
     </>
   );
 }

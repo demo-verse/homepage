@@ -2,12 +2,18 @@ import { tw } from 'twind';
 import { useState } from 'react';
 import Quote from '@/constants/svg/quote.svg';
 
-const socialProofs = [
+export const socialProofs = [
   {
     name: `Yoko Ono`,
     company: `Multimedia artist, singer, songwriter and peace activist`,
     image: `/images/yoko_ono.png`,
     text: `A dream you dream alone is only a dream. A dream you dream together is reality.`,
+  },
+  {
+    name: `Albert Einstein`,
+    company: `Theoretical Physicist`,
+    image: `/images/einstein.jpg`,
+    text: `Peace cannot be kept by force; it can only be achieved by understanding.`,
   },
   {
     name: `Nelson Mandela`,
@@ -24,16 +30,17 @@ const socialProofs = [
   },
 
   {
-    name: `Albert Einstein`,
-    company: `Theoretical Physicist`,
-    image: `/images/einstein.jpg`,
-    text: `Peace cannot be kept by force; it can only be achieved by understanding.`,
-  },
-  {
     name: `Alexander von Humbold`,
     company: `Polymath, geographer, naturalist, explorer, and proponent of Romantic philosophy and science`,
     image: `/images/alexander_von_humboldt.jpg`,
     text: `The most dangerous worldviews are the worldviews of those who have never viewed the world.
+    `,
+  },
+  {
+    name: `Gilles Deleuze`,
+    company: `Philosopher, post-structuralist, empiricist and a vitalist`,
+    image: `/images/deleuze.jpg`,
+    text: `“A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window.”
     `,
   },
 
@@ -43,14 +50,21 @@ const socialProofs = [
     image: `/images/juergen_habermas.png`,
     text: `A 'post-truth democracy' would no longer be a democracy.`,
   },
-
   {
-    name: `Charles Montesquieu`,
-    company: `Judge, man of letters, historian, and political philosopher`,
-    image: `/images/charles_montesquieu.jpg`,
-    text: `The tyranny of a prince in an oligarchy is not so dangerous to the public welfare as the apathy
-    of a citizen in a democracy`,
+    name: `Gilles Deleuze`,
+    company: `Philosopher, post-structuralist, empiricist and a vitalist`,
+    image: `/images/deleuze.jpg`,
+    text: `“A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window.”
+    `,
   },
+
+  // {
+  //   name: `Charles Montesquieu`,
+  //   company: `Judge, man of letters, historian, and political philosopher`,
+  //   image: `/images/charles_montesquieu.jpg`,
+  //   text: `The tyranny of a prince in an oligarchy is not so dangerous to the public welfare as the apathy
+  //   of a citizen in a democracy`,
+  // },
 ];
 
 const SocialProof = () => {
@@ -98,8 +112,8 @@ const SocialProof = () => {
                   <div className={tw(`cursor-pointer flex pr-20 pb-12`)}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width={72}
-                      height={72}
+                      width={42}
+                      height={42}
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="red"
@@ -113,8 +127,8 @@ const SocialProof = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width={72}
-                      height={72}
+                      width={42}
+                      height={42}
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="black"

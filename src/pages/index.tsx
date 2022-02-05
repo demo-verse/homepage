@@ -2,6 +2,8 @@ import { NextSeo } from 'next-seo';
 import Page from '@/components/page';
 import Header from '@/components/header';
 import VideoSection from '@/components/video-section';
+import ReelSection from '@/components/reel-section';
+
 // import ListSection from '@/components/list-section';
 import FeatureSection from '@/components/feature-section';
 // import CasesSection from '@/components/cases-section';
@@ -21,6 +23,7 @@ export default function Home() {
         <VideoSection />
         <FeatureSection />
         <PricingTable />
+        <ReelSection />
         {/* <ListSection/> */}
       </main>
       <Footer />
