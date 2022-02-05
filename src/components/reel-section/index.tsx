@@ -22,7 +22,13 @@ const ReelSection = () => (
       <div className={tw(`flex flex-col max-w-4xl mx-auto pt-28`)}>
         <div className={tw(`w-full`)}>
           <div className={tw(`relative shadow-2xl mx-6 lg:mx-0 mb-8 lg:mb-8`)}>
-            <iframe width="100%" height="420" src="https://www.youtube.com/embed/22GEvDupWGo" allowFullScreen></iframe>
+            {/* https://www.youtube.com/embed/22GEvDupWGo */}
+
+            {/* say yes */}
+            <iframe width="100%" height="420" src="https://www.youtube.com/embed/XRz-_u2tN0c" allowFullScreen></iframe>
+
+            {/* que sera */}
+            {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/7I18_VNjX3g" allowFullScreen></iframe> */}
           </div>
           {/* <div className={tw(`relative shadow-2xl mx-6 lg:mx-0 mb-8 lg:mb-12`)}>
          
