@@ -103,7 +103,7 @@ const PricingTable = () => (
 
           <h3
             className={tw(
-              `flex-shrink-0 pr-4 leading-5
+              ` flex-shrink-0 pr-4 leading-5
     tracking-wider font-semibold  lg:text-2xl mb-4 ml-8`,
             )}
           ></h3>
@@ -133,13 +133,29 @@ const PricingTable = () => (
             {/* <iframe width="100%" height="180" src="https://www.youtube.com/embed/gJme0rYsO0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
           </div>
 
-          <div className={tw(`md:mt-4 md:mb-8 lg:mt-6 lg:ml-8`)}>
-            <img src="/images/morpheus.png"></img>
+          <div className={tw(` flex flex-wrap lg:mt-12`)}>
+            <div className={tw(`w-full md:w-1/2`)}>
+              <iframe
+                width="100%"
+                height="320"
+                src="https://www.youtube.com/embed/10M0xw3UgCo"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className={tw(` w-full md:w-1/2 `)}>
+              <iframe
+                width="100%"
+                height="320"
+                src="https://www.youtube.com/embed/V6-pQSWjwqc"
+                title="Wax Tailor - The Games You Play"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
           </div>
 
           <Quote className={tw(`w-8 md:w-8 left-0 md:-left-2 top-0 pl-4 md:pl-0 lg:mt-6 text-gray-500`)}></Quote>
-          <p className={tw(`text-base leading-6 text-gray-800 lg:text-2xl`)}>
-            Blockchain belongs to everyone, as power does.
+          <p className={tw(`text-base leading-6 text-gray-800 lg:text-4xl text-center`)}>
+            Blockchain belongs to all, as power does.
           </p>
 
           {/* <p className={tw(`text-base leading-6 text-gray-800 lg:text-2xl mt-4`)}>
@@ -149,21 +165,52 @@ const PricingTable = () => (
             <img src="/images/peace-is-green.png"></img>
           </div> */}
 
-          <p className={tw(`mt-6 text-base text-bolder leading-6 text-gray-800 lg:text-xl `)}>
-            <span className={tw(`underline`)}>There is no bottom or up</span> ; a decentralised civilisation, that is
-            competitive in good.. This can cherish from approachable mindsets that shares and feels stake and
-            responsibility. That can be observed via empowerin all, that are taking steps on pursuing creative and
-            borderless journeys in minds and, that are to be peaceful and healthy in everywhere and for everyone.
+          <p className={tw(` mt-6 text-base leading-6 text-gray-800 lg:text-xl  text-center`)}>
+            All have a born right to offer a change and take initiative.
           </p>
 
-          <p className={tw(`mt-2 text-base leading-6 text-gray-800 lg:text-xl `)}></p>
+          <div
+            className={tw(
+              ` mt-6 flex md:mt-4 md:mb-8 lg:mt-6 object-none object-center bg-yellow-300 w-42 h-42 lg:py-4`,
+            )}
+          >
+            <img src="/images/morpheus.png" className={tw(`lg:object-center lg:ml-8 sm:m-2`)}></img>
+            <p
+              className={tw(
+                `mt-6 text-base text-bolder leading-6 text-gray-800 md:text-l text-center lg:mt-14 lg:text-2xl md:mt-16 sm:mt-4 md:ml-6`,
+              )}
+            >
+              <Quote className={tw(`w-6 md:w-6 left-4 md:-left-2 top-0 pl-4 md:pl-0 lg:mt-6 text-gray-500`)}></Quote>
+              There is no bottom or up; that's an illusion.
+            </p>
+
+            {/* <p className={tw(`text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2  text-center  lg:mt-12`)}>
+            This can cherish from open minds and hearts, who shares and feels stake and even
+              responsibility.
+            </p> */}
+          </div>
+
+          <p className={tw(`bg-blue-400 mt-6 text-base leading-6 text-gray-800 lg:text-xl bg:yellow-200 text-center `)}>
+            <a href="https://www.youtube.com/watch?v=cyQ0s0J1fhY" target="_blank">
+              We don't need eyes to see, we need a vision.
+            </a>
+          </p>
+          <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl text-center `)}>
+            That can be observed via empowering all, that are taking steps on pursuing creative and borderless journeys
+            in minds and, that are to be peaceful and healthy in everywhere and for everyone.
+          </p>
+
+          <p
+            className={tw(
+              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-sm sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-6`,
+            )}
+          >
+            21st century will be observing a decentralised civilisation, competing in good stuff, while scaling and
+            sharing them.
+          </p>
 
           {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/n9e0g5s_LCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            */}
-
-          <p className={tw(` mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            All have a born right to offer a change and take initiative.
-          </p>
 
           {/* <div className={tw(`ml-4 flex items-center mt:20 md:ml-6` )}>
             
@@ -195,26 +242,9 @@ const PricingTable = () => (
             </p>
           */}
 
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl bg:yellow-200 `)}>
-            <a href="https://www.youtube.com/watch?v=cyQ0s0J1fhY" target="_blank">
-              We don't need eyes to see ~ we need a vision
-            </a>
+          <p className={tw(`mt-0 text-base leading-6 text-white-800 lg:text-xl bg-red-600 text-center `)}>
+            This is our metaverse, as a restoration.
           </p>
-        </div>
-        <div
-          className={tw(
-            `py-8 px-6 text-center lg:flex-shrink-0
-            lg:flex lg:flex-col lg:justify-center lg:p-12`,
-          )}
-        >
-          {/* <div className={tw(`mt-10`)}>
-            <iframe width="100%" height="420" src="https://www.youtube.com/embed/OTFbLA1JDIU" allowFullScreen></iframe>
-          </div> */}
-
-          {/* <div className={tw(`mt-10`)}>
-            <iframe width="100%" height="420" src="https://www.youtube.com/embed/jW4VZ5J0fNQ" allowFullScreen></iframe>
-          </div> */}
-          {/* </Button> */}
         </div>
       </div>
     </div>
