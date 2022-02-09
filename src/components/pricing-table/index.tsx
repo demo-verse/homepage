@@ -118,6 +118,10 @@ const PricingTable = () => (
             will be in a form of, shaping the future, from now.
           </p>
 
+          <p className={tw(`mt-4 mb-10 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            Here, blockchain and NFTs (smart contracts) in core, are reflection and technical tools of making demands,
+            acknowledgements, expressions, promises, statements and hence, assurances.
+          </p>
           <div className={tw(`w-full`)}>
             <iframe
               width="100%"
@@ -128,10 +132,6 @@ const PricingTable = () => (
             {/* <iframe width="768" height="432" src="https://miro.com/app/embed/uXjVOX94E5k=/?pres=1&frameId=3458764517450232776" frameBorder="0" scrolling="no" allowFullScreen></iframe> */}
             {/* <iframe width="100%" height="180" src="https://www.youtube.com/embed/gJme0rYsO0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
           </div>
-          <p className={tw(`mt-6 lg:mt-10 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            Here, blockchain and NFTs (smart contracts) in core, are reflection and technical tools of making demands,
-            acknowledgements, expressions, promises, statements and hence, assurances.
-          </p>
 
           <div className={tw(`md:mt-4 md:mb-8 lg:mt-6 lg:ml-8`)}>
             <img src="/images/morpheus.png"></img>

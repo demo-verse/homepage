@@ -21,7 +21,7 @@ const FeatureSection = () => (
           </p>
 
           <p className={tw(`mt-8 text-xl lg:text-2xl ftracking-tight text-white`)}>
-            <span className={tw(`${'#00acee'}`)}>Peace is something</span> to experience and sustain{' '}
+            <span className={tw(`text-blue-400`)}>Peace is something</span> to experience and sustain{' '}
             <span className="underline">without risk of political opt-outs.</span>
           </p>
 

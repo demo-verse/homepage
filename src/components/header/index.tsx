@@ -8,14 +8,14 @@ const headerStyle = css`
 const Header = () => {
   return (
     <header className={tw(headerStyle)}>
-      <div className={tw(`max-w-2xl mx-auto py-8 px-14 sm:px-6 lg:px-8 md:mt-10`)}>
+      <div className={tw(`max-w-2xl mx-auto py-8 px-14 sm:px-6 lg:px-8 md:mt-4`)}>
         <h1
           className={tw(`font-sans font-bold text-3xl md:text-4xl lg:text-6xl text-center leading-snug text-gray-800`)}
         >
           Change the world, with one move.
         </h1>
         <div className={tw(`max-w-xl mx-auto`)}>
-          <p className={tw(`mt-10 text-gray-800 text-center text-2xl lg:text-4xl`)}>
+          <p className={tw(`mt-6 text-gray-800 text-center text-2xl lg:text-4xl`)}>
             A global, peer-to-peer consensus of billions, for solving planetary problems // fear no more.
           </p>
         </div>

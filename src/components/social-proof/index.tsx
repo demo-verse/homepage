@@ -75,14 +75,14 @@ const SocialProof = () => {
   };
 
   return (
-    <div className={tw(`container mx-auto `)}>
-      <div className={tw(`max-w-7xl mx-auto relative bg-yellow-300`)}>
+    <div className={tw(`container mx-auto bg-purple-300 `)}>
+      <div className={tw(`max-w-7xl mx-auto relative `)}>
         <section>
           <figure>
             <div className={tw(``)}>
-              <Quote className={tw(`w-16 md:w-10 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} />
+              <Quote className={tw(`w-12 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} />
               <div className={tw(`pt-12 px-6 md:px-0`)}>
-                <p className={tw(`text-gray-600 text-base pb-6 `)}>{socialProofs[currentIndex].text}</p>
+                <p className={tw(`text-black-800 text-base pb-6 `)}>{socialProofs[currentIndex].text}</p>
                 <div className={tw(`flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>
                     <div className={tw(`h-16 w-16`)}>
@@ -102,8 +102,8 @@ const SocialProof = () => {
                   <div className={tw(`cursor-pointer flex pl-12 pr-6 pb-8`)}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width={42}
-                      height={42}
+                      width={62}
+                      height={62}
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="red"
@@ -117,8 +117,8 @@ const SocialProof = () => {
                     </svg>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      width={42}
-                      height={42}
+                      width={62}
+                      height={62}
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="black"
