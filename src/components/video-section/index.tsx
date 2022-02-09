@@ -26,8 +26,12 @@ const VideoSection = () => (
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/45cYwDMibGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             {/* <iframe width="100%" height="520" src="https://www.youtube.com/embed/AR9BwHSO0_8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/45cYwDMibGo" allowFullScreen></iframe> */}
+
+            {/* <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+            {/* tedx */}
+
             {/* come together */}
-            <iframe width="100%" height="420" src="https://www.youtube.com/embed/45cYwDMibGo" allowFullScreen></iframe>
+            {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/45cYwDMibGo" allowFullScreen></iframe> */}
 
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/5r98tT0j1a0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             {/* <ReactPlayer url='https://nobelmedia.akamaized.net/flashcontent/acceptance_1964_pea_king_01_496.mp4' /> */}
@@ -37,10 +41,13 @@ const VideoSection = () => (
             {/* <a
               href="https://www.nobelprize.org/prizes/peace/1964/king/acceptance-speech"
             >
-              Marting Luther King, Jr.'s Peace Speech @ Nobel Prize Acceptance
+              Marting Luther King, Jr.'s Peace Speech @ Nobel Prize Acceptance Ceramony
             </a>
             https://nobelmedia.akamaized.net/flashcontent/acceptance_1964_pea_king_01_496.mp4
-            https://www.nobelprize.org/prizes/peace/1964/king/acceptance-speech/ */}
+         
+         
+         
+         https://www.nobelprize.org/prizes/peace/1964/king/acceptance-speech/ */}
             {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/08BmDkcHg9w" allowFullScreen></iframe> */}
             {/* <iframe width="100%" height="520" src="https://www.youtube.com/embed/PTlsKfEmIFM" allowFullScreen></iframe> */}
             {/* thrill is gone */}

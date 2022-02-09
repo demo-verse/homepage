@@ -10,7 +10,7 @@ export default function ExpressionOfPeace() {
           `bg-red-600 text-white active:bg-pink-600 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`,
         )}
         type="button"
-        onClick={() => setShowModal(true)}
+        onClick={() => (showModal ? setShowModal(false) : setShowModal(true))}
       >
         Expression of Peace #0
       </button>

@@ -25,7 +25,14 @@ const ReelSection = () => (
             {/* https://www.youtube.com/embed/22GEvDupWGo */}
 
             {/* say yes */}
-            <iframe width="100%" height="420" src="https://www.youtube.com/embed/XRz-_u2tN0c" allowFullScreen></iframe>
+            {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/XRz-_u2tN0c" allowFullScreen></iframe> */}
+
+            {/* the thrill is gone */}
+            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/SgXSomPE_FY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+            {/* <iframe width="100%" height="720" src="https://www.youtube.com/embed/SgXSomPE_FY" allowFullScreen></iframe> */}
+
+            {/* moontide theory - neroche / hugo kant edit             */}
+            {/* <iframe width="100%" height="840" src="https://www.youtube.com/embed/ZFI7xoIHt-Q" allowFullScreen></iframe> */}
 
             {/* que sera */}
             {/* <iframe width="100%" height="420" src="https://www.youtube.com/embed/7I18_VNjX3g" allowFullScreen></iframe> */}

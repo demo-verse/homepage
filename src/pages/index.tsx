@@ -18,14 +18,12 @@ export default function Home() {
     <Page>
       <NextSeo title="Peace, on blockchain" description="World peace as a service, on blockchain" />
       <Header />
-      <main>
-        <SocialProof />
-        <VideoSection />
-        <FeatureSection />
-        <PricingTable />
-        <ReelSection />
-        {/* <ListSection/> */}
-      </main>
+
+      <SocialProof />
+      <VideoSection />
+      <FeatureSection />
+      <PricingTable />
+      <ReelSection />
       <Footer />
     </Page>
   );
