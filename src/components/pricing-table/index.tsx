@@ -7,19 +7,18 @@ import Link from 'next/link';
 import ExpressonOfPeace from '../header/ExpressionOfPeace';
 
 const features = [
-  `peaceful/non-violent`,
-  `carbon-offsetter`,
-  `observable/undeniable`,
-  `freedom-oriented`,
+  `peaceful`,
+  `free-minded`,
+  `carbon-offsetting`,
+  `undeniable`,
+  `resilient`,
   `based on consensus`,
-  `resilient as planet`,
-  `censorship-free/resistant`,
-  `decentralised`,
-  `highly-demanding`,
+  `demanding`,
+  `censor-free`,
 ];
 
 const PricingTable = () => (
-  <section className={tw(`bg-gradient-to-b   pt-12 sm:ml-6 sm:mr-6 lg:ml-20 lg:mr-20`)}>
+  <section className={tw(`bg-gradient-to-b  pt-12 sm:ml-6 sm:mr-6 lg:ml-20 lg:mr-20`)}>
     <div className={tw(`relative max-w-7xl mx-auto mb-24`)}>
       <div className={tw(`overflow-hidden lg:max-w-none lg:flex `)}>
         <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
@@ -62,24 +61,40 @@ const PricingTable = () => (
               <h3
                 className={tw(
                   `flex-shrink-0 pr-4 leading-5
-    tracking-wider font-semibold text-xl lg:text-xl mb-4 `,
+    tracking-wider font-semibold text-xl lg:text-xl mb-4 text-sm `,
                 )}
               >
-                EnvironMental-Consensus Contracts ~ e-mc^2
-                {/* it's a extending social and environmental aspects. */}
+                EnvironMental
               </h3>
-              <div className={tw(`md:mt-4 md:mb-8 lg:mt-6 lg:ml-8`)}>
-                <img src="/images/morpheus.png"></img>
-              </div>
+              <h3
+                className={tw(
+                  `flex-shrink-0 pr-4 leading-5
+    tracking-wider font-semibold text-xl lg:text-xl mb-4 text-sm `,
+                )}
+              >
+                -Consensus Contracts
+              </h3>
+              <h3
+                className={tw(
+                  `flex-shrink-0 pr-4 leading-5
+    tracking-wider font-semibold text-xl lg:text-xl mb-4 text-sm `,
+                )}
+              >
+                aka. e~mc^2
+              </h3>
             </div>
             <div>
-              <ul className={tw(`lg:mt-4 sm:mt-2 lg:grid md:grid-cols-2 lg:grid-cols-3 md-grid md:grid-cols-2`)}>
+              <ul
+                className={tw(
+                  `lg:mt-4 sm:mt-2 lg:grid md:grid-cols-2 lg:grid-cols-2 md-grid md:grid-cols-2 sm-grid sm:grid-cols-2`,
+                )}
+              >
                 {features.map((feature) => (
                   <li className={tw(`flex items-center  lg:col-span-1`)} key={feature}>
                     <div className={tw(`flex-shrink-1`)}>
                       <Check className={tw(`h-8 w-8 mr-3`)} />
                     </div>
-                    <p className={tw(`text-black text-l lg:text-xl md:text-base sm:text-sm`)}>{feature}</p>
+                    <p className={tw(`text-black lg:text-l md:text-base text-l ml-2 mr-2`)}>{feature}</p>
                   </li>
                 ))}
               </ul>
@@ -98,25 +113,41 @@ const PricingTable = () => (
             a peaceful regeneration via co-imagination and realisation.
           </p>
 
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <p className={tw(`mb-6 lg:mb-10 mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             With this perspective, blockchain technology is enabling us on sharing rights, as well as resources. This
             will be in a form of, shaping the future, from now.
           </p>
 
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <div className={tw(`w-full`)}>
+            <iframe
+              width="100%"
+              height="420"
+              src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-414571,-110139,444707,260570"
+              scrolling="no"
+            ></iframe>
+            {/* <iframe width="768" height="432" src="https://miro.com/app/embed/uXjVOX94E5k=/?pres=1&frameId=3458764517450232776" frameBorder="0" scrolling="no" allowFullScreen></iframe> */}
+            {/* <iframe width="100%" height="180" src="https://www.youtube.com/embed/gJme0rYsO0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+          </div>
+          <p className={tw(`mt-6 lg:mt-10 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Here, blockchain and NFTs (smart contracts) in core, are reflection and technical tools of making demands,
             acknowledgements, expressions, promises, statements and hence, assurances.
           </p>
+
+          <div className={tw(`md:mt-4 md:mb-8 lg:mt-6 lg:ml-8`)}>
+            <img src="/images/morpheus.png"></img>
+          </div>
+
           <Quote className={tw(`w-8 md:w-8 left-0 md:-left-2 top-0 pl-4 md:pl-0 lg:mt-6 text-gray-500`)}></Quote>
           <p className={tw(`text-base leading-6 text-gray-800 lg:text-2xl`)}>
             Blockchain belongs to everyone, as power does.
           </p>
-          <p className={tw(`text-base leading-6 text-gray-800 lg:text-2xl mt-4`)}>
+
+          {/* <p className={tw(`text-base leading-6 text-gray-800 lg:text-2xl mt-4`)}>
             // peace is green; fear no more. Express yourself!
-          </p>
-          <div className={tw(`md:mt-4 md:mb-8 lg:mt-6 item-center`)}>
+          </p> */}
+          {/* <div className={tw(`md:mt-4 md:mb-8 lg:mt-6 item-center`)}>
             <img src="/images/peace-is-green.png"></img>
-          </div>
+          </div> */}
 
           <p className={tw(`mt-6 text-base text-bolder leading-6 text-gray-800 lg:text-xl `)}>
             <span className={tw(`underline`)}>There is no bottom or up</span> ; a decentralised civilisation, that is

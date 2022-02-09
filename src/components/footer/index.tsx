@@ -30,18 +30,6 @@ const Footer = () => {
         <img className={tw(` mr-4`)} src="demoverse.svg" alt="logo" width={120} height={120} />
       </div> */}
 
-        <div className={tw(`w-full`)}>
-          <iframe
-            width="100%"
-            height="420"
-            src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-414571,-110139,444707,260570"
-            frameBorder="0"
-            scrolling="no"
-            allowFullScreen
-          ></iframe>
-          {/* <iframe width="768" height="432" src="https://miro.com/app/embed/uXjVOX94E5k=/?pres=1&frameId=3458764517450232776" frameBorder="0" scrolling="no" allowFullScreen></iframe> */}
-          {/* <iframe width="100%" height="180" src="https://www.youtube.com/embed/gJme0rYsO0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-        </div>
         <div className={tw(`w-full md:w-1/2`)}>
           <ul className={tw(`text-lg font-light flex flex-wrap w-full lg:ml-8`)}>
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
