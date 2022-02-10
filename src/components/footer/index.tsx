@@ -44,6 +44,11 @@ const Footer = () => {
                       </a>
                     </li>
                   ))}
+
+                  {/* <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}> */}
+
+                  {/* <li className={tw(``)}>
+                  </li> */}
                 </ul>
               </div>
             </li>

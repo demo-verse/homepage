@@ -82,10 +82,10 @@ const SocialProof = () => {
             <div className={tw(``)}>
               <Quote className={tw(`w-12 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} />
               <div className={tw(`pt-12 px-6 md:px-0`)}>
-                <p className={tw(`text-black-800 text-base pb-6 `)}>{socialProofs[currentIndex].text}</p>
+                <p className={tw(`text-black-600 text-xl lg:text-2xl pb-6 `)}>{socialProofs[currentIndex].text}</p>
                 <div className={tw(`flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>
-                    <div className={tw(`h-16 w-16`)}>
+                    <div className={tw(`h-36 w-36 lg:ml-12 lg:mr-12 `)}>
                       <img
                         src={socialProofs[currentIndex].image}
                         alt={socialProofs[currentIndex].name}
@@ -99,7 +99,7 @@ const SocialProof = () => {
                       </span>
                     </p>
                   </div>
-                  <div className={tw(`cursor-pointer flex pl-12 pr-6 pb-8`)}>
+                  <div className={tw(`cursor-pointer flex `)}>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={62}

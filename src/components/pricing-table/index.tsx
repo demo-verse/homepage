@@ -3,6 +3,7 @@ import Check from '@/constants/svg/check.svg';
 import Button from '@/components/button';
 import Quote from '@/constants/svg/quote.svg';
 import Link from 'next/link';
+import SocialProof from '@/components/social-proof';
 
 import ExpressonOfPeace from '../header/ExpressionOfPeace';
 
@@ -21,7 +22,7 @@ const PricingTable = () => (
   <section className={tw(`bg-gradient-to-b  pt-12 sm:ml-6 sm:mr-6 lg:ml-20 lg:mr-20`)}>
     <div className={tw(`relative max-w-7xl mx-auto mb-24`)}>
       <div className={tw(`overflow-hidden lg:max-w-none lg:flex `)}>
-        <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1`)}>
+        <div className={tw(`py-8 px-6 md:px-0 lg:flex-shrink-1 text-center`)}>
           {/* <p className={tw(`lg:bg-red-300 underline mt-6 text-base leading-6 text-gray-800 lg:text-xl mb-6 lg:mb-12`)}>
             <a href="https://www.youtube.com/watch?v=pFS4zYWxzNA" target="_blank">
               Best, in peace.
@@ -36,11 +37,12 @@ const PricingTable = () => (
 
           <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12 mt-10`)}>Why blockchain for peace?</h2>
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            Resources and rights are like chicken-egg problems. One expects the other one before coming alive.
+            Resources and rights are interacting, as if they are living in domains of the chicken-egg problems. One
+            requiring the other one before coming alive.
           </p>
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            Here exists a paradox in the paradox: wealth without rights, not rights and rights not necessarily creating
-            resources and assets. We need to shift from this mentality and pragma.
+            Here exists a paradox: neither resources without rights, or rights without resources progress can reach
+            their full potential without collaboration. We need to shift to somewhere, where there exists no box.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Since more than 10 years, we are moving towards decentralised and empowering, as well as liberating
@@ -56,58 +58,7 @@ const PricingTable = () => (
             decision-making processes.
           </p>
 
-          <div className={tw(`flex items-center`)}>
-            <div className={tw(`mt-2`)}>
-              <h3
-                className={tw(
-                  `flex-shrink-0 pr-4 leading-5
-    tracking-wider font-semibold text-xl lg:text-xl mb-4 text-sm `,
-                )}
-              >
-                EnvironMental
-              </h3>
-              <h3
-                className={tw(
-                  `flex-shrink-0 pr-4 leading-5
-    tracking-wider font-semibold text-xl lg:text-xl mb-4 text-sm `,
-                )}
-              >
-                -Consensus Contracts
-              </h3>
-              <h3
-                className={tw(
-                  `flex-shrink-0 pr-4 leading-5
-    tracking-wider font-semibold text-xl lg:text-xl mb-4 text-sm `,
-                )}
-              >
-                aka. e~mc^2
-              </h3>
-            </div>
-            <div>
-              <ul
-                className={tw(
-                  `lg:mt-4 sm:mt-2 lg:grid md:grid-cols-2 lg:grid-cols-2 md-grid md:grid-cols-2 sm-grid sm:grid-cols-2`,
-                )}
-              >
-                {features.map((feature) => (
-                  <li className={tw(`flex items-center  lg:col-span-1`)} key={feature}>
-                    <div className={tw(`flex-shrink-1`)}>
-                      <Check className={tw(`h-8 w-8 mr-3`)} />
-                    </div>
-                    <p className={tw(`text-black lg:text-l md:text-base text-l ml-2 mr-2`)}>{feature}</p>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-
-          <h3
-            className={tw(
-              ` flex-shrink-0 pr-4 leading-5
-    tracking-wider font-semibold  lg:text-2xl mb-4 ml-8`,
-            )}
-          ></h3>
-
+          <SocialProof />
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             The project, demoVerse exists for exploring potential public discussions catalyzing a historical change for
             a peaceful regeneration via co-imagination and realisation.
@@ -122,7 +73,8 @@ const PricingTable = () => (
             Here, blockchain and NFTs (smart contracts) in core, are reflection and technical tools of making demands,
             acknowledgements, expressions, promises, statements and hence, assurances.
           </p>
-          <div className={tw(`w-full`)}>
+
+          <div className={tw(`w-full lg:mb-12 md:mb-8 mb-8`)}>
             <iframe
               width="100%"
               height="420"
@@ -133,8 +85,8 @@ const PricingTable = () => (
             {/* <iframe width="100%" height="180" src="https://www.youtube.com/embed/gJme0rYsO0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
           </div>
 
-          <div className={tw(` flex flex-wrap lg:mt-12`)}>
-            <div className={tw(`w-full md:w-1/2`)}>
+          <div className={tw(` flex flex-wrap lg:mt-12 `)}>
+            <div className={tw(`w-full md:w-1/2 `)}>
               <iframe
                 width="100%"
                 height="320"
@@ -175,24 +127,28 @@ const PricingTable = () => (
             )}
           >
             <img src="/images/morpheus.png" className={tw(`lg:object-center lg:ml-8 sm:m-2`)}></img>
-            <p
-              className={tw(
-                `mt-6 text-base text-bolder leading-6 text-gray-800 md:text-l text-center lg:mt-14 lg:text-2xl md:mt-16 sm:mt-4 md:ml-6`,
-              )}
-            >
-              <Quote className={tw(`w-6 md:w-6 left-4 md:-left-2 top-0 pl-4 md:pl-0 lg:mt-6 text-gray-500`)}></Quote>
-              There is no bottom or up; that's an illusion.
-            </p>
 
             {/* <p className={tw(`text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2  text-center  lg:mt-12`)}>
             This can cherish from open minds and hearts, who shares and feels stake and even
-              responsibility.
-            </p> */}
+            responsibility.
+          </p> */}
           </div>
+          <p
+            className={tw(
+              `mt-6 text-base text-bolder leading-6 text-gray-800 md:text-l text-center lg:mt-14 lg:text-2xl md:mt-16 sm:mt-4 md:ml-6`,
+            )}
+          >
+            <Quote className={tw(`w-6 md:w-6 left-4 md:-left-2 top-0 pl-4 md:pl-0 lg:mt-6 text-gray-500`)}></Quote>
+            There is no bottom or up; that's an illusion.
+          </p>
 
-          <p className={tw(`bg-blue-400 mt-6 text-base leading-6 text-gray-800 lg:text-xl bg:yellow-200 text-center `)}>
+          <p
+            className={tw(
+              `bg-blue-400 mt-6 text-base leading-6 text-gray-800 lg:text-xl bg:yellow-200 text-center lg:py-4 `,
+            )}
+          >
             <a href="https://www.youtube.com/watch?v=cyQ0s0J1fhY" target="_blank">
-              We don't need eyes to see, we need a vision.
+              We don't need eyes to see, we need vision.
             </a>
           </p>
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl text-center `)}>
@@ -202,7 +158,7 @@ const PricingTable = () => (
 
           <p
             className={tw(
-              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-sm sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-6`,
+              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-6`,
             )}
           >
             21st century will be observing a decentralised civilisation, competing in good stuff, while scaling and
@@ -242,9 +198,28 @@ const PricingTable = () => (
             </p>
           */}
 
-          <p className={tw(`mt-0 text-base leading-6 text-white-800 lg:text-xl bg-red-600 text-center `)}>
-            This is our metaverse, as a restoration.
+          {/* <img className={tw(` mr-4`)} src="demoverse.png" alt="logo" width={120} height={120} /> */}
+
+          <img src="demoverse.svg" alt="logo" className={tw(``)} />
+
+          <p
+            className={tw(
+              `flex text-base leading-6 text-gray-200 lg:text-2xl bg-green-600 text-center lg:py-12 md:py-12 `,
+            )}
+          >
+            This is our dream restoration;
           </p>
+          <p
+            className={tw(
+              `sm:text-sm mt-0 leading-6 text-gray-100 lg:text-2xl bg-yellow-800 text-center lg:px-6 lg:py-12 md:py-12`,
+            )}
+          >
+            @ regenerations.
+          </p>
+
+          <div className={tw(`lg:mt-12 md:mt-8 sm:mt-6`)}>
+            <iframe width="100%" height="220" src="https://www.youtube.com/embed/LKdnxBH031I" allowFullScreen></iframe>
+          </div>
         </div>
       </div>
     </div>

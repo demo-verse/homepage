@@ -7,7 +7,7 @@ export default function ExpressionOfPeace() {
     <>
       <button
         className={tw(
-          `bg-red-600 text-white active:bg-pink-600 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`,
+          `bg-red-600 text-2xl text-white active:bg-pink-600 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`,
         )}
         type="button"
         onClick={() => (showModal ? setShowModal(false) : setShowModal(true))}
@@ -30,21 +30,21 @@ export default function ExpressionOfPeace() {
               >
                 {/*header*/}
 
-                <div
+                {/* <div
                   className={tw(
                     `justify-center items-center flex overflow-y-auto text-2xl  inset-0 z-50 outline-none focus:outline-none`,
                   )}
                 >
                   Expression of Peace
-                </div>
+                </div> */}
 
                 {/*body*/}
-                <div className={tw(`relative p-6 flex-auto text-center`)}>
+                <div className={tw(`relative p-6 flex-auto text-center text-xl lg:text-2xl bg-yellow-400 `)}>
                   <p className={tw(`my-4 text-blueGray-500 mb-6flex overflow-y-auto `)}>Hello, world!</p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
-                    Hereby, I am signing this petition to be effective and intentional for the world peace, as a
-                    resident of this planet.
+                    Hereby, intentionally, I am backing world peace with this petition for the world peace. As a
+                    resident of this planet, manifesting a peaceful this from now, and effective, for the future.
                   </p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
@@ -110,15 +110,6 @@ export default function ExpressionOfPeace() {
                     `flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b`,
                   )}
                 >
-                  <button
-                    className={tw(
-                      `text-red-500 background-transparent font-bold uppercase px-6 py-2 text-xl outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`,
-                    )}
-                    type="button"
-                    onClick={() => setShowModal(false)}
-                  >
-                    wow!
-                  </button>
                   {/* <button
                       className={tw(`bg-emerald-500 text-black active:bg-green-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`)} 
                       type="button"

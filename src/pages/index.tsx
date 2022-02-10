@@ -19,7 +19,7 @@ export default function Home() {
       <NextSeo title="Peace, on blockchain" description="World peace as a service, on blockchain" />
       <Header />
 
-      <SocialProof />
+      {/* <SocialProof /> */}
       <VideoSection />
       <FeatureSection />
       <PricingTable />
