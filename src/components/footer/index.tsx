@@ -4,15 +4,15 @@ import { tw } from 'twind';
 // import IPFS from '@/constants/svg/ipfs.svg';
 
 const solutions = [
-  { name: 'Impact design', link: '/' },
-  { name: 'Game theory', link: '/' },
-  { name: 'Creative disruption', link: '/' },
+  { name: 'Impact design', link: 'https://en.wikipedia.org/wiki/Design_thinking' },
+  { name: 'Game theory', link: 'https://en.wikipedia.org/wiki/Game_theory' },
+  { name: 'Creative disruption', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
 ];
 
 const resources = [
   { name: 'Workspace', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
   { name: 'Articles', link: '/' },
-  { name: 'References', link: '/' },
+  { name: 'Links', link: '/' },
 ];
 
 const contacts = [
