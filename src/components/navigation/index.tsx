@@ -146,6 +146,14 @@ const Navigation = () => {
                   </a>
                 </Link>
               </Button>
+
+              {/* <Button modifier="border-60 text-black bg-green-500 lg:ml-4">
+                <Link href="">
+                  <a className={tw(`bg-black-200 text-bolder sm:text-md lg:text-xl`)} target="_blank">
+                    app
+                  </a>
+                </Link>
+              </Button> */}
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>

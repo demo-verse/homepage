@@ -66,13 +66,13 @@ const PricingTable = () => (
 
           <SocialProof />
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            The project, demoVerse exists for exploring potential public discussions catalyzing a historical change for
-            a peaceful regeneration via co-imagination and realisation.
+            The project, demoVerse exists for exploring potential ways of catalyzing a historical change: a
+            globally-peaceful regeneration, done via co-imagination and realisation.
           </p>
 
           <p className={tw(`mb-6 lg:mb-10 mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            With this perspective, blockchain technology is enabling us on sharing rights, as well as resources. This
-            will be in a form of, shaping the future, from now.
+            For this vision, blockchain technology is enabling us on sharing rights, as well as resources. This will be
+            in a form of, shaping the future, from now.
           </p>
 
           <p className={tw(`mt-4 mb-10 text-base leading-6 text-gray-800 lg:text-xl`)}>
