@@ -29,13 +29,11 @@ const PricingTable = () => (
             </a>
           </p> */}
           {/* <div className={tw(`w-full item-center lg:w-full md:w-1/3 mt-12 lg:m-w/10 ml-4 lg:ml-12 lg:mt-0`)}> */}
-          <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
-            <img className={tw(`h-32 w-32`)} src="logo.png" alt="world peace" />
-          </a>
 
           {/* </div> */}
 
           <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12 mt-10`)}>Why blockchain for peace?</h2>
+
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Resources and rights are interacting, as if they are living in domains of the chicken-egg problems. One
             requiring the other one before coming alive.
@@ -77,7 +75,7 @@ const PricingTable = () => (
           <div className={tw(`w-full lg:mb-12 md:mb-8 mb-8`)}>
             <iframe
               width="100%"
-              height="420"
+              height="720"
               src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-414571,-110139,444707,260570"
               scrolling="no"
             ></iframe>
@@ -123,7 +121,7 @@ const PricingTable = () => (
 
           <div
             className={tw(
-              ` mt-6 flex md:mt-4 md:mb-8 lg:mt-6 object-none object-center bg-yellow-300 w-42 h-42 lg:py-4`,
+              ` mt-8 flex md:mt-4 md:mb-8 lg:mt-6 object-none object-center bg-yellow-300 w-42 h-42 lg:py-4`,
             )}
           >
             <img src="/images/morpheus.png" className={tw(`lg:object-center lg:ml-8 sm:m-2`)}></img>
@@ -132,6 +130,12 @@ const PricingTable = () => (
             This can cherish from open minds and hearts, who shares and feels stake and even
             responsibility.
           </p> */}
+            <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/pFS4zYWxzNA"
+              allowFullScreen
+              className={tw(`lg:mx-8 lg:my-2`)}
+            ></iframe>
           </div>
           <p
             className={tw(
@@ -200,25 +204,24 @@ const PricingTable = () => (
 
           {/* <img className={tw(` mr-4`)} src="demoverse.png" alt="logo" width={120} height={120} /> */}
 
-          <img src="demoverse.svg" alt="logo" className={tw(``)} />
-
           <p
             className={tw(
-              `flex text-base leading-6 text-gray-200 lg:text-2xl bg-green-600 text-center lg:py-12 md:py-12 `,
+              `text-xl mt-10 leading-6 text-gray-100 lg:text-2xl bg-green-600 text-center lg:px-6 py-6 lg:py-12 md:py-12`,
             )}
           >
-            This is our dream restoration;
+            this is a restoration for freedom;
           </p>
           <p
             className={tw(
-              `sm:text-sm mt-0 leading-6 text-gray-100 lg:text-2xl bg-yellow-800 text-center lg:px-6 lg:py-12 md:py-12`,
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-yellow-800 text-center lg:px-6 py-6 lg:py-12 md:py-12`,
             )}
           >
-            @ regenerations.
+            w/ planetary peace and regeneration.
           </p>
 
-          <div className={tw(`lg:mt-12 md:mt-8 sm:mt-6`)}>
-            <iframe width="100%" height="220" src="https://www.youtube.com/embed/LKdnxBH031I" allowFullScreen></iframe>
+          {/* matrix soundtrack - clubbed to death */}
+          <div className={tw(`lg:mt-12 md:mt-8 mt-6`)}>
+            <iframe width="100%" height="420" src="https://www.youtube.com/embed/LKdnxBH031I" allowFullScreen></iframe>
           </div>
         </div>
       </div>

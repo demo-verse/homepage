@@ -46,7 +46,7 @@ export const socialProofs = [
     name: `Gilles Deleuze`,
     company: `Philosopher, post-structuralist, empiricist and a vitalist`,
     image: `/images/deleuze.jpg`,
-    text: `“A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window.”
+    text: `“A concept is a brick. It can be used to build a courthouse of reason or it can be thrown through the window.”
     `,
   },
 
@@ -75,7 +75,7 @@ const SocialProof = () => {
   };
 
   return (
-    <div className={tw(`container mx-auto bg-purple-300 `)}>
+    <div className={tw(`container mx-auto bg-purple-300 px-8`)}>
       <div className={tw(`max-w-7xl mx-auto relative `)}>
         <section>
           <figure>

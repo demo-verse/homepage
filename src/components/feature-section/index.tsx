@@ -106,7 +106,7 @@ const FeatureSection = () => (
                   target="_blank"
                   referrerPolicy="no-referrer"
                 >
-                  learn DIDs
+                  ? DID
                 </a>
               </button>
             </div>
@@ -130,7 +130,7 @@ const FeatureSection = () => (
             <div className={tw(`lg:mx-12 mt-4 lg:my-8 text-center font-bolder  text-black lg:text-xl text-xl`)}>
               <button
                 className={tw(
-                  `bg-red-600 text-2xl text-white active:bg-pink-600 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 w-42 rounded-full`,
+                  `bg-purple-600 text-2xl text-white active:bg-pink-200 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 w-42 rounded-full`,
                 )}
               >
                 <a href="https://en.wikipedia.org/wiki/Blockchain" target="_blank" referrerPolicy="no-referrer">
@@ -154,15 +154,15 @@ const FeatureSection = () => (
               <Check width={20} height={20} fill="currentColor" className={tw(`h-14 w-14 text-indigo-500`)} />
               <div className={tw(`ml-4 text-xl mt-2 text-2xl lg:text-2xl lg:text-center text`)}>You've got an NFT!</div>
             </div>
-            <p className={tw(`lg:mt-4 leading-loose text-white text-xl text-center lg:text-xl`)}>
-              Following this intentional move towards world peace, you'll receive an EoP of your flavour.
+            <p className={tw(` text-white text-xl text-center lg:text-xl`)}>
+              Following this move towards world peace, you'll receive an EoP of your flavour.
             </p>
 
             <p className={tw(`lg:mt-4 leading-loose text-white text-xl text-center lg:text-xl`)}>
               A non-fungible and non-tradable token will be minted to your wallet, by yourself.{' '}
             </p>
 
-            <div className={tw(`lg:mx-12 mt-4 text-center font-bolder  text-black lg:text-xl text-xl`)}>
+            <div className={tw(`lg:mx-12 lg:mt-8 text-center font-bolder  text-black lg:text-xl text-xl`)}>
               <button
                 className={tw(
                   ` bg-red-600 text-2xl text-white active:bg-pink-600 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 w-42 rounded-full`,
@@ -173,40 +173,39 @@ const FeatureSection = () => (
                   target="_blank"
                   referrerPolicy="no-referrer"
                 >
-                  ? how to NFT
+                  ? NFT
                 </a>
               </button>
             </div>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 md:border-r md:border-b-0 lg:w-1/3 lg:border-b-0 p-8`)}>
-            <div className={tw(`flex items-center mb-6`)}>
+            <div className={tw(`flex items-center  text-center mb-6`)}>
               <Check width={20} height={20} fill="purple" className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-2 text-2xl text-center lg:text-2xl`)}>Join PeaceMaker DAO</div>
+              <div className={tw(`ml-2 text-2xl lg:text-2xl`)}>Join PeaceMaker DAO</div>
             </div>
             <p className={tw(`leading-loose text-white text-xl text-center lg:text-xl`)}>
               With these NFTs existing in a wallet, anyone can join the PeaceMaker DAO, a decentralized autonomous
               organisation of all. Let's write future, from now!
             </p>
-            <div
-              className={tw(
-                ` rounded-full lg:mx-12 lg:my-8  lg:py-1 lg:px-3 text-center font-bolder  text-black lg:text-xl bg-purple-400`,
-              )}
-            >
-              <button className={tw(` h-16 w-42`)}>
+            <div className={tw(`lg:mx-12 mt-4 lg:my-8 text-center font-bolder  text-black lg:text-xl text-xl`)}>
+              <button
+                className={tw(
+                  `bg-white text-2xl text-black active:bg-pink-200 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 w-42 rounded-full`,
+                )}
+              >
                 <a href="https://ethereum.org/en/dao/" target="_blank" referrerPolicy="no-referrer">
-                  learn DAOs
-                  {/* <img className={tw(`h-32 w-32`)} src="logo.png" alt="world peace" /> */}
+                  ? DAO
                 </a>
               </button>
             </div>
           </div>
 
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8`)}>
-            <div className={tw(`flex items-center mb-6`)}>
+            <div className={tw(` text-center flex items-center mb-6`)}>
               <Check width={20} height={20} fill={tw(`${'#00acee'}`)} className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl lg:text-2xl`)}> Have some $PEACE</div>
+              <div className={tw(`ml-4 text-2xl lg:text-2xl`)}> Have some $PEACE</div>
             </div>
-            <p className={tw(`leading-loose text-white text-l lg:text-xl text-center `)}>
+            <p className={tw(`leading-loose text-white text-xl lg:text-xl text-center `)}>
               Around same time of NFT creation, receive $PEACE tokens with an initial utility and purpose: recognizing
               civils. This action will be the core value and utility of this token.
             </p>
@@ -215,26 +214,21 @@ const FeatureSection = () => (
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8`)}>
             <div className="flex items-center mb-6">
               <Check width={20} height={20} fill={tw(`${'red'}`)} className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`text-2xl lg:text-2xl lg:text-2xl px-2 lg:px-6 py:4  rounded-xl`)}>
+              <div className={tw(`text-center text-2xl lg:text-2xl lg:text-2xl px-2 lg:px-6 py:4  rounded-xl`)}>
                 Multilateral <span className={tw(`text-yellow-600`)}> Ackt</span>
               </div>
             </div>
-            <p className={tw(`text-center leading-loose text-white text-l lg:text-xl`)}>
+            <p className={tw(`text-center leading-loose text-white text-xl lg:text-xl`)}>
               With $PEACE tokens, we can acknowledge each others' expressions and demands, via self and co-assuring
               efforts towards making a world peace.
             </p>
 
             <div
-              className={tw(
-                `lg:mx-12 lg:my-8  lg:py-3  text-center font-bolder  text-black lg:text-xl bg-white rounded-full`,
-              )}
+              className={tw(` lg:my-8 mt-6  text-center font-bolder  text-black lg:text-xl bg-green-400 rounded-full`)}
             >
-              <button className={tw(` h-22 w-42`)}>
-                <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
-                  ? world peace
-                  {/* <img className={tw(`h-32 w-32`)} src="logo.png" alt="world peace" /> */}
-                </a>
-              </button>
+              <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
+                <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" />
+              </a>
             </div>
           </div>
           {/* <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8`)}>

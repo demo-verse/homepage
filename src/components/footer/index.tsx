@@ -25,40 +25,37 @@ const Footer = () => {
   return (
     <footer className={tw(`bg-white border-t border-gray-400 pt-14 pb-16`)}>
       <div className={tw(`flex justify-center w-full flex items-center`)}></div>
-      <div className={tw(`max-w-7xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap `)}>
-        {/* <div className={tw(`mb-14 flex items-center w-full`)}>
-        <img className={tw(` mr-4`)} src="demoverse.svg" alt="logo" width={120} height={120} />
-      </div> */}
-
-        <div className={tw(`w-full md:w-1/2`)}>
-          <ul className={tw(`text-lg font-light flex flex-wrap w-full lg:ml-8`)}>
+      <div className={tw(`max-w-12xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap `)}>
+        <div className={tw(`flex w-full `)}>
+          <ul className={tw(` flex flex-wrap w-full lg:ml-12`)}>
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
-              {/* <div className={tw(``)}> */}
               <div>
-                <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}> @ web [2, 3]</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}> @ web [2, 3]</h4>
                 <ul>
                   {contacts.map((contact) => (
-                    <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={contact.name}>
+                    <li
+                      className={tw(`ml-2 lg:ml-8 text-gray-800 text-l lg:text-xl font-medium leading-6`)}
+                      key={contact.name}
+                    >
                       <a href={contact.link} target="_blank" referrerPolicy="no-referrer">
                         {contact.name}
                       </a>
                     </li>
                   ))}
-
-                  {/* <li className={tw(`text-gray-800 text-sm font-medium leading-6`)}> */}
-
-                  {/* <li className={tw(``)}>
-                  </li> */}
                 </ul>
+                <div className={tw(`mb-14 flex items-center w-full`)}></div>
               </div>
             </li>
 
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
               <div>
-                <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Resources</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Resources</h4>
                 <ul>
                   {resources.map((resource) => (
-                    <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={resource.name}>
+                    <li
+                      className={tw(` lg:ml-2 text-gray-800 text-l lg:text-xl font-medium leading-6`)}
+                      key={resource.name}
+                    >
                       <a href={resource.link} target="_blank" referrerPolicy="no-referrer">
                         {resource.name}
                       </a>
@@ -70,16 +67,29 @@ const Footer = () => {
 
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
               <div>
-                <h4 className={tw(`text-gray-900 text-base font-bold mb-1`)}>Solutions</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}>Solutions</h4>
                 <ul>
                   {solutions.map((solution) => (
-                    <li className={tw(`text-gray-800 text-sm font-medium leading-6`)} key={solution.name}>
+                    <li className={tw(`text-gray-800 text-l lg:text-xl font-medium leading-6`)} key={solution.name}>
                       <a href={solution.link} target="_blank" referrerPolicy="no-referrer">
                         {solution.name}
                       </a>
                     </li>
                   ))}
                 </ul>
+              </div>
+            </li>
+
+            <li>
+              <div
+                className={tw(
+                  ` lg:my-8 mt-6  text-center font-bolder  text-black lg:text-xl bg-yellow-400 rounded-full`,
+                )}
+              >
+                <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
+                  {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
+                  <img src="demoverse.svg" alt="logo" width={120} height={120} />
+                </a>
               </div>
             </li>
           </ul>
