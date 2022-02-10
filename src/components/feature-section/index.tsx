@@ -130,7 +130,7 @@ const FeatureSection = () => (
             <div className={tw(`lg:mx-12 mt-4 lg:my-8 text-center font-bolder  text-black lg:text-xl text-xl`)}>
               <button
                 className={tw(
-                  `bg-purple-600 text-2xl text-white active:bg-pink-200 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 w-42 rounded-full`,
+                  `bg-purple-600 text-2xl text-white active:bg-pink-200 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md lg:px-6 px-2 lg:py-1 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 w-42 rounded-full`,
                 )}
               >
                 <a href="https://en.wikipedia.org/wiki/Blockchain" target="_blank" referrerPolicy="no-referrer">

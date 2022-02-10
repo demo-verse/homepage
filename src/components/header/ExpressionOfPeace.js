@@ -25,7 +25,7 @@ export default function ExpressionOfPeace() {
               {/*content*/}
               <div
                 className={tw(
-                  `border-0 rounded-lg shadow-lg relative  flex-col w-full bg-white outline-none focus:outline-none`,
+                  `border-0 rounded-lg shadow-lg relative  flex-col w-full bg-white outline-none focus:outline-none `,
                 )}
               >
                 {/*header*/}
@@ -39,12 +39,15 @@ export default function ExpressionOfPeace() {
                 </div> */}
 
                 {/*body*/}
-                <div className={tw(`relative p-6 flex-auto text-center text-xl lg:text-2xl bg-yellow-400 `)}>
+                <div className={tw(`relative p-6 flex-auto text-center text-xl lg:text-2xl bg-yellow-400 rounded-b`)}>
                   <p className={tw(`my-4 text-blueGray-500 mb-6flex overflow-y-auto `)}>Hello, world!</p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
-                    Hereby, intentionally, I am backing world peace with this petition for the world peace. As a
-                    resident of this planet, manifesting a peaceful this from now, and effective, for the future.
+                    Hereby, intentionally, I am backing world peace with this petition.
+                  </p>
+
+                  <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
+                    As a resident of this planet, manifesting a peaceful this from now, and effective, for the future.
                   </p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
@@ -62,28 +65,37 @@ export default function ExpressionOfPeace() {
                     my things.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    I'd like this petition as statement as exemption on tax for defence. I don't need that defence. That
-                    is relatively an offence for any other people in the world, as well as for me, if I would have to
-                    change things in a protest/demonstration.
+                    I'd like this petition as statement as exemption on tax for defence. I should not need that defence.
+                    That is relatively an offence for any other people in the world.
+                  </p>
+
+                  <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
+                    As well as for me, if I would have to change things @ a demonstration.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    I am sharing what they are suffering and enjoying life more, when they achieve what's good for us,
-                    our civilisation.
+                    I am suffering when other livings are suffering. And enjoying life more, when we achieve what's good
+                    for all, our civilisation.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    Residents or states in other countries are not my enemies. In the age I was born, people were
-                    leaving for power, and gaining and sustaining that with fear and domination.
+                    Residents or states in other countries are not my enemies. In the age I was born, people were living
+                    for power and sustaining that with domination w/ fear.
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     I am feeling responsible for remotes, as well as locals, and all livings, as well as human beings.
-                    they might be governed by autocrats, even dictators and in any form of oppression and unwarranted
+                  </p>
+                  <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
+                    Many are "governed" by autocrats, even dictators and in many forms of oppression and unwarranted
                     treatment.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    I respect each individual's peaceful opinions and values, from any time and location and would like
-                    to be among billions, that says yes to peace.
+                    I respect each individual's peaceful opinions and values, from any time and location.
                   </p>
+
+                  <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
+                    And would like to be among billions, that says yes to peace.
+                  </p>
+
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     I demand to have this consensus, from any other individual in the world, then sealed by people with
                     official entitlements; when and if they want to be recorded in the history, as peace and solution
@@ -96,8 +108,8 @@ export default function ExpressionOfPeace() {
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    If violence, sustaining conflicts and fears are still the main instrument of power, then I need to
-                    declare world peace with billions.
+                    If violence, sustaining conflicts and fears will be the main instrument of power, then I need to
+                    declare world peace with 7+ billions.
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
@@ -105,21 +117,6 @@ export default function ExpressionOfPeace() {
                   </p>
                 </div>
                 {/*footer*/}
-                <div
-                  className={tw(
-                    `flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b`,
-                  )}
-                >
-                  {/* <button
-                      className={tw(`bg-emerald-500 text-black active:bg-green-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150`)} 
-                      type="button"
-                      onClick={() => {
-                        console.log(`gonna redirect to dapp from here`);
-                        setShowModal(false)}}
-                    >
-                      Sign
-                    </button> */}
-                </div>
               </div>
             </div>
           </div>
