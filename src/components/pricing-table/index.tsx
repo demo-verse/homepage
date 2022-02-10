@@ -229,7 +229,9 @@ const PricingTable = () => (
 
           {/* matrix soundtrack - clubbed to death */}
           <div className={tw(`lg:mt-12 md:mt-8 mt-6`)}>
-            <iframe width="100%" height="420" src="https://www.youtube.com/embed/LKdnxBH031I" allowFullScreen></iframe>
+            <iframe width="100%" height="540" src="https://www.youtube.com/embed/7jMlFXouPk8" allowFullScreen></iframe>
+            {/* stavroz - finishing */}
+            {/* <iframe width="100%" height="420" src="" allowFullScreen></iframe> */}
           </div>
         </div>
       </div>
