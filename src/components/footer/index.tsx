@@ -30,7 +30,7 @@ const Footer = () => {
           <ul className={tw(` flex flex-wrap w-full lg:ml-12`)}>
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
               <div>
-                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}> @ web [2, 3]</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}> @ earth</h4>
                 <ul>
                   {contacts.map((contact) => (
                     <li
