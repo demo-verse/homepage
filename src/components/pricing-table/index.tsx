@@ -39,13 +39,21 @@ const PricingTable = () => (
             requiring the other one before coming alive.
           </p>
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            Here exists a paradox: neither resources without rights, or rights without resources progress can reach
-            their full potential without collaboration. We need to shift to somewhere, where there exists no box.
+            Here exists a paradox: neither resources without rights, or rights without resources; a progress can reach
+            their full potentials.
+          </p>
+
+          <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            We need to shift to somewhere, where exists no box; and walls already fell for those, that are clearly
+            exposed to fear, more than love and care.
+          </p>
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            It all started with Satoshi Nakamoto's introduction of Bitcoin and consensus being used as verification.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Since more than 10 years, we are moving towards decentralised and empowering, as well as liberating
-            structures. It all started with Satoshi Nakamoto's introduction of Bitcoin and consensus being used as
-            verification.
+            structures.
           </p>
           {/* <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Decentralisation is about empowerment of freedom, for 7+ billions of people. With blockchain, we can

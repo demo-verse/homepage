@@ -51,13 +51,13 @@ export default function ExpressionOfPeace() {
                   </p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
-                    Consensus is what we need to solve global problems. peace is that consensus, that needs consensus in
+                    Consensus is what we need to solve global problems. Peace is that consensus, that needs consensus in
                     the first place.
                   </p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
-                    I do not want any resources or assets being reserved towards violent investments and activities on
-                    my behalf.
+                    I do not want any resources or assets being produced, traded or used for violent investments and
+                    activities on my behalf.
                   </p>
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
                     Wars and progress towards violence are not my thing. From now on, I pledge for this to the rest of
