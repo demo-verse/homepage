@@ -47,7 +47,7 @@ export default function ExpressionOfPeace() {
                   </p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
-                    As a resident of this planet, manifesting a peaceful this from now, and effective, for the future.
+                    As a resident of this planet, manifesting from now, to be effective, for the future.
                   </p>
 
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
@@ -64,13 +64,14 @@ export default function ExpressionOfPeace() {
                     the world, individually assuring that sustaining conflicts, and any progress towards violence, not
                     my things.
                   </p>
+
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    I'd like this petition as statement as exemption on tax for defence. I should not need that defence.
-                    That is relatively an offence for any other people in the world.
+                    I am feeling responsible for remotes, as well as locals, and all livings, as well as human beings.
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    As well as for me, if I would have to change things @ a demonstration.
+                    I should not need that defence in the first place. That is relatively an offence for any other
+                    people in the world. As well as for me, if I would have to change things @ a demonstration.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     I am suffering when other livings are suffering. And enjoying life more, when we achieve what's good
@@ -78,14 +79,11 @@ export default function ExpressionOfPeace() {
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     Residents or states in other countries are not my enemies. In the age I was born, people were living
-                    for power and sustaining that with domination w/ fear.
+                    for power and sustaining that with domination and fear.
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    I am feeling responsible for remotes, as well as locals, and all livings, as well as human beings.
-                  </p>
-                  <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    Many are "governed" by autocrats, even dictators and in many forms of oppression and unwarranted
+                    Many of us are "governed" by autocrats, even dictators, in many forms of oppression and unwarranted
                     treatment.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
@@ -108,6 +106,10 @@ export default function ExpressionOfPeace() {
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
+                    I'd like this statement taken as an exemption of taxation for defence; which as-is, claims
+                    preventing conflicts and wars, with more violent resources.
+                  </p>
+                  <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     If violence, sustaining conflicts and fears will be the main instrument of power, then I need to
                     declare world peace with 7+ billions.
                   </p>
@@ -115,6 +117,8 @@ export default function ExpressionOfPeace() {
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     So be it. I would rather live and let live, peacefully.
                   </p>
+
+                  <p className="my-2 text-blueGray-500 mb-6 leading-relaxed">In the 21st century and forwards. </p>
                 </div>
                 {/*footer*/}
               </div>

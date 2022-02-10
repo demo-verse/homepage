@@ -79,14 +79,23 @@ const Footer = () => {
                 </ul>
               </div>
             </li>
-
+            <li>
+              <div
+                className={tw(` lg:my-8 text-center font-bolder  text-black lg:text-xl bg-green-500 rounded-full mr-8`)}
+              >
+                <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
+                  {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
+                  <img src="logo.png" alt="logo" width={62} height={62} />
+                </a>
+              </div>
+            </li>
             <li>
               <div
                 className={tw(
                   ` lg:my-8 mt-6  text-center font-bolder  text-black lg:text-xl bg-yellow-400 rounded-full`,
                 )}
               >
-                <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
+                <a href="/">
                   {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
                   <img src="demoverse.svg" alt="logo" width={120} height={120} />
                 </a>
