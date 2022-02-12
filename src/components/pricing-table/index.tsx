@@ -83,7 +83,7 @@ const PricingTable = () => (
           <div className={tw(`w-full lg:mb-12 md:mb-8 mb-8`)}>
             <iframe
               width="100%"
-              height="720"
+              height="600"
               src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-414571,-110139,444707,260570"
               scrolling="no"
             ></iframe>

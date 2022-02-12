@@ -147,13 +147,13 @@ const Navigation = () => {
                 </Link>
               </Button>
 
-              {/* <Button modifier="border-60 text-black bg-green-500 lg:ml-4">
-                <Link href="">
-                  <a className={tw(`bg-black-200 text-bolder sm:text-md lg:text-xl`)} target="_blank">
-                    app
+              <Button modifier="border-60 text-black bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4">
+                <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
+                  <a className={tw(`bg-yellow-300 text-bolder sm:text-md lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
+                    workspace
                   </a>
                 </Link>
-              </Button> */}
+              </Button>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>

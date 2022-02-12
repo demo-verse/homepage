@@ -60,9 +60,8 @@ export default function ExpressionOfPeace() {
                     activities on my behalf.
                   </p>
                   <p className={tw(`my-4 text-blueGray-500 mb-6 leading-relaxed`)}>
-                    Wars and progress towards violence are not my thing. From now on, I pledge for this to the rest of
-                    the world, individually assuring that sustaining conflicts, and any progress towards violence, not
-                    my things.
+                    From now on, I pledge for this to the rest of the world, individually assuring that sustaining
+                    conflicts, and any progress towards violence, wars and destruction of any kind, are not my things.
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
@@ -70,12 +69,8 @@ export default function ExpressionOfPeace() {
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    I should not need that defence in the first place. That is relatively an offence for any other
-                    people in the world. As well as for me, if I would have to change things @ a demonstration.
-                  </p>
-                  <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    I am suffering when other livings are suffering. And enjoying life more, when we achieve what's good
-                    for all, our civilisation.
+                    I am suffering when other livings are suffering. And enjoying life, when we achieve what's good for
+                    all, our civilisation; in harmony with rest of the nature.
                   </p>
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                     Residents or states in other countries are not my enemies. In the age I was born, people were living
@@ -109,9 +104,15 @@ export default function ExpressionOfPeace() {
                     I'd like this statement taken as an exemption of taxation for defence; which as-is, claims
                     preventing conflicts and wars, with more violent resources.
                   </p>
+
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
-                    If violence, sustaining conflicts and fears will be the main instrument of power, then I need to
-                    declare world peace with 7+ billions.
+                    I should not need that defence in the first place. That is relatively an offence for any other
+                    people in the world. As well as for me, if I would have to change things @ a demonstration.
+                  </p>
+
+                  <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
+                    As violence, sustaining conflicts and fears continues to be the main instrument of rule {'&'} power,
+                    then I need to declare world peace with 7+ billions.
                   </p>
 
                   <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">

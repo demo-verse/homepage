@@ -7,47 +7,104 @@ export const socialProofs = [
     name: `Yoko Ono`,
     company: `Multimedia artist, singer, songwriter and peace activist`,
     image: `/images/yoko_ono.png`,
+    info_url: ``,
+    extra_url: ``,
     text: `A dream you dream alone is only a dream. A dream you dream together is reality.`,
   },
   {
     name: `Albert Einstein`,
     company: `Theoretical Physicist`,
     image: `/images/einstein.jpg`,
+    info_url: ``,
+    extra_url: ``,
     text: `Peace cannot be kept by force; it can only be achieved by understanding.`,
   },
   {
     name: `Nelson Mandela`,
     company: `Anti-apartheid revolutionary, political leader and philanthropist`,
     image: `/images/nelson_mandela.jpg`,
+    info_url: ``,
+    extra_url: ``,
     text: `Sometimes it falls upon a generation to be great. You can be that generation.`,
   },
   {
     name: `Martin Luther King, Jr.`,
     company: `Activist leader in the civil rights movement`,
-    image: `/images/martin_luther_king_jr.webp`,
+    image: `/images/martin_luther_king_jr.jpg`,
+    info_url: ``,
+    extra_url: ``,
     text: `If we are to have peace on earth.. Our loyalties must transcend our race, our 
     tribe, our class, and our nation; and this means we must develop a world perspective.`,
   },
+  {
+    name: `Mother Teresa`,
+    company: `Activist leader in the civil rights movement`,
+    image: `/images/mother_teresa.png`,
+    info_url: ``,
+    extra_url: ``,
+    text: `If we have no peace, it is because we have forgotten that we belong to each other.`,
+  },
 
   {
-    name: `Alexander von Humbold`,
-    company: `Polymath, geographer, naturalist, explorer, and proponent of Romantic philosophy and science`,
-    image: `/images/alexander_von_humboldt.jpg`,
-    text: `The most dangerous worldviews are the worldviews of those who have never viewed the world.
-    `,
+    name: `Mahatma Gandhi`,
+    company: `Lawyer, anti-colonialist, political ethicist`,
+    image: `/images/Mahatma-Gandhi,_studio,_1931.jpg`,
+    info_url: ``,
+    extra_url: ``,
+    text: `The day the power of love overrules the love of power, the world will know peace`,
   },
+  {
+    name: `Greta Thunberg`,
+    company: `Environmental activist `,
+    image: `/images/greata_thunberg.jpg`,
+    info_url: ``,
+    extra_url: ``,
+    text: `I’ve learnt that no one is too small to make a difference. Your silence is almost worst of all.`,
+  },
+
   {
     name: `Jürgen Habermas`,
     company: `Philosopher and sociologist in the tradition of critical theory and pragmatism`,
     image: `/images/juergen_habermas.png`,
+    info_url: ``,
+    extra_url: ``,
     text: `A 'post-truth democracy' would no longer be a democracy.`,
   },
+
+  //
+  // {
+  //   name: `Alexander von Humbold`,
+  //   company: `Polymath, geographer, naturalist, explorer, and proponent of Romantic philosophy and science`,
+  //   image: `/images/alexander_von_humboldt.jpg`,
+  //   text: `The most dangerous worldviews are the worldviews of those who have never viewed the world.
+  //   `,
+  // },
+
+  {
+    name: `Leo Tolstoy`,
+    company: `Novelist, short story writer, playwright, essayist`,
+    image: `/images/Leo_tolstoy.png`,
+    info_url: ``,
+    extra_url: `https://www.theguardian.com/books/2010/jan/06/leo-tolstoy-the-last-station`,
+    text: `If everyone fought for their own convictions there would be no war.`,
+  },
+
+  {
+    name: `Sigmund Freud`,
+    company: `Neurologist and the founder of psychoanalysis`,
+    image: `/images/sigmund_freud.jpg`,
+    info_url: ``,
+    extra_url: ``,
+    text: `Words can do unspeakable good and cause terrible wounds.`,
+  },
+
   {
     name: `Gilles Deleuze`,
     company: `Philosopher, post-structuralist, empiricist and a vitalist`,
     image: `/images/deleuze.jpg`,
-    text: `“A concept is a brick. It can be used to build a courthouse of reason or it can be thrown through the window.”
-    `,
+    info_url: ``,
+    extra_url: ``,
+    text: `A concept is a brick. It can be used to build a courthouse of reason or it can be thrown through the window.`,
   },
 
   // {
@@ -65,6 +122,8 @@ const SocialProof = () => {
   const next = () => {
     if (currentIndex + 1 < socialProofs.length) {
       setCurrentIndex(currentIndex + 1);
+    } else {
+      setCurrentIndex(0);
     }
   };
 
@@ -81,15 +140,49 @@ const SocialProof = () => {
           <figure>
             <div className={tw(``)}>
               <Quote className={tw(`w-12 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} />
-              <div className={tw(`pt-12 px-6 md:px-0`)}>
+              <div className={tw(`pt-12 px-2 lg:px-6 md:px-0`)}>
+                <div className={tw(`cursor-pointer flex `)}>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    // width={62}
+                    // height={62}
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="red"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    onClick={previous}
+                    className={tw(`lg:w-${'32'} lg:h-${'32'}  sm:w-${'22'} sm:h-${'22'}`)}
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <polyline points="15 6 9 12 15 18" />
+                  </svg>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    // width={62}
+                    // height={62}
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="black"
+                    fill="none"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    onClick={next}
+                    className={tw(`lg:w-${'32'} lg:h-${'32'}  sm:w-${'22'} sm:h-${'22'}`)}
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <polyline points="9 6 15 12 9 18" />
+                  </svg>
+                </div>
                 <p className={tw(`text-black-600 text-xl lg:text-2xl pb-6 `)}>{socialProofs[currentIndex].text}</p>
                 <div className={tw(`flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>
-                    <div className={tw(`h-36 w-36 lg:ml-12 lg:mr-12 `)}>
+                    <div className={tw(`lg:ml-12 lg:mr-12 mr-4 ml-0 mt-6 `)}>
                       <img
                         src={socialProofs[currentIndex].image}
                         alt={socialProofs[currentIndex].name}
-                        className={tw(`lg:h-46 lg:w-46  object-cover overflow-hidden rounded-full`)}
+                        className={tw(`lg:h-64 lg:w-64 h-32 w-32  object-cover overflow-hidden rounded-full`)}
                       />
                     </div>
                     <p className={tw(`text-black-800 text-2xl font-bold ml-3`)}>
@@ -98,38 +191,6 @@ const SocialProof = () => {
                         {socialProofs[currentIndex].company}
                       </span>
                     </p>
-                  </div>
-                  <div className={tw(`cursor-pointer flex `)}>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={62}
-                      height={62}
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="red"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      onClick={previous}
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" />
-                      <polyline points="15 6 9 12 15 18" />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width={62}
-                      height={62}
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="black"
-                      fill="none"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      onClick={next}
-                    >
-                      <path stroke="none" d="M0 0h24v24H0z" />
-                      <polyline points="9 6 15 12 9 18" />
-                    </svg>
                   </div>
                 </div>
               </div>
