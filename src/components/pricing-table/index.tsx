@@ -3,7 +3,7 @@ import Check from '@/constants/svg/check.svg';
 import Button from '@/components/button';
 import Quote from '@/constants/svg/quote.svg';
 import Link from 'next/link';
-import SocialProof from '@/components/social-proof';
+// import SocialProof from '@/components/social-proof';
 
 import ExpressonOfPeace from '../header/ExpressionOfPeace';
 
@@ -34,10 +34,70 @@ const PricingTable = () => (
 
           <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12 mt-10`)}>Why blockchain for peace?</h2>
 
+          <Quote className={tw(`w-8 md:w-8 left-0 md:-left-2 top-0 pl-4 md:pl-0 lg:mt-6 text-gray-500`)}></Quote>
+          <p className={tw(`text-base leading-6 text-gray-800 lg:text-4xl text-center`)}>
+            Blockchain belongs to all, as power does.
+          </p>
+
+          {/* <p className={tw(`text-base leading-6 text-gray-800 lg:text-2xl mt-4`)}>
+            // peace is green; fear no more. Express yourself!
+          </p> */}
+          {/* <div className={tw(`md:mt-4 md:mb-8 lg:mt-6 item-center`)}>
+            <img src="/images/peace-is-green.png"></img>
+          </div> */}
+
+          <p className={tw(` mt-6 text-base leading-6 text-gray-800 lg:text-2xl  text-center`)}>
+            All have a born right to offer a change and take initiative.
+          </p>
+
+          <p
+            className={tw(
+              `text-base text-bolder leading-6 text-gray-800 md:text-l text-center lg:mt-14 lg:text-2xl md:mt-16 sm:mt-4 md:ml-6`,
+            )}
+          >
+            There is no bottom or up; that's an illusion.
+          </p>
+
+          <p className={tw(` mt-6 text-base leading-6 text-gray-800 lg:text-xl bg:yellow-200 text-center lg:py-4 `)}>
+            <a href="https://www.youtube.com/watch?v=cyQ0s0J1fhY" target="_blank">
+              We don't need eyes to see, we need vision.
+            </a>
+          </p>
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            demoVerse exists to explore potential ways of catalyzing a historical change: a globally-peaceful
+            regeneration, via co-imagination and realisation.
+          </p>
+
+          <p className={tw(`mb-6 lg:mb-10 mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            For this vision, blockchain technology is enabling us on sharing rights, as well as resources. This will be
+            in a form of, shaping the future, from now.
+          </p>
+
+          <div
+            className={tw(
+              ` mt-8 flex md:mt-4 md:mb-8 lg:mt-6 object-none object-center bg-yellow-300 w-42 h-42 lg:py-4`,
+            )}
+          >
+            <img src="/images/morpheus.png" className={tw(`lg:object-center lg:ml-8 sm:m-2`)}></img>
+            {/* <p className={tw(`text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2  text-center  lg:mt-12`)}>
+            This can cherish from open minds and hearts, who shares and feels stake and even
+            responsibility.
+          </p> */}
+            {/* marvina reynolds - little boxes*/}
+            <iframe
+              width="100%"
+              // src="https://www.youtube.com/embed/pFS4zYWxzNA"
+              src="https://www.youtube.com/embed/r5IKpHTEuY0"
+              allowFullScreen
+              className={tw(`lg:mx-8 lg:my-2`)}
+            ></iframe>
+            /{' '}
+          </div>
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            Resources and rights are interacting, as if they are living in domains of the chicken-egg problems. One
+            Resources and rights are interacting, as if they are living in the domains of chicken-egg problems. One
             requiring the other one before coming alive.
           </p>
+
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Here exists a paradox: neither resources without rights, or rights without resources; a progress can reach
             their full potentials.
@@ -48,7 +108,12 @@ const PricingTable = () => (
             exposed to fear, more than love and care.
           </p>
 
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <p className={tw(`mt-4 mb-10 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            Here, blockchain and NFTs (smart contracts), in core, reflection and technical tools: for making
+            expressions, demands, acknowledgements, and hence, assurances (as if promising to the rest of the world).
+          </p>
+
+          <p className={tw(`bg-yellow-300 mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             It all started with Satoshi Nakamoto's introduction of Bitcoin and consensus being used as verification.
           </p>
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
@@ -64,105 +129,6 @@ const PricingTable = () => (
             decision-making processes.
           </p>
 
-          <SocialProof />
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            The project, demoVerse exists for exploring potential ways of catalyzing a historical change: a
-            globally-peaceful regeneration, done via co-imagination and realisation.
-          </p>
-
-          <p className={tw(`mb-6 lg:mb-10 mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            For this vision, blockchain technology is enabling us on sharing rights, as well as resources. This will be
-            in a form of, shaping the future, from now.
-          </p>
-
-          <p className={tw(`mt-4 mb-10 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            Here, blockchain and NFTs (smart contracts) in core, are reflection and technical tools of making demands,
-            acknowledgements, expressions, promises, statements and hence, assurances.
-          </p>
-
-          <div className={tw(`w-full lg:mb-12 md:mb-8 mb-8`)}>
-            <iframe
-              width="100%"
-              height="600"
-              src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-414571,-110139,444707,260570"
-              scrolling="no"
-            ></iframe>
-            {/* <iframe width="768" height="432" src="https://miro.com/app/embed/uXjVOX94E5k=/?pres=1&frameId=3458764517450232776" frameBorder="0" scrolling="no" allowFullScreen></iframe> */}
-            {/* <iframe width="100%" height="180" src="https://www.youtube.com/embed/gJme0rYsO0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
-          </div>
-
-          <div className={tw(` flex flex-wrap lg:mt-12 `)}>
-            <div className={tw(`w-full md:w-1/2 `)}>
-              <iframe
-                width="100%"
-                height="320"
-                src="https://www.youtube.com/embed/10M0xw3UgCo"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <div className={tw(` w-full md:w-1/2 `)}>
-              <iframe
-                width="100%"
-                height="320"
-                src="https://www.youtube.com/embed/V6-pQSWjwqc"
-                title="Wax Tailor - The Games You Play"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe>
-            </div>
-          </div>
-
-          <Quote className={tw(`w-8 md:w-8 left-0 md:-left-2 top-0 pl-4 md:pl-0 lg:mt-6 text-gray-500`)}></Quote>
-          <p className={tw(`text-base leading-6 text-gray-800 lg:text-4xl text-center`)}>
-            Blockchain belongs to all, as power does.
-          </p>
-
-          {/* <p className={tw(`text-base leading-6 text-gray-800 lg:text-2xl mt-4`)}>
-            // peace is green; fear no more. Express yourself!
-          </p> */}
-          {/* <div className={tw(`md:mt-4 md:mb-8 lg:mt-6 item-center`)}>
-            <img src="/images/peace-is-green.png"></img>
-          </div> */}
-
-          <p className={tw(` mt-6 text-base leading-6 text-gray-800 lg:text-xl  text-center`)}>
-            All have a born right to offer a change and take initiative.
-          </p>
-
-          <div
-            className={tw(
-              ` mt-8 flex md:mt-4 md:mb-8 lg:mt-6 object-none object-center bg-yellow-300 w-42 h-42 lg:py-4`,
-            )}
-          >
-            <img src="/images/morpheus.png" className={tw(`lg:object-center lg:ml-8 sm:m-2`)}></img>
-
-            {/* <p className={tw(`text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2  text-center  lg:mt-12`)}>
-            This can cherish from open minds and hearts, who shares and feels stake and even
-            responsibility.
-          </p> */}
-            <iframe
-              width="100%"
-              src="https://www.youtube.com/embed/pFS4zYWxzNA"
-              allowFullScreen
-              className={tw(`lg:mx-8 lg:my-2`)}
-            ></iframe>
-          </div>
-          <p
-            className={tw(
-              `mt-6 text-base text-bolder leading-6 text-gray-800 md:text-l text-center lg:mt-14 lg:text-2xl md:mt-16 sm:mt-4 md:ml-6`,
-            )}
-          >
-            <Quote className={tw(`w-6 md:w-6 left-4 md:-left-2 top-0 pl-4 md:pl-0 lg:mt-6 text-gray-500`)}></Quote>
-            There is no bottom or up; that's an illusion.
-          </p>
-
-          <p
-            className={tw(
-              `bg-blue-400 mt-6 text-base leading-6 text-gray-800 lg:text-xl bg:yellow-200 text-center lg:py-4 `,
-            )}
-          >
-            <a href="https://www.youtube.com/watch?v=cyQ0s0J1fhY" target="_blank">
-              We don't need eyes to see, we need vision.
-            </a>
-          </p>
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl text-center `)}>
             That can be observed via empowering all, that are taking steps on pursuing creative and borderless journeys
             in minds and, that are to be peaceful and healthy in everywhere and for everyone.
@@ -217,22 +183,67 @@ const PricingTable = () => (
               `text-xl mt-10 leading-6 text-gray-100 lg:text-2xl bg-green-600 text-center lg:px-6 py-6 lg:py-12 md:py-12`,
             )}
           >
-            this is a restoration for freedom;
+            this is a restoration of freedom,
           </p>
           <p
             className={tw(
               `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-yellow-800 text-center lg:px-6 py-6 lg:py-12 md:py-12`,
             )}
           >
-            w/ planetary peace and regeneration.
+            with expressions for the planetary peace and regeneration.
           </p>
 
-          {/* matrix soundtrack - clubbed to death */}
-          <div className={tw(`lg:mt-12 md:mt-8 mt-6`)}>
-            <iframe width="100%" height="540" src="https://www.youtube.com/embed/7jMlFXouPk8" allowFullScreen></iframe>
-            {/* stavroz - finishing */}
-            {/* <iframe width="100%" height="420" src="" allowFullScreen></iframe> */}
+          <div className={tw(` flex flex-wrap lg:mt-12 `)}>
+            <div className={tw(`w-full md:w-1/2 `)}>
+              <iframe
+                width="100%"
+                height="320"
+                src="https://www.youtube.com/embed/uAOR6ib95kQ"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className={tw(` w-full md:w-1/2 `)}>
+              {/* want it back / guts ft patrice */}
+              <iframe
+                width="100%"
+                height="320"
+                src="https://www.youtube.com/embed/Vn8phH0k5HI"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+            </div>
           </div>
+
+          <p
+            className={tw(
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-6 md:py-12`,
+            )}
+          >
+            let's write the future, from now. on blockchain
+          </p>
+          <p
+            className={tw(
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4 md:py-12`,
+            )}
+          >
+            blockchain is transparent, resilient, secure, peer-to-peer, decentralised and more.
+          </p>
+          <p
+            className={tw(
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4 md:py-12`,
+            )}
+          >
+            that's technologically and most probably, motivation-wise.
+          </p>
+
+          <p
+            className={tw(
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4 md:py-12`,
+            )}
+          >
+            all we need to declare the 1st World Peace, as a result of learnings from the history, and reflecting to now
+            and the future.
+          </p>
         </div>
       </div>
     </div>

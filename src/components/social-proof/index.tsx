@@ -13,11 +13,19 @@ export const socialProofs = [
   },
   {
     name: `Albert Einstein`,
-    company: `Theoretical Physicist`,
+    company: `Theoretical Physicist, part-time violinist`,
     image: `/images/einstein.jpg`,
     info_url: ``,
-    extra_url: ``,
+    extra_url: `https://www.youtube.com/watch?v=AR9BwHSO0_8`,
     text: `Peace cannot be kept by force; it can only be achieved by understanding.`,
+  },
+  {
+    name: `Bertrand Russell`,
+    company: `Polymath, academic, who worked in philosophy, mathematics, logic, set theory, linguistics, artificial intelligence, cognitive science, computer science `,
+    image: `/images/Bertrand_Russell.jpg`,
+    info_url: `https://en.wikipedia.org/wiki/Bertrand_Russell`,
+    extra_url: `https://www.youtube.com/watch?v=AR9BwHSO0_8`,
+    text: `Shall we put an end to the human race; or shall mankind renounce war?`,
   },
   {
     name: `Nelson Mandela`,
@@ -26,6 +34,15 @@ export const socialProofs = [
     info_url: ``,
     extra_url: ``,
     text: `Sometimes it falls upon a generation to be great. You can be that generation.`,
+  },
+
+  {
+    name: `Greta Thunberg`,
+    company: `Environmental activist `,
+    image: `/images/greata_thunberg.jpg`,
+    info_url: ``,
+    extra_url: ``,
+    text: `I’ve learnt that no one is too small to make a difference. Your silence is almost worst of all.`,
   },
   {
     name: `Martin Luther King, Jr.`,
@@ -52,14 +69,6 @@ export const socialProofs = [
     info_url: ``,
     extra_url: ``,
     text: `The day the power of love overrules the love of power, the world will know peace`,
-  },
-  {
-    name: `Greta Thunberg`,
-    company: `Environmental activist `,
-    image: `/images/greata_thunberg.jpg`,
-    info_url: ``,
-    extra_url: ``,
-    text: `I’ve learnt that no one is too small to make a difference. Your silence is almost worst of all.`,
   },
 
   {
@@ -134,51 +143,17 @@ const SocialProof = () => {
   };
 
   return (
-    <div className={tw(`container mx-auto bg-purple-300 px-8`)}>
+    <div className={tw(`container mx-auto bg-purple-300 lg:px-8`)}>
       <div className={tw(`max-w-7xl mx-auto relative `)}>
         <section>
           <figure>
             <div className={tw(``)}>
               <Quote className={tw(`w-12 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} />
-              <div className={tw(`pt-12 px-2 lg:px-6 md:px-0`)}>
-                <div className={tw(`cursor-pointer flex `)}>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    // width={62}
-                    // height={62}
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="red"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    onClick={previous}
-                    className={tw(`lg:w-${'32'} lg:h-${'32'}  sm:w-${'22'} sm:h-${'22'}`)}
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" />
-                    <polyline points="15 6 9 12 15 18" />
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    // width={62}
-                    // height={62}
-                    viewBox="0 0 24 24"
-                    strokeWidth="1.5"
-                    stroke="black"
-                    fill="none"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    onClick={next}
-                    className={tw(`lg:w-${'32'} lg:h-${'32'}  sm:w-${'22'} sm:h-${'22'}`)}
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" />
-                    <polyline points="9 6 15 12 9 18" />
-                  </svg>
-                </div>
+              <div className={tw(` pt-12 px-2 lg:px-6 md:px-0`)}>
                 <p className={tw(`text-black-600 text-xl lg:text-2xl pb-6 `)}>{socialProofs[currentIndex].text}</p>
                 <div className={tw(`flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>
-                    <div className={tw(`lg:ml-12 lg:mr-12 mr-4 ml-0 mt-6 `)}>
+                    <div className={tw(`lg:ml-12 lg:mr-12 mr-4 ml-0 mt-8`)}>
                       <img
                         src={socialProofs[currentIndex].image}
                         alt={socialProofs[currentIndex].name}
@@ -196,6 +171,44 @@ const SocialProof = () => {
               </div>
             </div>
           </figure>
+          <div className={tw(`cursor-pointer flex lg:ml-16 ml-20 lg:ml-40  mr-6 `)}>
+            <div className={tw(`container flex`)}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                // width={62}
+                // height={62}
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="red"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                onClick={previous}
+                className={tw(`lg:w-${'32'} lg:h-${'32'}  w-${'12'} h-${'12'}`)}
+              >
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <polyline points="15 6 9 12 15 18" />
+              </svg>
+            </div>
+            <div className={tw(`container flex`)}>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                // width={62}
+                // height={62}
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="black"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                onClick={next}
+                className={tw(`lg:w-${'32'} lg:h-${'32'}  w-${'12'} h-${'12'}`)}
+              >
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <polyline points="9 6 15 12 9 18" />
+              </svg>
+            </div>
+          </div>
         </section>
       </div>
     </div>

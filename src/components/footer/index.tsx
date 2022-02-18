@@ -10,7 +10,7 @@ const solutions = [
 ];
 
 const resources = [
-  { name: 'Workspace', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
+  { name: 'Miro Canvas', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
   { name: 'Articles', link: '/' },
   { name: 'Links', link: '/' },
 ];
@@ -49,7 +49,7 @@ const Footer = () => {
 
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
               <div>
-                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Resources</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Workspaces</h4>
                 <ul>
                   {resources.map((resource) => (
                     <li
@@ -81,7 +81,7 @@ const Footer = () => {
             </li>
             <li>
               <div
-                className={tw(` lg:my-8 text-center font-bolder  text-black lg:text-xl bg-green-500 rounded-full mr-8`)}
+                className={tw(` lg:my-2 text-center font-bolder  text-black lg:text-xl bg-green-500 rounded-full mr-8`)}
               >
                 <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
                   {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
@@ -90,14 +90,10 @@ const Footer = () => {
               </div>
             </li>
             <li>
-              <div
-                className={tw(
-                  ` lg:my-8 mt-6  text-center font-bolder  text-black lg:text-xl bg-yellow-400 rounded-full`,
-                )}
-              >
+              <div className={tw(` lg:my-2  text-center font-bolder  text-black lg:text-xl`)}>
                 <a href="/">
                   {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
-                  <img src="demoverse.svg" alt="logo" width={120} height={120} />
+                  <img src="dm.png" alt="logo" width={60} height={60} className={tw(`rounded-full bg-black`)} />
                 </a>
               </div>
             </li>

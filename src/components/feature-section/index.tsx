@@ -17,6 +17,9 @@ const FeatureSection = () => (
           </h1>
           {/* <Quote className={tw(`w-16 md:w-10 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} /> */}
 
+          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-8 lg:mb-12`)}>
+            ### start manifest ###
+          </p>
           <p className={tw(`mt-10 text-xl lg:text-2xl ftracking-tight text-white`)}>
             First time in the history, as collective expressions, acknowledgements and assurances of billions, instead
             of negotiations of hundreds.
@@ -35,8 +38,12 @@ const FeatureSection = () => (
             It is a universal and unconditional basic experience and cannot be limited within alliances.
           </p>
           <p className={tw(`mt-4 text-xl lg:text-2xl ftracking-tight  text-white mb-8 lg:mb-12`)}>
-            Shall be contained within our civilisation scaled as a world peace with all on the earth, from 21st century
-            forwards.
+            Shall be discovered within our civilisation scaled as a world peace, with all livings on the earth, from the
+            21st century forwards.
+          </p>
+
+          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-8 lg:mb-12`)}>
+            ### end manifest ###
           </p>
 
           <div className={tw(` flex flex-wrap lg:mt-12`)}>

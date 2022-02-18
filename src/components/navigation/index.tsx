@@ -34,16 +34,20 @@ type Link = {
 
 const secondaryLinks = [
   {
-    label: `Resources`,
-    href: `/`,
+    label: `community`,
+    href: `https://discord.gg/CfGzp3st3k`,
   },
   {
-    label: `Log in`,
-    href: `/`,
+    label: `artworks`,
+    href: `https://xdai.unique.one/profile/demoverse`,
   },
   {
-    label: `Get Involved`,
-    href: `/`,
+    label: `workspace`,
+    href: `https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576`,
+  },
+  {
+    label: `guild`,
+    href: `https://guild.xyz/peacemakers`,
   },
 ];
 
@@ -62,7 +66,7 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        stroke="currentColor"
+        stroke="black"
         aria-hidden="true"
         width={24}
         height={24}
@@ -75,7 +79,7 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        stroke="currentColor"
+        stroke="black"
         aria-hidden="true"
         width={24}
         height={24}
@@ -101,7 +105,7 @@ const MobileMenu = () => (
           <a
             key={`mobile-${link.label}`}
             href={link.href}
-            className={tw(`block px-3 py-2 text-base font-medium text-gray-500`)}
+            className={tw(`block px-3 py-2 text-base font-medium text-black`)}
           >
             {link.label}
           </a>
@@ -116,44 +120,57 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-white`)}>
-      <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
+    <nav className={tw(`bg-red-400`)}>
+      <div className={tw(`max-w-7xl mx-auto px-2 sm:px-4 lg:px-4`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
               <img className={tw(`h-16 w-16`)} src="logo.png" alt="logo" width={120} height={120} />
             </div>
-            {/* <div className={tw(`hidden md:block`)}>
-              <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
-                {links.map((link: Link) => (
-                  <a
-                    key={link.label}
-                    href={link.href}
-                    className={tw(`text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}
-                  >
-                    {link.label}
-                  </a>
-                ))}
-              </div>
-            </div> */}
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-              <Button modifier="border-60 text-black bg-red-600">
+              <Button modifier="border-60 text-black bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://discord.gg/CfGzp3st3k">
-                  <a className={tw(`bg-black-200 text-bolder sm:text-md lg:text-xl`)} target="_blank">
+                  <a className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
                     community
                   </a>
                 </Link>
               </Button>
 
-              <Button modifier="border-60 text-black bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4">
+              <Button modifier="border-60 text-black bg-red-800 lg:ml-4 lg:px-4 lg:py-4 mx-2">
+                <Link href="https://xdai.unique.one/profile/demoverse">
+                  <a className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
+                    artworks
+                  </a>
+                </Link>
+              </Button>
+              <Button modifier="border-60 text-black bg- lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
-                  <a className={tw(`bg-yellow-300 text-bolder sm:text-md lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
+                  <a className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
                     workspace
                   </a>
                 </Link>
               </Button>
+
+              <Button modifier="border-60 text-black bg-purple-800 lg:ml-4 lg:px-4 lg:py-4 mx-2">
+                <Link href="https://guild.xyz/peacemakers">
+                  <a
+                    className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4  px-2 lg:py-4`)}
+                    target="_blank"
+                  >
+                    guild
+                  </a>
+                </Link>
+              </Button>
+              {/* 
+              <Button modifier="border-60 text-black bg-purple-800 lg:ml-4 lg:px-4 lg:py-4">
+                <Link href="/">
+                  <a className={tw(`bg-yellow-300 text-bolder sm:text-md lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
+                    peace token (1Q)
+                  </a>
+                </Link>
+              </Button> */}
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>
