@@ -45,6 +45,14 @@ export const socialProofs = [
     text: `I’ve learnt that no one is too small to make a difference. Your silence is almost worst of all.`,
   },
   {
+    name: `Paulette Walker`,
+    company: `Musician (on web, info about them at this time)`,
+    image: `/images/paulette-walker.jpg`,
+    info_url: `https://www.discogs.com/artist/1280999-Paulette-Walker`,
+    extra_url: `https://www.youtube.com/watch?v=PTlsKfEmIFM`,
+    text: `Let the world unite, no fussing no fighting.`,
+  },
+  {
     name: `Martin Luther King, Jr.`,
     company: `Activist leader in the civil rights movement`,
     image: `/images/martin_luther_king_jr.jpg`,
@@ -55,7 +63,7 @@ export const socialProofs = [
   },
   {
     name: `Mother Teresa`,
-    company: `Activist leader in the civil rights movement`,
+    company: `Saint Teresa of Calcutta`,
     image: `/images/mother_teresa.png`,
     info_url: ``,
     extra_url: ``,

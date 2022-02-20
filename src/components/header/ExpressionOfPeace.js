@@ -4,7 +4,7 @@ import ExpressionOfPeaceV0 from './ExpressionOfPeaceV0';
 import ExpressionOfDemandV0 from './ExpressionOfDemandV0';
 
 export default function ExpressionOfPeace() {
-  const [showModal, setShowModal] = React.useState(false);
+  const [showModal, setShowModal] = React.useState(true);
   const [version, setVersion] = React.useState(0);
   return (
     <>
@@ -27,7 +27,7 @@ export default function ExpressionOfPeace() {
       >
         Expression of Demand # {version}
       </button>
-      {!showModal ? <ExpressionOfPeaceV0 /> : <ExpressionOfDemandV0 />})
+      {showModal ? <ExpressionOfPeaceV0 /> : <ExpressionOfDemandV0 />})
     </>
   );
 }

@@ -40,9 +40,9 @@ export default function ExpressionOfDemandV0() {
 
               <p className="my-4 text-blueGray-500 mb-6 leading-relaxed">
                 I'd like this statement taken as an exemption from the taxation for defence and offence; claiming
-                preventing conflicts and wars, with more violent and binary approach (us/them, allies/enemies). As a
-                user of those systems that are on governance, I demand more positively open-sourced and minded
-                infrastructure, knowledge and mental states.
+                preventing conflicts and wars, with more violent and binary approach. As user of those systems on
+                governance, I demand more positively open-sourced and minded infrastructure, knowledge and mental
+                states.
               </p>
             </div>
             {/*footer*/}

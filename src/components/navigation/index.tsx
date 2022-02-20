@@ -120,11 +120,11 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-red-400`)}>
+    <nav className={tw(`bg-purple-300`)}>
       <div className={tw(`max-w-7xl mx-auto px-2 sm:px-4 lg:px-4`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
-            <div className={tw(`flex-shrink-0`)}>
+            <div className={tw(`flex-shrink-0 mr-12`)}>
               <img className={tw(`h-16 w-16`)} src="logo.png" alt="logo" width={120} height={120} />
             </div>
           </div>
@@ -145,10 +145,10 @@ const Navigation = () => {
                   </a>
                 </Link>
               </Button>
-              <Button modifier="border-60 text-black bg- lg:ml-4 lg:px-4 lg:py-4 mx-2">
+              <Button modifier="border-60 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
                   <a className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
-                    workspace
+                    imagination
                   </a>
                 </Link>
               </Button>
