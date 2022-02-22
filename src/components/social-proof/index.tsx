@@ -98,6 +98,14 @@ export const socialProofs = [
   // },
 
   {
+    name: `Luce Irigaray`,
+    company: `feminist, philosopher, linguist, psycholinguist, psychoanalyst and cultural theorist`,
+    image: `/images/luce_irigaray.jpg`,
+    info_url: ``,
+    extra_url: `https://www.theguardian.com/books/2010/jan/06/leo-tolstoy-the-last-station`,
+    text: `Why only one song, one speech, one text at a time?" - when our lips speak together.`,
+  },
+  {
     name: `Leo Tolstoy`,
     company: `Novelist, short story writer, playwright, essayist`,
     image: `/images/Leo_tolstoy.png`,
@@ -115,6 +123,8 @@ export const socialProofs = [
     text: `Words can do unspeakable good and cause terrible wounds.`,
   },
 
+  
+
   {
     name: `Gilles Deleuze`,
     company: `Philosopher, post-structuralist, empiricist and a vitalist`,
@@ -122,6 +132,14 @@ export const socialProofs = [
     info_url: ``,
     extra_url: ``,
     text: `A concept is a brick. It can be used to build a courthouse of reason or it can be thrown through the window.`,
+  },
+  {
+    name: `Henry David Thoreau`,
+    company: `Naturist essayist, poet, philosopher and leading transcendentalist`,
+    image: `/images/henry_david_thoreau.jpg`,
+    info_url: `https://en.wikipedia.org/wiki/Henry_David_Thoreau`,
+    extra_url: ``,
+    text: `The question is not what you look at, but what you see.`,
   },
 
   // {
@@ -161,7 +179,7 @@ const SocialProof = () => {
                 <p className={tw(`text-black-600 text-xl lg:text-2xl pb-6 `)}>{socialProofs[currentIndex].text}</p>
                 <div className={tw(`flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>
-                    <div className={tw(`lg:ml-12 lg:mr-12 mr-4 ml-0 mt-8`)}>
+                    <div className={tw(`lg:ml-12 lg:mr-12 mr-4 ml-4 mt-8`)}>
                       <img
                         src={socialProofs[currentIndex].image}
                         alt={socialProofs[currentIndex].name}
@@ -173,6 +191,7 @@ const SocialProof = () => {
                       <span className={tw(`text-black-600 text-base font-light`)}>
                         {socialProofs[currentIndex].company}
                       </span>
+
                     </p>
                   </div>
                 </div>

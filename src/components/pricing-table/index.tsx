@@ -92,7 +92,10 @@ const PricingTable = () => (
               className={tw(`lg:mx-8 lg:my-2`)}
             ></iframe>
             /{' '}
+
+            
           </div>
+          
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Resources and rights are interacting, as if they are living in the domains of chicken-egg problems. One
             requiring the other one before coming alive.
@@ -101,8 +104,11 @@ const PricingTable = () => (
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Here exists a paradox: neither resources without rights, or rights without resources; a progress can reach
             their full potentials.
+            {/* <iframe src="https://archive.org/embed/walden_librivox" width="500" height="140" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe> */}
+          
           </p>
 
+   
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             We need to shift to somewhere, where exists no box; and walls already fell for those, that are clearly
             exposed to fear, more than love and care.
@@ -244,6 +250,7 @@ const PricingTable = () => (
             all we need to declare the 1st World Peace, as a result of learnings from the history, and reflecting to now
             and the future.
           </p>
+
         </div>
       </div>
     </div>

@@ -78,6 +78,7 @@ const FeatureSection = () => (
             the revolution will be minted
           </p>
           <ExpressonOfPeace />
+          
         </div>
 
         <div className={tw(`flex flex-wrap my-12 text-white`)}>

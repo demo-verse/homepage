@@ -120,7 +120,7 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-purple-300`)}>
+    <nav className={tw(`bg-purple-300 mr-0`)}>
       <div className={tw(`max-w-7xl mx-auto px-2 sm:px-4 lg:px-4`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
@@ -130,9 +130,16 @@ const Navigation = () => {
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
+            <Button modifier="border-60 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 mx-2">
+                <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
+                  <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
+                    imagination
+                  </a>
+                </Link>
+              </Button>
               <Button modifier="border-60 text-black bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://discord.gg/CfGzp3st3k">
-                  <a className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
+                  <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
                     community
                   </a>
                 </Link>
@@ -140,29 +147,23 @@ const Navigation = () => {
 
               <Button modifier="border-60 text-black bg-red-800 lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://xdai.unique.one/profile/demoverse">
-                  <a className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
+                  <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
                     artworks
                   </a>
                 </Link>
               </Button>
-              <Button modifier="border-60 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 mx-2">
-                <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
-                  <a className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
-                    imagination
-                  </a>
-                </Link>
-              </Button>
+         
 
-              <Button modifier="border-60 text-black bg-purple-800 lg:ml-4 lg:px-4 lg:py-4 mx-2">
+              {/* <Button modifier="border-60 text-black bg-blue-400 lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://guild.xyz/peacemakers">
                   <a
                     className={tw(`bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4  px-2 lg:py-4`)}
                     target="_blank"
                   >
-                    guild
+                    peacemakers
                   </a>
                 </Link>
-              </Button>
+              </Button> */}
               {/* 
               <Button modifier="border-60 text-black bg-purple-800 lg:ml-4 lg:px-4 lg:py-4">
                 <Link href="/">

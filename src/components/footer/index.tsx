@@ -89,12 +89,31 @@ const Footer = () => {
                 </a>
               </div>
             </li>
+
             <li>
               <div className={tw(` lg:my-2  text-center font-bolder  text-black lg:text-xl`)}>
                 <a href="/">
                   {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
                   <img src="dm.png" alt="logo" width={60} height={60} className={tw(`rounded-full bg-black`)} />
                 </a>
+
+
+            
+              </div>
+            </li>
+            <li>
+           
+              <div
+                className={tw(`my-4 lg:py-2 lg:ml-20 `)}
+              >
+
+                  <iframe
+                width="100%"
+                height="42"
+                src="https://archive.org/embed/walden_librivox"
+                allowFullScreen
+                
+              ></iframe>  
               </div>
             </li>
           </ul>
