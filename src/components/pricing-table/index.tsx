@@ -220,23 +220,17 @@ const PricingTable = () => (
             </div>
           </div>
 
+    
           <p
             className={tw(
-              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-6 md:py-12`,
-            )}
-          >
-            let's write the future, from now. on blockchain
-          </p>
-          <p
-            className={tw(
-              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4 md:py-12`,
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4`,
             )}
           >
             blockchain is transparent, resilient, secure, peer-to-peer, decentralised and more.
           </p>
           <p
             className={tw(
-              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4 md:py-12`,
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4`,
             )}
           >
             that's technologically and most probably, motivation-wise.
@@ -244,13 +238,27 @@ const PricingTable = () => (
 
           <p
             className={tw(
-              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4 md:py-12`,
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4 `,
             )}
           >
-            all we need to declare the 1st World Peace, as a result of learnings from the history, and reflecting to now
-            and the future.
+            all we need to declare the 1st World Peace, as a result of learnings from the history,
           </p>
 
+          <p
+            className={tw(
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-6 `,
+            )}
+          >
+            let's write the future, from now,on blockchain
+          </p>
+          <p
+            className={tw(
+              `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4 `,
+            )}
+          >
+           while reflecting to now
+            and the future.
+          </p>
         </div>
       </div>
     </div>

@@ -10,9 +10,9 @@ const solutions = [
 ];
 
 const resources = [
-  { name: 'Miro Canvas', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
-  { name: 'Articles', link: '/' },
-  { name: 'Links', link: '/' },
+  { name: 'Design', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
+  { name: 'NFTs', link: '/' },
+  { name: '@xyz', link: 'https://guild.xyz/peacemakers' },
 ];
 
 const contacts = [
@@ -34,7 +34,7 @@ const Footer = () => {
                 <ul>
                   {contacts.map((contact) => (
                     <li
-                      className={tw(`ml-2 lg:ml-8 text-gray-800 text-l lg:text-xl font-medium leading-6`)}
+                      className={tw(`ml-2 lg:ml-2 text-gray-800 text-l lg:text-xl font-medium leading-6`)}
                       key={contact.name}
                     >
                       <a href={contact.link} target="_blank" referrerPolicy="no-referrer">
@@ -49,11 +49,11 @@ const Footer = () => {
 
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
               <div>
-                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Workspaces</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Peace Guild</h4>
                 <ul>
                   {resources.map((resource) => (
                     <li
-                      className={tw(` lg:ml-2 text-gray-800 text-l lg:text-xl font-medium leading-6`)}
+                      className={tw(` text-gray-800 text-l lg:text-xl font-medium leading-6`)}
                       key={resource.name}
                     >
                       <a href={resource.link} target="_blank" referrerPolicy="no-referrer">
@@ -96,24 +96,23 @@ const Footer = () => {
                   {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
                   <img src="dm.png" alt="logo" width={60} height={60} className={tw(`rounded-full bg-black`)} />
                 </a>
-
-
-            
               </div>
             </li>
             <li>
-           
-              <div
-                className={tw(`my-4 lg:py-2 lg:ml-20 `)}
-              >
-
-                  <iframe
-                width="100%"
-                height="42"
-                src="https://archive.org/embed/walden_librivox"
-                allowFullScreen
-                
-              ></iframe>  
+              <div className={tw(`my-4 lg:py-2 lg:ml-20 text-yellow`)}>
+                <iframe
+                  width="100%"
+                  height="42"
+                  src="https://archive.org/embed/walden_librivox"
+                  allowFullScreen
+                ></iframe>
+                <a href="https://en.wikipedia.org/wiki/Walden" target="_blank">
+                  Walden
+                </a>
+                {" by "}
+                <a href="https://en.wikipedia.org/wiki/Henry_David_Thoreau" target="_blank">
+                  Henry David Thoreau
+                </a>
               </div>
             </li>
           </ul>

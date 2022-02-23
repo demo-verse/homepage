@@ -74,10 +74,27 @@ const FeatureSection = () => (
             <span className="underline"> In fact, as world residents, looking for better user experiences.</span>
           </p>
 
+          <p className={tw(`mt-10 lg:mt-6 text-xl lg:text-2xl ftracking-tight text-white`)}>
+            this will be probably a hybrid systems theory,
+          </p>
+
+          <p className={tw(`mt-10 lg:mt-6 text-xl lg:text-2xl ftracking-tight text-white`)}>
+            on web2 & web3, concurrently.
+          </p>
+
+
           <p className={tw(` mb-8 mt-4 text-xl text-4xl lg:text-4xl font-bold tracking-tight  text-white`)}>
             the revolution will be minted
           </p>
-          <ExpressonOfPeace />
+
+          <div className='lg:max-w/2'>
+
+          <div data-upvoty></div>
+
+        
+          </div>
+
+          {/* <ExpressonOfPeace /> */}
           
         </div>
 
