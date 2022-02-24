@@ -87,13 +87,10 @@ const FeatureSection = () => (
             the revolution will be minted
           </p>
 
-          <div className='lg:max-w/2'>
 
           <div data-upvoty></div>
 
         
-          </div>
-
           {/* <ExpressonOfPeace /> */}
           
         </div>

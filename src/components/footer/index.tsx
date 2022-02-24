@@ -10,8 +10,8 @@ const solutions = [
 ];
 
 const resources = [
-  { name: 'Design', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
-  { name: 'NFTs', link: '/' },
+  { name: 'Design & Brainstorm', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
+  { name: 'NFTs', link: 'https://xdai.unique.one/profile/demoverse' },
   { name: '@xyz', link: 'https://guild.xyz/peacemakers' },
 ];
 

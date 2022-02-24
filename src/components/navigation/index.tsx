@@ -34,6 +34,10 @@ type Link = {
 
 const secondaryLinks = [
   {
+    label: `expressions`,
+    href: `https://demoverse.upvoty.com/b/expressions-of-peace-and-demand/`,
+  },
+  {
     label: `community`,
     href: `https://discord.gg/CfGzp3st3k`,
   },
@@ -105,6 +109,7 @@ const MobileMenu = () => (
           <a
             key={`mobile-${link.label}`}
             href={link.href}
+            target='_blank'
             className={tw(`block px-3 py-2 text-base font-medium text-black`)}
           >
             {link.label}
@@ -130,6 +135,13 @@ const Navigation = () => {
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
+            <Button modifier="border-60 text-black bg-blue-500 lg:ml-4 lg:px-4 lg:py-4 mx-2">
+                <Link href="https://demoverse.upvoty.com/b/expressions-of-peace-and-demand/">
+                  <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
+                    expresssions
+                  </a>
+                </Link>
+              </Button>
             <Button modifier="border-60 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
                   <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">

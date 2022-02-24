@@ -97,7 +97,7 @@ const PricingTable = () => (
           </div>
           
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            Resources and rights are interacting, as if they are living in the domains of chicken-egg problems. One
+            Resources and rights are interacting and living in the domains of so called, chicken-egg problems. One
             requiring the other one before coming alive.
           </p>
 
