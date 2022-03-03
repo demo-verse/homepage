@@ -1,5 +1,6 @@
 import { tw } from 'twind';
 import { useState } from 'react';
+import useCollapse from 'react-collapsed';
 import Button from '@/components/button';
 import Link from 'next/link';
 
@@ -38,19 +39,24 @@ const secondaryLinks = [
     href: `https://demoverse.upvoty.com/b/expressions-of-peace-and-demand/`,
   },
   {
-    label: `community`,
+    label: `imagination`,
+    href: `https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576`,
+  },
+  {
+    label: `communities`,
     href: `https://discord.gg/CfGzp3st3k`,
   },
   {
     label: `artworks`,
     href: `https://xdai.unique.one/profile/demoverse`,
   },
+
   {
-    label: `workspace`,
-    href: `https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576`,
+    label: `projection`,
+    href: `https://trello.com/b/hUzyDssg/demoverse-a-journey-to-peace`,
   },
   {
-    label: `guild`,
+    label: `peace guilds`,
     href: `https://guild.xyz/peacemakers`,
   },
 ];
@@ -109,7 +115,7 @@ const MobileMenu = () => (
           <a
             key={`mobile-${link.label}`}
             href={link.href}
-            target='_blank'
+            target="_blank"
             className={tw(`block px-3 py-2 text-base font-medium text-black`)}
           >
             {link.label}
@@ -123,48 +129,32 @@ const MobileMenu = () => (
 const Navigation = () => {
   const [showMenu, setShowMenu] = useState(false);
   const toggleMenu = () => setShowMenu(!showMenu);
-
+  const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
   return (
     <nav className={tw(`bg-purple-300 mr-0`)}>
-      <div className={tw(`max-w-7xl mx-auto px-2 sm:px-4 lg:px-4`)}>
-        <div className={tw(`flex items-center justify-between h-24`)}>
+      <div className={tw(` mx-auto px-2 px-2 lg:px-4`)}>
+        {/* <div>
+      <Toggle {...getToggleProps()}>{isExpanded ? 'Close' : 'Open'}</Toggle>
+      <Collapse {...getCollapseProps()}>{excerpt}</Collapse>
+    </div> */}
+        <div className={tw(`flex items-center justify-between h-24 lg:mt-8 lg:mb-8 mb-2 mt-2`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0 mr-12`)}>
-              <img className={tw(`h-16 w-16`)} src="logo.png" alt="logo" width={120} height={120} />
+              <img className={tw(`h-22 w-22`)} src="logo.png" alt="logo" width={120} height={120} />
             </div>
           </div>
           <div className={tw(`hidden md:block`)}>
-            <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-            <Button modifier="border-60 text-black bg-blue-500 lg:ml-4 lg:px-4 lg:py-4 mx-2">
-                <Link href="https://demoverse.upvoty.com/b/expressions-of-peace-and-demand/">
-                  <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
-                    expresssions
-                  </a>
-                </Link>
-              </Button>
-            <Button modifier="border-60 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 mx-2">
-                <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
-                  <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
-                    imagination
-                  </a>
-                </Link>
-              </Button>
-              <Button modifier="border-60 text-black bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4 mx-2">
-                <Link href="https://discord.gg/CfGzp3st3k">
-                  <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
-                    community
-                  </a>
-                </Link>
-              </Button>
+            <div className={tw(`ml-4 flex items-center md:ml-6 lg:ml-22`)}>
+              {/* <div>
+          <button {...getToggleProps()}>
+        {isExpanded ? 'Guilds' : 'Guilds'}
+      </button>
+      <section {...getCollapseProps()}>Collapsed content 🙈</section>
+          </div> */}
 
-              <Button modifier="border-60 text-black bg-red-800 lg:ml-4 lg:px-4 lg:py-4 mx-2">
-                <Link href="https://xdai.unique.one/profile/demoverse">
-                  <a className={tw(`px-2 bg-yellow-300 text-bolder sm:text-xl lg:text-xl  lg:px-4 lg:py-4`)} target="_blank">
-                    artworks
-                  </a>
-                </Link>
-              </Button>
-         
+              <ButtonPairLarge0 />
+              <ButtonPairLarge1 />
+              <ButtonPairLarge2 />
 
               {/* <Button modifier="border-60 text-black bg-blue-400 lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://guild.xyz/peacemakers">
@@ -195,5 +185,75 @@ const Navigation = () => {
     </nav>
   );
 };
+
+const ButtonPairLarge0 = () => {
+  return (
+    <div>
+      <Button modifier="border-60 text-black bg-blue-500 lg:ml-4 lg:px-4 lg:py-4">
+        <Link href="https://demoverse.upvoty.com/b/expressions-of-peace-and-demand/">
+          <a className={tw(`px-2 py-2 bg-yellow-300 text-bolder md:text-l lg:text-xl  lg:px-4 lg:py-3`)}>
+            expresssions
+          </a>
+        </Link>
+      </Button>
+      <Button modifier="border-60 text-black bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4 mt-2">
+        <Link href="https://discord.gg/CfGzp3st3k">
+          <a className={tw(`px-2 py-2 bg-yellow-300 text-bolder text-l lg:text-xl  lg:px-4 lg:py-3`)} target="_blank">
+            communities
+          </a>
+        </Link>
+      </Button>
+    </div>
+  );
+};
+
+
+const ButtonPairLarge1 = () => {
+  return (
+    <div>
+      <Button modifier="border-60 text-black bg-red-800 lg:ml-4 lg:px-4 lg:py-4 ">
+        <Link href="https://xdai.unique.one/profile/demoverse">
+          <a className={tw(`px-2 py-2 bg-yellow-300 text-bolder text-l lg:text-xl  lg:px-5 lg:py-3`)} target="_blank">
+            artworks
+          </a>
+        </Link>
+      </Button>
+
+      <Button modifier="border-60 text-black bg-purple-500 lg:ml-4 lg:px-4 lg:py-4 mt-2">
+        <Link href="https://xdai.unique.one/profile/demoverse">
+          <a className={tw(`px-4 py-2 bg-yellow-400 text-bolder text-l lg:text-xl  lg:px-8 lg:py-3`)} target="_blank">
+            guilds
+          </a>
+        </Link>
+      </Button>
+    </div>
+  );
+};
+
+const ButtonPairLarge2 = () => {
+  return (
+    <div className={tw(``)}>
+    
+      <Button modifier=" border-20 lg:border-60 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 px-2">
+        <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
+          <a
+            className={tw(`px-2 py-2 bg-yellow-300 text-bolder text-l lg:text-xl py-2 lg:px-4 lg:py-3 `)}
+            target="_blank"
+          >
+            imagination
+          </a>
+        </Link>
+      </Button>
+      
+      <Button modifier="border-60 text-white bg-green-400 lg:ml-4 lg:px-4 lg:py-4  mt-2">
+        <Link href="https://trello.com/b/hUzyDssg/demoverse-a-journey-to-peace">
+          <a className={tw(`px-3 py-2 bg-black text-bolder text-l lg:text-xl  lg:px-6 lg:py-3`)} target="_blank">
+            projection
+          </a>
+        </Link>
+      </Button>
+    </div>
+  );
+  }
 
 export default Navigation;

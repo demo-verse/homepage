@@ -73,7 +73,6 @@ const CasesSection = () => (
         <ParticleBg />
       </div>
       <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
-        <h1 className={tw(`text-white text-4xl lg:text-6xl font-bold text-center`)}>World peace, on blockchain</h1>
         <p className={tw(`text-white text-gray-400 text-center text-xl mt-12`)}>
           why blockchain is a well suit for observing and sustaining a world peace?
         </p>

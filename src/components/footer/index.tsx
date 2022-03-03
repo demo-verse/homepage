@@ -9,10 +9,16 @@ const solutions = [
   { name: 'Creative disruption', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
 ];
 
+const actions = [
+  { name: 'Expression of Peace', link: 'https://en.wikipedia.org/wiki/Design_thinking' },
+  { name: 'Expression of Demand', link: 'https://en.wikipedia.org/wiki/Game_theory' },
+  { name: 'Acknowledgement of Civil', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
+];
+
 const resources = [
-  { name: 'Design & Brainstorm', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
-  { name: 'NFTs', link: 'https://xdai.unique.one/profile/demoverse' },
-  { name: '@xyz', link: 'https://guild.xyz/peacemakers' },
+  { name: 'Imagination', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
+  { name: 'Art of Peace', link: 'https://xdai.unique.one/profile/demoverse' },
+  { name: 'Peace Guilds', link: 'https://guild.xyz/peacemakers' },
 ];
 
 const contacts = [
@@ -23,7 +29,7 @@ const contacts = [
 
 const Footer = () => {
   return (
-    <footer className={tw(`bg-white border-t border-gray-400 pt-14 pb-16`)}>
+    <footer className={tw(`bg-white border-t border-gray-400 pt-14 pb-8`)}>
       <div className={tw(`flex justify-center w-full flex items-center`)}></div>
       <div className={tw(`max-w-12xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap `)}>
         <div className={tw(`flex w-full `)}>
@@ -49,7 +55,7 @@ const Footer = () => {
 
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
               <div>
-                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Peace Guild</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Makerspace</h4>
                 <ul>
                   {resources.map((resource) => (
                     <li
@@ -65,7 +71,8 @@ const Footer = () => {
               </div>
             </li>
 
-            <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
+
+ <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
               <div>
                 <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}>Solutions</h4>
                 <ul>
@@ -79,9 +86,25 @@ const Footer = () => {
                 </ul>
               </div>
             </li>
-            <li>
+            <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
+              <div>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}>Actions</h4>
+                <ul>
+                  {actions.map((action) => (
+                    <li className={tw(`text-gray-800 text-l lg:text-xl font-medium leading-6`)} key={action.name}>
+                      <a href={action.link} target="_blank" referrerPolicy="no-referrer">
+                        {action.name}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </li>
+
+         
+            <li >
               <div
-                className={tw(` lg:my-2 text-center font-bolder  text-black lg:text-xl bg-green-500 rounded-full mr-8`)}
+                className={tw(` ml-12 lg:ml-0 lg:mr-12 mt-6 lg:mt-4 lg:my-2 text-center font-bolder  text-black lg:text-xl bg-green-500 rounded-full mr-8`)}
               >
                 <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
                   {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
@@ -91,15 +114,16 @@ const Footer = () => {
             </li>
 
             <li>
-              <div className={tw(` lg:my-2  text-center font-bolder  text-black lg:text-xl`)}>
+              <div className={tw(`mt-6 lg:mt-4 lg:my-2  text-center font-bolder  text-black lg:text-xl`)}>
                 <a href="/">
                   {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
                   <img src="dm.png" alt="logo" width={60} height={60} className={tw(`rounded-full bg-black`)} />
                 </a>
               </div>
             </li>
+
             <li>
-              <div className={tw(`my-4 lg:py-2 lg:ml-20 text-yellow`)}>
+              <div className={tw(`mt-8 lg:ml-60 lg:mt-6 my-4 lg:py-2 lg:ml-12 text-yellow`)}>
                 <iframe
                   width="100%"
                   height="42"

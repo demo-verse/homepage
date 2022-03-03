@@ -17,17 +17,24 @@ const FeatureSection = () => (
           </h1>
           {/* <Quote className={tw(`w-16 md:w-10 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} /> */}
 
-          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-8 lg:mb-12`)}>
+          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-8 lg:mb-10 lg:mt-10 `)}>
             ### start manifest ###
           </p>
           <p className={tw(`mt-10 text-xl lg:text-2xl ftracking-tight text-white`)}>
-            First time in the history, as collective expressions, acknowledgements and assurances of billions, instead
-            of negotiations of hundreds.
+            First time in the history; expressions, acknowledgements and assurances of billions,
+          </p>
+
+          <p className={tw(` text-xl lg:text-2xl ftracking-tight text-white`)}>
+            empowering
+            negotiations of hundreds.
           </p>
 
           <p className={tw(`mt-8 text-xl lg:text-2xl ftracking-tight text-white`)}>
             <span className={tw(`text-blue-400`)}>Peace is something</span> to experience and sustain{' '}
-            <span className="underline">without risk of political opt-outs.</span>
+          </p>
+
+          <p className={tw(` text-xl lg:text-2xl ftracking-tight text-white`)}>
+            <span>without the risk of political opt-outs </span>
           </p>
 
           {/* <div className={tw(`mt:12 lg:mb:8`)}>
@@ -35,14 +42,25 @@ const FeatureSection = () => (
           </div> */}
 
           <p className={tw(`mt-8 text-xl lg:text-2xl ftracking-tight  text-white`)}>
-            It is a universal and unconditional basic experience and cannot be limited within alliances.
+            It is a universal and unconditional basic experience,
           </p>
-          <p className={tw(`mt-4 text-xl lg:text-2xl ftracking-tight  text-white mb-8 lg:mb-12`)}>
-            Shall be discovered within our civilisation scaled as a world peace, with all livings on the earth, from the
-            21st century forwards.
+          <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white`)}>
+            cannot be limited within alliances, nor become luxury.
+          </p>
+          <p className={tw(`mt-8 text-xl lg:text-2xl ftracking-tight  text-white`)}>
+            Shall finally be discovered within our civilisation;
+          </p>
+          <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white mb-8 `)}>
+            scaled as a world peace, with all livings on planet:
+          </p>
+          <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white mb-8 lg:mb-0 `)}>
+            ~ World Peace ~ 
+          </p>
+          <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white mb-8 lg:mb-10`)}>
+           from the 21st century forwards {">>"} 
           </p>
 
-          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-8 lg:mb-12`)}>
+          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-8 lg:mb-16`)}>
             ### end manifest ###
           </p>
 
@@ -67,42 +85,58 @@ const FeatureSection = () => (
               ></iframe>
             </div>
           </div>
+         
+
+
+        <div className='lg:mt-16 lg:mb-16'>
+     
+        <div data-upvoty></div>
+
+        </div>
+        <p className={tw(` mb-8 mt-4 text-xl text-4xl lg:text-4xl font-bold tracking-tight  text-white`)}>
+            the revolution will be minted
+          </p>
+
+            {/* <div className={tw(`lg:ml-100`)}>
+
+            <img src="demoverse-logo-horizontal.png" alt="logo" width="24%" height={60} className={tw(`  lg:ml-30 rounded-full bg-black`)} />
+          </div> */}
+
           <p className={tw(`mt-10 lg:mt-16 text-xl lg:text-2xl ftracking-tight text-white`)}>
+          We are imagining blockchain as a public ledger for writing future, from now. 
+          </p>
+          <p className={tw(`mt-2  text-xl lg:text-2xl ftracking-tight text-white`)}>
+          Our efforts will be towards offsetting violence and carbon, concurrently.
+          </p>
+
+          <p className={tw(`mt-4 lg:mt-4 text-xl lg:text-2xl ftracking-tight text-white`)}>
             Here, boosting planetary regeneration with a world-wide disarmament and peace vision.
           </p>
-          <p className={tw(`mt-8 text-xl lg:text-2xl ftracking-tight  text-white`)}>
+          <p className={tw(`mt-4 text-xl lg:mt-6 lg:text-2xl ftracking-tight  text-white`)}>
             <span className="underline"> In fact, as world residents, looking for better user experiences.</span>
           </p>
 
-          <p className={tw(`mt-10 lg:mt-6 text-xl lg:text-2xl ftracking-tight text-white`)}>
+          <p className={tw(`text-xl lg:text-2xl ftracking-tight text-white`)}>
             this will be probably a hybrid systems theory,
           </p>
 
           <p className={tw(`mt-10 lg:mt-6 text-xl lg:text-2xl ftracking-tight text-white`)}>
-            on web2 & web3, concurrently.
+            @ web2 & web3
           </p>
+        
 
 
-          <p className={tw(` mb-8 mt-4 text-xl text-4xl lg:text-4xl font-bold tracking-tight  text-white`)}>
-            the revolution will be minted
-          </p>
 
-
-          <div data-upvoty></div>
-
+     
         
           {/* <ExpressonOfPeace /> */}
           
         </div>
 
-        <div className={tw(`flex flex-wrap my-12 text-white`)}>
+        {/* <div className={tw(`flex flex-wrap my-12 text-white`)}>
           <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8`)}>
             <div className={tw(`flex items-center mb-6`)}>
-              {/* <div className={tw(`flex ml-4  text-center text-2xl`)}> 
-              <Check width={20} height={20} fill="orange" className={tw(`h-14 w-14 text-indigo-500`)} />
-              
-              Socio-Env Contracts </div> */}
-
+       
               <div className={tw(`flex items-center`)}>
                 <Check width={20} height={20} fill="orange" className={tw(`h-14 w-14 text-indigo-500`)} />
                 <div className={tw(`ml-4  text-center text-2xl`)}>Socio-Env Contracts</div>
@@ -110,11 +144,9 @@ const FeatureSection = () => (
             </div>
             <p className={tw(`leading-loose text-white-200 text-xl text-center lg:text-xl`)}>
               Read a version of Expression of Peace. Currently version zero exists as EoP #0.
-              {/* second: socio-environmental contracts on demoVerse */}
             </p>
             <p className={tw(`leading-loose text-white-200 text-xl text-center lg:text-xl mt-4`)}>
               Expressions are part of our Decentralised Identities, not for sale.
-              {/* second: socio-environmental contracts on demoVerse */}
             </p>
 
             <div className={tw(`lg:mx-12 mt-4 lg:my-8 text-center font-bolder  text-black lg:text-xl text-xl`)}>
@@ -133,9 +165,7 @@ const FeatureSection = () => (
               </button>
             </div>
           </div>
-          {/* give possibility for conditions */}
-          {/* Including demands, and hopes, denouncing wars and and speaking to people mostly, that are invited to co-imagine peace. */}
-
+      
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8 text-w`)}>
             <div className={tw(`flex items-center mb-6`)}>
               <Check width={20} height={20} fill="red" className={tw(`h-14 w-14 text-indigo-500`)} />
@@ -161,14 +191,7 @@ const FeatureSection = () => (
               </button>
             </div>
 
-            {/* <div className={tw(`lg:mx-12 mt-4 lg:my-8 text-center font-bolder  text-black lg:text-xl text-xl`)}>
-              <button className={tw(`bg-red-600 text-2xl text-white active:bg-pink-600 hover:bg-black hover:text-yellow-400 font-bold lg:text-lg md:text-md px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 w-42 rounded-full`)}>
-
-            <a  href="https://gateway.pinata.cloud/ipfs/QmYBM9RpQEV6jbYM3Wf6QsZgoeeAAeKHRo1dmvhGc9xgUs" target="_blank" referrerPolicy="no-referrer">
-             how to c
-          </a>
-              </button>
-            </div> */}
+    
           </div>
 
           <div className={tw(`w-full md:w-1/2 lg:w-1/3 p-8`)}>
@@ -253,27 +276,7 @@ const FeatureSection = () => (
               </a>
             </div>
           </div>
-          {/* <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8`)}>
-            <div className="flex items-center mb-6">
-              <Check width={20} height={20} fill="green" className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Acknowledge Each Other</div>
-            </div>
-            <p className={tw(`leading-loose text-gray-800`)}>
-              With $PEACE tokens, Anyone can acknowledge each others' expressions and demands, hence efforts towards
-              achieving the 1st world peace.
-            </p>
-          </div>
-          <div className={tw(`w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8`)}>
-            <div className="flex items-center mb-6">
-              <Check width={20} height={20} fill="green" className={tw(`h-14 w-14 text-indigo-500`)} />
-              <div className={tw(`ml-4 text-xl`)}>Acknowledge Each Other</div>
-            </div>
-            <p className={tw(`leading-loose text-gray-800`)}>
-              With $PEACE tokens, Anyone can acknowledge each others' expressions and demands, hence efforts towards
-              achieving the 1st world peace.
-            </p>
-          </div> */}
-        </div>
+        </div> */}
       </div>
     </div>
   </section>
