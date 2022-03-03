@@ -16,12 +16,12 @@ const Header = () => {
           <p className={tw(`mt-2 text-white text-center md:text-2xl lg:text-3xl text-xl`)}>
             Global, peer-to-peer consensus of billions, on blockchain.
           </p>
-          <p className={tw(`mt-6 mb-10 lg:mb-12 text-white text-center md:text-2xl lg:text-3xl text-xl`)}>
+          <p className={tw(`mt-6 mb-4 lg:mb-8 text-white text-center md:text-2xl lg:text-3xl text-xl`)}>
             Progressive regeneration via disarmament and world peace.
           </p>
 
           <p className={tw(`mt-4 mb-10 lg:mb-12 text-white text-center md:text-2xl lg:text-3xl text-xl`)}>
-            Express yourself!
+            Express yourself, fear no more //
           </p>
         </div>
       </div>

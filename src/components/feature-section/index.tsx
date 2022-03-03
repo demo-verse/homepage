@@ -17,7 +17,7 @@ const FeatureSection = () => (
           </h1>
           {/* <Quote className={tw(`w-16 md:w-10 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} /> */}
 
-          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-8 lg:mb-10 lg:mt-10 `)}>
+          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-6 lg:mb-10 lg:mt-10 mt-8 `)}>
             ### start manifest ###
           </p>
           <p className={tw(`mt-10 text-xl lg:text-2xl ftracking-tight text-white`)}>
@@ -37,10 +37,6 @@ const FeatureSection = () => (
             <span>without the risk of political opt-outs </span>
           </p>
 
-          {/* <div className={tw(`mt:12 lg:mb:8`)}>
-            <iframe width="100%" height="600" src="https://www.youtube.com/embed/5r98tT0j1a0" allowFullScreen></iframe>
-          </div> */}
-
           <p className={tw(`mt-8 text-xl lg:text-2xl ftracking-tight  text-white`)}>
             It is a universal and unconditional basic experience,
           </p>
@@ -51,7 +47,7 @@ const FeatureSection = () => (
             Shall finally be discovered within our civilisation;
           </p>
           <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white mb-8 `)}>
-            scaled as a world peace, with all livings on planet:
+            scaled as a world peace, with all livings on planet.
           </p>
           <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white mb-8 lg:mb-0 `)}>
             ~ World Peace ~ 

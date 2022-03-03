@@ -19,14 +19,14 @@ export const socialProofs = [
     extra_url: `https://www.youtube.com/watch?v=AR9BwHSO0_8`,
     text: `Peace cannot be kept by force; it can only be achieved by understanding.`,
   },
-  {
-    name: `Bertrand Russell`,
-    company: `Polymath, academic, who worked in philosophy, mathematics, logic, set theory, linguistics, artificial intelligence, cognitive science, computer science `,
-    image: `/images/Bertrand_Russell.jpg`,
-    info_url: `https://en.wikipedia.org/wiki/Bertrand_Russell`,
-    extra_url: `https://www.youtube.com/watch?v=AR9BwHSO0_8`,
-    text: `Shall we put an end to the human race; or shall mankind renounce war?`,
-  },
+  // {
+  //   name: `Bertrand Russell`,
+  //   company: `Polymath, academic, who worked in philosophy, mathematics, logic, set theory, linguistics, artificial intelligence, cognitive science, computer science `,
+  //   image: `/images/Bertrand_Russell.jpg`,
+  //   info_url: `https://en.wikipedia.org/wiki/Bertrand_Russell`,
+  //   extra_url: `https://www.youtube.com/watch?v=AR9BwHSO0_8`,
+  //   text: `Shall we put an end to the human race; or shall mankind renounce war?`,
+  // },
   {
     name: `Nelson Mandela`,
     company: `Anti-apartheid revolutionary, political leader and philanthropist`,
@@ -169,13 +169,12 @@ const SocialProof = () => {
   };
 
   return (
-    <div className={tw(`container mx-auto bg-purple-300 lg:px-8`)}>
+    <div className={tw(`container mx-auto bg-purple-300 px-4 lg:px-8`)}>
       <div className={tw(`max-w-7xl mx-auto relative `)}>
         <section>
           <figure>
             <div className={tw(``)}>
-              <Quote className={tw(`w-12 md:w-12 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} />
-              <div className={tw(` pt-12 px-2 lg:px-6 md:px-0`)}>
+              <div className={tw(`pt-12 px-2 lg:px-6 md:px-0`)}>
                 <p className={tw(`text-black-600 text-xl lg:text-2xl pb-6 `)}>{socialProofs[currentIndex].text}</p>
                 <div className={tw(`flex items-center justify-between`)}>
                   <div className={tw(`flex items-center pb-12`)}>

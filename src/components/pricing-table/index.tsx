@@ -32,10 +32,10 @@ const PricingTable = () => (
 
           {/* </div> */}
 
-          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-12 mt-10`)}>Why blockchain for world peace?</h2>
+          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-6 lg:mb-8 mt-10`)}>Why blockchain for world peace?</h2>
 
           <p className={tw(`text-base leading-6 text-gray-800 lg:text-4xl text-center`)}>
-            Blockchain belongs to all, as power does.
+            "Blockchain belongs to all, as power does."
 
           </p>
 
@@ -49,14 +49,16 @@ const PricingTable = () => (
             This can cherish from open minds and hearts, who shares and feels stake and even
             responsibility.
           </p> */}
+
+<iframe width="100%" src="https://www.youtube.com/embed/zMsnnH7Tu34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             {/* marvina reynolds - little boxes*/}
-            <iframe
+            {/* <iframe
               width="100%"
               // src="https://www.youtube.com/embed/pFS4zYWxzNA"
               src="https://www.youtube.com/embed/r5IKpHTEuY0"
               allowFullScreen
               className={tw(`lg:mx-8 lg:my-2`)}
-            ></iframe>
+            ></iframe> */}
             /{' '}
 
             
@@ -94,13 +96,13 @@ const PricingTable = () => (
           </p>
 
 
-          <p className={tw(`mt-4 mb-6 lg:mb-10 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <p className={tw(`mt-4 mb-6 lg:mb-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             For this vision, blockchain technology is enabling us on sharing rights, as well as resources.
           </p>
 
           
 
-          <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <p className={tw(`mt-4 lg:mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Here, blockchain and smart contracts, in core, technical tools of reflection;
           </p>
           <p className={tw(`text-base leading-6 text-gray-800 lg:text-xl`)}>
@@ -110,14 +112,18 @@ const PricingTable = () => (
             assurances to the rest of the world.
           </p>
 
-          <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            This well may be in forms of, writing social and environmental contracts together,
+          <p className={tw(`mt-4 lg:mt-8 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            This well may be in forms of, writing social and environmental contracts,
           </p>
 
           <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>
            
-            that are writing a future, from now.
+            that are writing a future, from now. 
           </p>
+
+          <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>
+           
+together         </p>
 
 
       
@@ -163,7 +169,7 @@ const PricingTable = () => (
 
           <p
             className={tw(
-              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-6`,
+              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-4`,
             )}
           >
             21st century will be observing a decentralised civilisation. 
@@ -171,12 +177,14 @@ const PricingTable = () => (
 
           <p
             className={tw(
-              `text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0`,
+              `text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-16 mb-10`,
             )}
           >
            Competing in good stuff, while scaling and
             sharing them with all.
           </p>
+
+<iframe width="100%" height="662" src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-416978,-324908,567200,420000" frameBorder="0" scrolling="no" allowFullScreen></iframe>
 
           {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/n9e0g5s_LCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            */}
