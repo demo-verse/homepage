@@ -220,7 +220,7 @@ const ButtonPairLarge1 = () => {
       </Button>
 
       <Button modifier="border-60 text-black bg-purple-500 lg:ml-4 lg:px-4 lg:py-4 mt-2">
-        <Link href="https://xdai.unique.one/profile/demoverse">
+        <Link href="https://guild.xyz/peacemakers">
           <a className={tw(`px-4 py-2 bg-yellow-400 text-bolder text-l lg:text-xl  lg:px-8 lg:py-3`)} target="_blank">
             guilds
           </a>
