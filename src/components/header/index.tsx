@@ -21,7 +21,7 @@ const Header = () => {
           </p>
 
           <p className={tw(`mt-4 mb-10 lg:mb-12 text-white text-center md:text-2xl lg:text-3xl text-xl`)}>
-            Express yourself, fear no more //
+            Express yourself! fear no more //
           </p>
         </div>
       </div>

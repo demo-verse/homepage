@@ -9,10 +9,11 @@ const solutions = [
   { name: 'Creative disruption', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
 ];
 
+// link to blog posts
 const actions = [
-  { name: 'Expression of Peace', link: 'https://en.wikipedia.org/wiki/Design_thinking' },
-  { name: 'Expression of Demand', link: 'https://en.wikipedia.org/wiki/Game_theory' },
-  { name: 'Acknowledgement of Civil', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
+  { name: 'Expression of Peace', link: '' },
+  { name: 'Expression of Demand', link: '' },
+  { name: 'Acknowledgement of Civil', link: '' },
 ];
 
 const resources = [
@@ -25,6 +26,8 @@ const contacts = [
   { name: 'Discord', link: 'https://discord.gg/CfGzp3st3k' },
   { name: 'Twitter', link: 'https://twitter.com/demoversal' },
   { name: 'Github', link: 'https://github.com/demo-verse' },
+  { name: 'Blog', link: 'https://github.com/demo-verse' },
+
 ];
 
 const Footer = () => {

@@ -32,11 +32,12 @@ const PricingTable = () => (
 
           {/* </div> */}
 
-          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-6 lg:mb-8 mt-10`)}>Why blockchain for world peace?</h2>
+          <h2 className={tw(`text-4xl lg:text-7xl font-bold text-gray-800 mb-6 lg:mb-8 mt-10`)}>
+            Why blockchain for world peace?
+          </h2>
 
           <p className={tw(`text-base leading-6 text-gray-800 lg:text-4xl text-center`)}>
             "Blockchain belongs to all, as power does."
-
           </p>
 
           <div
@@ -49,8 +50,13 @@ const PricingTable = () => (
             This can cherish from open minds and hearts, who shares and feels stake and even
             responsibility.
           </p> */}
-
-<iframe width="100%" src="https://www.youtube.com/embed/zMsnnH7Tu34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/zMsnnH7Tu34"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              
+            ></iframe>
             {/* marvina reynolds - little boxes*/}
             {/* <iframe
               width="100%"
@@ -60,10 +66,8 @@ const PricingTable = () => (
               className={tw(`lg:mx-8 lg:my-2`)}
             ></iframe> */}
             /{' '}
-
-            
           </div>
-            {/* <img src="demoverse-logo-horizontal.png" alt="logo" width={120} height={60} className={tw(`rounded-full bg-black`)} /> */}
+          {/* <img src="demoverse-logo-horizontal.png" alt="logo" width={120} height={60} className={tw(`rounded-full bg-black`)} /> */}
 
           {/* <p className={tw(`text-base leading-6 text-gray-800 lg:text-2xl mt-4`)}>
             // peace is green; fear no more. Express yourself!
@@ -91,16 +95,19 @@ const PricingTable = () => (
           </p> */}
           <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             {/* demoVerse  */}
-
             demoVerse exists to explore potential ways of using technology for freedom.
           </p>
-
 
           <p className={tw(`mt-4 mb-6 lg:mb-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             For this vision, blockchain technology is enabling us on sharing rights, as well as resources.
           </p>
 
-          
+          <p className={tw(`mt-4 mb-6 lg:mb-2 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            Consensus is what we need to solve global problems.
+          </p>
+          <p className={tw(`mt-4 mb-6 lg:mb-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
+            Peace is that consensus, that needs consensus in the first place.
+          </p>
 
           <p className={tw(`mt-4 lg:mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Here, blockchain and smart contracts, in core, technical tools of reflection;
@@ -108,26 +115,17 @@ const PricingTable = () => (
           <p className={tw(`text-base leading-6 text-gray-800 lg:text-xl`)}>
             for making expressions, demands and acknowledgements,
           </p>
-          <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>
-            assurances to the rest of the world.
-          </p>
+          <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>assurances to the rest of the world.</p>
 
           <p className={tw(`mt-4 lg:mt-8 text-base leading-6 text-gray-800 lg:text-xl`)}>
             This well may be in forms of, writing social and environmental contracts,
           </p>
 
-          <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>
-           
-            that are writing a future, from now. 
-          </p>
+          <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>that are writing a future, from now.</p>
 
-          <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>
-           
-together         </p>
+          <p className={tw(` lg:mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>Together. </p>
 
-
-      
-{/*           
+          {/*           
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Resources and rights are interacting and living in the domains of so called, chicken-egg problems. One
             requiring the other one before coming alive.
@@ -138,13 +136,10 @@ together         </p>
             their full potentials.          
           </p> */}
 
-   
           {/* <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             We need to shift to somewhere, where exists no box; and walls already fell for those, that are clearly
             exposed to fear, more than love and care.
           </p> */}
-
-         
 
           {/* <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Since more than 10 years, we are moving towards decentralised and empowering, as well as liberating
@@ -172,7 +167,7 @@ together         </p>
               `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-4`,
             )}
           >
-            21st century will be observing a decentralised civilisation. 
+            21st century will be observing a decentralised civilisation.
           </p>
 
           <p
@@ -180,11 +175,17 @@ together         </p>
               `text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-16 mb-10`,
             )}
           >
-           Competing in good stuff, while scaling and
-            sharing them with all.
+            Competing in good stuff, while scaling and sharing them with all.
           </p>
 
-<iframe width="100%" height="662" src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-416978,-324908,567200,420000" frameBorder="0" scrolling="no" allowFullScreen></iframe>
+          <iframe
+            width="100%"
+            height="662"
+            src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-416978,-324908,567200,420000"
+            frameBorder="0"
+            scrolling="no"
+            allowFullScreen
+          ></iframe>
 
           {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/n9e0g5s_LCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            */}
@@ -220,7 +221,7 @@ together         </p>
           */}
 
           {/* <img className={tw(` mr-4`)} src="demoverse.png" alt="logo" width={120} height={120} /> */}
-{/* 
+          {/* 
           <p
             className={tw(
               `text-xl mt-10 leading-6 text-gray-100 lg:text-2xl bg-green-600 text-center lg:px-6 py-6 lg:py-12 md:py-12`,
@@ -235,7 +236,7 @@ together         </p>
           >
             with expressions for the planetary peace and regeneration.
           </p> */}
-{/* 
+          {/* 
           <div className={tw(` flex flex-wrap lg:mt-12 `)}>
             <div className={tw(`w-full md:w-1/2 `)}>
               <iframe
@@ -256,7 +257,7 @@ together         </p>
             </div>
           </div> */}
 
-{/*     
+          {/*     
           <p
             className={tw(
               `text-xl mt-0 leading-6 text-gray-100 lg:text-2xl bg-black text-center lg:px-6 px-2 py-4`,
