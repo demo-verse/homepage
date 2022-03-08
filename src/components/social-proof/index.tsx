@@ -46,7 +46,7 @@ export const socialProofs = [
   },
   {
     name: `Paulette Walker`,
-    company: `Musician (on web, info about them at this time)`,
+    company: `Musician`,
     image: `/images/paulette-walker.jpg`,
     info_url: `https://www.discogs.com/artist/1280999-Paulette-Walker`,
     extra_url: `https://www.youtube.com/watch?v=PTlsKfEmIFM`,
@@ -123,8 +123,6 @@ export const socialProofs = [
     text: `Words can do unspeakable good and cause terrible wounds.`,
   },
 
-  
-
   {
     name: `Gilles Deleuze`,
     company: `Philosopher, post-structuralist, empiricist and a vitalist`,
@@ -190,7 +188,6 @@ const SocialProof = () => {
                       <span className={tw(`text-black-600 text-base font-light`)}>
                         {socialProofs[currentIndex].company}
                       </span>
-
                     </p>
                   </div>
                 </div>

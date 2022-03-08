@@ -13,24 +13,33 @@ const FeatureSection = () => (
               `font-sans font-bold text-3xl md:text-4xl lg:text-6xl text-center leading-snug text-blue-500`,
             )}
           >
-            Peace, <span className={tw(`text-yellow-300`)}>on blockchain</span>
+            Peace, <span className={tw(`text-yellow-300`)}>as a service</span>
+          </h1>
+          <h1
+            className={tw(
+              `font-sans font-bold text-3xl md:text-4xl lg:text-6xl text-center leading-snug text-blue-500`,
+            )}
+          >
+            <span className={tw(`text-white`)}>on</span> <span className={tw(`text-red-600`)}> blockchain</span>
           </h1>
           {/* <Quote className={tw(`w-16 md:w-10 left-0 md:-left-2 absolute top-0 pl-4 md:pl-0 text-gray-500`)} /> */}
 
-          <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-6 lg:mb-10 lg:mt-10 mt-8 `)}>
-            ### start manifest ###
-          </p>
-          <p className={tw(`mt-10 text-xl lg:text-2xl ftracking-tight text-white`)}>
-            First time in the history; expressions, acknowledgements and assurances of billions,
+          <p
+            className={tw(
+              `bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-6 lg:mb-10 lg:mt-10 mt-8 `,
+            )}
+          ></p>
+
+          <p className={tw(` text-xl lg:text-2xl ftracking-tight text-white`)}>
+            With expressions, acknowledgements and assurances of billions,
           </p>
 
           <p className={tw(` text-xl lg:text-2xl ftracking-tight text-white`)}>
-            empowering
-            negotiations of hundreds.
+            empowering peer-to-peer diplomacy as peacemakers.
           </p>
 
           <p className={tw(`mt-8 text-xl lg:text-2xl ftracking-tight text-white`)}>
-            <span className={tw(`text-blue-400`)}>Peace is something</span> to experience and sustain{' '}
+            <span className={tw(`text-blue-500`)}>Peace is something</span> to experience and sustain{' '}
           </p>
 
           <p className={tw(` text-xl lg:text-2xl ftracking-tight text-white`)}>
@@ -49,18 +58,22 @@ const FeatureSection = () => (
           <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white mb-8 `)}>
             scaled as a world peace, with all livings on planet.
           </p>
-          <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white mb-8 lg:mb-0 `)}>
-            ~ World Peace ~ 
-          </p>
+
           <p className={tw(`text-xl lg:text-2xl ftracking-tight  text-white mb-8 lg:mb-10`)}>
-           from the 21st century forwards {">>"} 
+            From the 21st century forwards
           </p>
+
+          <div className={tw(`max-w-2xl mx-auto px-4 lg:px-12 sm:px-6 lg:px-8 md:mt-4`)}>
+            <img src="the_revolution_will_be_minted.jpg" alt="logo" className={tw(``)} width="100%" />
+          </div>
+
+          <p className={tw(`mt-10 text-xl lg:text-2xl ftracking-tight  text-white mb-8 lg:mb-0 `)}>~ World Peace ~</p>
 
           <p className={tw(`bg-yellow-400 mt-4 text-xl lg:text-2xl ftracking-tight  text-black mb-8 lg:mb-16`)}>
             ### end manifest ###
           </p>
 
-          <div className={tw(` flex flex-wrap lg:mt-12`)}>
+          <div className={tw(` flex flex-wrap lg:mt-12 mb:10`)}>
             <div className={tw(`w-full md:w-1/2 `)}>
               {/* come together - the beatles */}
               <iframe
@@ -71,38 +84,49 @@ const FeatureSection = () => (
               ></iframe>
             </div>
             <div className={tw(` w-full md:w-1/2 `)}>
-              {/* want it back / guts ft patrice */}
+              {/* pink floyd - high hopes */}
+              {/* <iframe
+                width="100%"
+                height="320"
+                src="https://www.youtube.com/embed/7jMlFXouPk8"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe> */}
               <iframe
+                width="100%"
+                height="320"
+                src="https://www.youtube.com/embed/6csiUGMC1fk"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe>
+              {/* want it back / guts ft patrice */}
+              {/* <iframe
                 width="100%"
                 height="320"
                 src="https://www.youtube.com/embed/jT6yx2kTvFQ"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe>
+              ></iframe> */}
             </div>
           </div>
-         
-
-
-        <div className='lg:mt-16 lg:mb-16'>
-     
-        <div data-upvoty></div>
-
-        </div>
-        <p className={tw(` mb-8 mt-4 text-xl text-4xl lg:text-4xl font-bold tracking-tight  text-white`)}>
+          {/* 
+          <p className={tw(` mb-8 mt-4 text-xl text-4xl lg:text-4xl font-bold tracking-tight  text-white`)}>
             the revolution will be minted
-          </p>
+          </p> */}
 
-            {/* <div className={tw(`lg:ml-100`)}>
+          <div className="mt-12 lg:mt-16 lg:mb-16">
+            <div data-upvoty></div>
+          </div>
+          {/* <div className={tw(`lg:ml-100`)}>
 
             <img src="demoverse-logo-horizontal.png" alt="logo" width="24%" height={60} className={tw(`  lg:ml-30 rounded-full bg-black`)} />
           </div> */}
 
           <p className={tw(`mt-10 lg:mt-16 text-xl lg:text-2xl ftracking-tight text-white`)}>
-          We are imagining blockchain as a public ledger for writing future, from now. 
+            Imagining blockchain as a public ledger for writing future, from now.
           </p>
           <p className={tw(`mt-2  text-xl lg:text-2xl ftracking-tight text-white`)}>
-          Our efforts will be towards offsetting violence and carbon, concurrently.
+            Our efforts will be towards offsetting violence and carbon, concurrently.
           </p>
 
           <p className={tw(`mt-4 lg:mt-4 text-xl lg:text-2xl ftracking-tight text-white`)}>
@@ -116,17 +140,9 @@ const FeatureSection = () => (
             this will be probably a hybrid systems theory,
           </p>
 
-          <p className={tw(`mt-10 lg:mt-6 text-xl lg:text-2xl ftracking-tight text-white`)}>
-            @ web2 & web3
-          </p>
-        
+          <p className={tw(`mt-10 lg:mt-6 text-xl lg:text-2xl ftracking-tight text-white`)}>@ web2 & web3</p>
 
-
-
-     
-        
           {/* <ExpressonOfPeace /> */}
-          
         </div>
 
         {/* <div className={tw(`flex flex-wrap my-12 text-white`)}>

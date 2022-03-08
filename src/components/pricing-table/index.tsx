@@ -55,7 +55,6 @@ const PricingTable = () => (
               src="https://www.youtube.com/embed/zMsnnH7Tu34"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              
             ></iframe>
             {/* marvina reynolds - little boxes*/}
             {/* <iframe
@@ -93,19 +92,20 @@ const PricingTable = () => (
               We don't need eyes to see, we need vision.
             </a>
           </p> */}
-          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            {/* demoVerse  */}
-            demoVerse exists to explore potential ways of using technology for freedom.
+
+          <p className={tw(`mt-6 text-base leading-6 text-gray-800 lg:text-xl`)}>demoVerse exists with a purpose,</p>
+          <p className={tw(`text-base leading-6 text-gray-800 lg:text-xl`)}>
+            exploring potential ways of using technology for freedom, with good will.
           </p>
 
           <p className={tw(`mt-4 mb-6 lg:mb-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             For this vision, blockchain technology is enabling us on sharing rights, as well as resources.
           </p>
 
-          <p className={tw(`mt-4 mb-6 lg:mb-2 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Consensus is what we need to solve global problems.
           </p>
-          <p className={tw(`mt-4 mb-6 lg:mb-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <p className={tw(`mb-6 lg:mb-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Peace is that consensus, that needs consensus in the first place.
           </p>
 
@@ -113,17 +113,28 @@ const PricingTable = () => (
             Here, blockchain and smart contracts, in core, technical tools of reflection;
           </p>
           <p className={tw(`text-base leading-6 text-gray-800 lg:text-xl`)}>
-            for making expressions, demands and acknowledgements,
+            helping us making expressions, demands, acknowledgements
           </p>
-          <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>assurances to the rest of the world.</p>
+          <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>
+            {' '}
+            and assurances to the rest of the world, undeniably.
+          </p>
 
-          <p className={tw(`mt-4 lg:mt-8 text-base leading-6 text-gray-800 lg:text-xl`)}>
+          <p className={tw(`mt-4 lg:mt-12 text-base leading-6 text-gray-800 lg:text-xl`)}>
             This well may be in forms of, writing social and environmental contracts,
           </p>
 
           <p className={tw(` text-base leading-6 text-gray-800 lg:text-xl`)}>that are writing a future, from now.</p>
 
-          <p className={tw(` lg:mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>Together. </p>
+          <p className={tw(`lg:mb-12 mb-8 text-base leading-6 text-gray-800 lg:text-xl`)}>Together. </p>
+
+          {/* <iframe
+            width="100%"
+            height="620"
+            src="https://www.youtube.com/watch?v=22GEvDupWGo"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe> */}
 
           {/*           
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
@@ -162,22 +173,6 @@ const PricingTable = () => (
             in minds and, that are to be peaceful and healthy in everywhere and for everyone.
           </p> */}
 
-          <p
-            className={tw(
-              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-4`,
-            )}
-          >
-            21st century will be observing a decentralised civilisation.
-          </p>
-
-          <p
-            className={tw(
-              `text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-16 mb-10`,
-            )}
-          >
-            Competing in good stuff, while scaling and sharing them with all.
-          </p>
-
           <iframe
             width="100%"
             height="662"
@@ -186,6 +181,65 @@ const PricingTable = () => (
             scrolling="no"
             allowFullScreen
           ></iframe>
+          <div className={tw(`max-w-2xl mx-auto px-4 lg:px-12 sm:px-6 lg:px-8 md:mt-4`)}>
+            <img src="fork_the_system.png" alt="logo" className={tw(``)} width="100%" />
+          </div>
+          <p
+            className={tw(
+              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center`,
+            )}
+          >
+            It's time.
+          </p>
+
+          <p
+            className={tw(
+              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center `,
+            )}
+          >
+            21st century on this planet, will be observing a decentralised civilisation.
+          </p>
+
+          <p
+            className={tw(
+              `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center`,
+            )}
+          >
+            Peacefully open sourced and minded, scaling and sharing resources, rights and experiencing with all.{' '}
+          </p>
+
+          <p
+            className={tw(
+              `text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-0`,
+            )}
+          >
+            We will be competing and collaborating on holistic positive impact,
+          </p>
+
+          <p
+            className={tw(
+              ` text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-0`,
+            )}
+          >
+            that are expressive, demanding, non-violent
+          </p>
+
+          <p
+            className={tw(
+              ` text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-0`,
+            )}
+          >
+            & holistic by design.
+          </p>
+
+          {/* 
+<iframe
+            width="100%"
+            height="720"
+            src="https://www.youtube.com/embed/22GEvDupWGo"
+            title="Peace Frog by The Doors"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          ></iframe> */}
 
           {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/n9e0g5s_LCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
            */}

@@ -3,6 +3,8 @@ import { useState } from 'react';
 import useCollapse from 'react-collapsed';
 import Button from '@/components/button';
 import Link from 'next/link';
+// import { AwesomeButton } from "react-awesome-button";
+// import "react-awesome-button/dist/styles.css";
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -207,7 +209,6 @@ const ButtonPairLarge0 = () => {
   );
 };
 
-
 const ButtonPairLarge1 = () => {
   return (
     <div>
@@ -233,7 +234,6 @@ const ButtonPairLarge1 = () => {
 const ButtonPairLarge2 = () => {
   return (
     <div className={tw(``)}>
-    
       <Button modifier=" border-20 lg:border-60 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 px-2">
         <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
           <a
@@ -244,7 +244,7 @@ const ButtonPairLarge2 = () => {
           </a>
         </Link>
       </Button>
-      
+
       <Button modifier="border-60 text-white bg-green-400 lg:ml-4 lg:px-4 lg:py-4  mt-2">
         <Link href="https://trello.com/b/hUzyDssg/demoverse-a-journey-to-peace">
           <a className={tw(`px-3 py-2 bg-black text-bolder text-l lg:text-xl  lg:px-6 lg:py-3`)} target="_blank">
@@ -254,6 +254,6 @@ const ButtonPairLarge2 = () => {
       </Button>
     </div>
   );
-  }
+};
 
 export default Navigation;

@@ -4,7 +4,8 @@ import { tw } from 'twind';
 // import IPFS from '@/constants/svg/ipfs.svg';
 
 const solutions = [
-  { name: 'Impact design', link: 'https://en.wikipedia.org/wiki/Design_thinking' },
+  { name: 'Critical thinking', link: 'https://en.wikipedia.org/wiki/Design_thinking' },
+  { name: '+Impact design', link: 'https://www.unepfi.org/positive-impact/positive-impact' },
   { name: 'Game theory', link: 'https://en.wikipedia.org/wiki/Game_theory' },
   { name: 'Creative disruption', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
 ];
@@ -20,14 +21,15 @@ const resources = [
   { name: 'Imagination', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
   { name: 'Art of Peace', link: 'https://xdai.unique.one/profile/demoverse' },
   { name: 'Peace Guilds', link: 'https://guild.xyz/peacemakers' },
+  { name: 'Short Paper', link: 'https://guild.xyz/peacemakers' },
+  { name: 'Long Paper', link: 'https://guild.xyz/peacemakers' },
 ];
 
 const contacts = [
   { name: 'Discord', link: 'https://discord.gg/CfGzp3st3k' },
   { name: 'Twitter', link: 'https://twitter.com/demoversal' },
   { name: 'Github', link: 'https://github.com/demo-verse' },
-  { name: 'Blog', link: 'https://github.com/demo-verse' },
-
+  { name: 'Blog', link: 'https://demoverse.substack.com' },
 ];
 
 const Footer = () => {
@@ -58,13 +60,10 @@ const Footer = () => {
 
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
               <div>
-                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Makerspace</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1 `)}>Peace Making</h4>
                 <ul>
                   {resources.map((resource) => (
-                    <li
-                      className={tw(` text-gray-800 text-l lg:text-xl font-medium leading-6`)}
-                      key={resource.name}
-                    >
+                    <li className={tw(` text-gray-800 text-l lg:text-xl font-medium leading-6`)} key={resource.name}>
                       <a href={resource.link} target="_blank" referrerPolicy="no-referrer">
                         {resource.name}
                       </a>
@@ -74,8 +73,7 @@ const Footer = () => {
               </div>
             </li>
 
-
- <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
+            <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
               <div>
                 <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}>Solutions</h4>
                 <ul>
@@ -104,10 +102,11 @@ const Footer = () => {
               </div>
             </li>
 
-         
-            <li >
+            <li>
               <div
-                className={tw(` ml-12 lg:ml-0 lg:mr-12 mt-6 lg:mt-4 lg:my-2 text-center font-bolder  text-black lg:text-xl bg-green-500 rounded-full mr-8`)}
+                className={tw(
+                  ` ml-12 lg:ml-0 lg:mr-12 mt-6 lg:mt-4 lg:my-2 text-center font-bolder  text-black lg:text-xl bg-green-500 rounded-full mr-8`,
+                )}
               >
                 <a href="https://en.wikipedia.org/wiki/World_peace" target="_blank" referrerPolicy="no-referrer">
                   {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
@@ -136,7 +135,7 @@ const Footer = () => {
                 <a href="https://en.wikipedia.org/wiki/Walden" target="_blank">
                   Walden
                 </a>
-                {" by "}
+                {' by '}
                 <a href="https://en.wikipedia.org/wiki/Henry_David_Thoreau" target="_blank">
                   Henry David Thoreau
                 </a>

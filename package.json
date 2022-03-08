@@ -32,6 +32,7 @@
     "next": "10.0.7",
     "next-seo": "4.20.0",
     "react": "17.0.1",
+    "react-awesome-button": "6.5.1",
     "react-collapsed": "3.3.0",
     "react-dom": "17.0.1",
     "react-favicon": "0.0.26",
