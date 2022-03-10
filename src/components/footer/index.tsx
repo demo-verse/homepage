@@ -4,7 +4,7 @@ import { tw } from 'twind';
 // import IPFS from '@/constants/svg/ipfs.svg';
 
 const solutions = [
-  { name: 'Critical thinking', link: 'https://en.wikipedia.org/wiki/Design_thinking' },
+  { name: 'Critical thinking', link: 'https://en.wikipedia.org/wiki/Critical_thinking' },
   { name: '+Impact design', link: 'https://www.unepfi.org/positive-impact/positive-impact' },
   { name: 'Game theory', link: 'https://en.wikipedia.org/wiki/Game_theory' },
   { name: 'Creative disruption', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
