@@ -114,9 +114,9 @@ const FeatureSection = () => (
             the revolution will be minted
           </p> */}
 
-          <div className="mt-12 lg:mt-16 lg:mb-16">
+          {/* <div className="mt-12 lg:mt-16 lg:mb-16">
             <div data-upvoty></div>
-          </div>
+          </div> */}
           {/* <div className={tw(`lg:ml-100`)}>
 
             <img src="demoverse-logo-horizontal.png" alt="logo" width="24%" height={60} className={tw(`  lg:ml-30 rounded-full bg-black`)} />

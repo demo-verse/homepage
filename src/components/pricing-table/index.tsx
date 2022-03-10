@@ -213,7 +213,7 @@ const PricingTable = () => (
               `text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-0`,
             )}
           >
-            We will be competing and collaborating on holistic positive impact,
+            We will be collaborating and even(ly) compete on positive impact,
           </p>
 
           <p
@@ -221,7 +221,7 @@ const PricingTable = () => (
               ` text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-0`,
             )}
           >
-            that are expressive, demanding, non-violent
+            that are expressive, holistic, demanding &
           </p>
 
           <p
@@ -229,7 +229,7 @@ const PricingTable = () => (
               ` text-base text-bolder  text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center lg:mt-0 lg:mb-0`,
             )}
           >
-            & holistic by design.
+            peaceful by design.
           </p>
 
           {/* 

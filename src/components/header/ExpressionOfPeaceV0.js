@@ -1,7 +1,7 @@
 import React from 'react';
 import { tw } from 'twind';
 import { useSpeechSynthesis } from 'react-speech-kit';
-import Favicon from 'react-favicon'
+import Favicon from 'react-favicon';
 
 export default function ExpressionOfPeaceV0() {
   const { speak, cancel } = useSpeechSynthesis();
@@ -28,14 +28,15 @@ export default function ExpressionOfPeaceV0() {
               )}
             >
               <div className={tw(`lg:mr-20 bg-green-400 lg:px-4 lg:py-2 px-4 mr-4`)}>
-                <button title='listen' onClick={() => speak({ text: EoPV0 })}>Listen
+                <button title="listen" onClick={() => speak({ text: EoPV0 })}>
+                  Listen
                 </button>
               </div>
               <div className={tw(`lg:ml-20 bg-green-400 lg:px-4 lg:py-2 px-4 ml-4 `)}>
-                <button title='stop' onClick={() => cancel()}>
-                   Stop</button>
+                <button title="stop" onClick={() => cancel()}>
+                  Stop
+                </button>
               </div>
-
             </div>
 
             {/*body*/}

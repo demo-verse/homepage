@@ -10,26 +10,29 @@ const solutions = [
   { name: 'Creative disruption', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
 ];
 
-// link to blog posts
+//  { TODO: link to blog posts about concepts }
 const actions = [
+  { name: 'Co-Imagination', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
   { name: 'Expression of Peace', link: '' },
   { name: 'Expression of Demand', link: '' },
   { name: 'Acknowledgement of Civil', link: '' },
 ];
 
 const resources = [
-  { name: 'Imagination', link: 'https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=47727813201' },
   { name: 'Art of Peace', link: 'https://xdai.unique.one/profile/demoverse' },
-  { name: 'Peace Guilds', link: 'https://guild.xyz/peacemakers' },
-  { name: 'Short Paper', link: 'https://guild.xyz/peacemakers' },
-  { name: 'Long Paper', link: 'https://guild.xyz/peacemakers' },
+  { name: 'Peace Guild', link: 'https://discord.gg/r6asuG6TD4' },
+  { name: 'Peace Observatory', link: 'https://discord.gg/r6asuG6TD4' },
+
+  // { name: 'Short Paper', link: 'https://guild.xyz/peacemakers' },
+  // { name: 'Long Paper', link: 'https://guild.xyz/peacemakers' },
 ];
 
 const contacts = [
+  { name: 'Project', link: 'https://trello.com/b/hUzyDssg/demoverse-a-journey-to-peace' },
   { name: 'Discord', link: 'https://discord.gg/CfGzp3st3k' },
   { name: 'Twitter', link: 'https://twitter.com/demoversal' },
   { name: 'Github', link: 'https://github.com/demo-verse' },
-  { name: 'Blog', link: 'https://demoverse.substack.com' },
+  // { name: 'Blog', link: 'https://demoverse.substack.com' },
 ];
 
 const Footer = () => {
@@ -89,7 +92,7 @@ const Footer = () => {
             </li>
             <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3 `)}>
               <div>
-                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}>Actions</h4>
+                <h4 className={tw(`text-gray-900 text-xl lg:text-2xl font-bold mb-1`)}>Actionables</h4>
                 <ul>
                   {actions.map((action) => (
                     <li className={tw(`text-gray-800 text-l lg:text-xl font-medium leading-6`)} key={action.name}>
@@ -125,7 +128,7 @@ const Footer = () => {
             </li>
 
             <li>
-              <div className={tw(`mt-8 lg:ml-60 lg:mt-6 my-4 lg:py-2 lg:ml-12 text-yellow`)}>
+              <div className={tw(`mt-8 lg:ml-40  lg:mt-6 my-4 lg:py-2 lg:ml-12 text-yellow`)}>
                 <iframe
                   width="100%"
                   height="42"

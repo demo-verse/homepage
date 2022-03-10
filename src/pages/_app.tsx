@@ -10,9 +10,6 @@ if (typeof window !== `undefined`) {
   setup(twindConfig);
 }
 
-
-
 export default function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
-
