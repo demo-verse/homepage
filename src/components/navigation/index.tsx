@@ -38,7 +38,7 @@ type Link = {
 const secondaryLinks = [
   {
     label: `expressions`,
-    href: `https://demoverse.upvoty.com/b/expressions-of-peace-and-demand/`,
+    href: `https://expressions-editor.vercel.app`,
   },
   {
     label: `imagination`,
@@ -58,8 +58,8 @@ const secondaryLinks = [
     href: `https://trello.com/b/hUzyDssg/demoverse-a-journey-to-peace`,
   },
   {
-    label: `peace guilds`,
-    href: `https://guild.xyz/peacemakers`,
+    label: `peace guild`,
+    href: `https://discord.gg/r6asuG6TD4`,
   },
 ];
 
@@ -192,7 +192,7 @@ const ButtonPairLarge0 = () => {
   return (
     <div>
       <Button modifier="border-60 text-black bg-blue-500 lg:ml-4 lg:px-4 lg:py-4">
-        <Link href="https://demoverse.upvoty.com/b/expressions-of-peace-and-demand/">
+        <Link href="https://expressions-editor.vercel.app">
           <a className={tw(`px-2 py-2 bg-yellow-300 text-bolder md:text-l lg:text-xl  lg:px-4 lg:py-3`)}>
             expresssions
           </a>
@@ -201,7 +201,7 @@ const ButtonPairLarge0 = () => {
       <Button modifier="border-60 text-black bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4 mt-2">
         <Link href="https://discord.gg/CfGzp3st3k">
           <a className={tw(`px-2 py-2 bg-yellow-300 text-bolder text-l lg:text-xl  lg:px-4 lg:py-3`)} target="_blank">
-            communities
+            community
           </a>
         </Link>
       </Button>
@@ -221,9 +221,9 @@ const ButtonPairLarge1 = () => {
       </Button>
 
       <Button modifier="border-60 text-black bg-purple-500 lg:ml-4 lg:px-4 lg:py-4 mt-2">
-        <Link href="https://guild.xyz/peacemakers">
+        <Link href="https://discord.gg/r6asuG6TD4">
           <a className={tw(`px-4 py-2 bg-yellow-400 text-bolder text-l lg:text-xl  lg:px-8 lg:py-3`)} target="_blank">
-            guilds
+            guild
           </a>
         </Link>
       </Button>

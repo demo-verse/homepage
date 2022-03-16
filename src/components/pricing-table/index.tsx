@@ -52,10 +52,16 @@ const PricingTable = () => (
           </p> */}
             <iframe
               width="100%"
-              src="https://www.youtube.com/embed/zMsnnH7Tu34"
+              src="https://www.youtube.com/embed/7I18_VNjX3g"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
+            {/* <iframe
+              width="100%"
+              src="https://www.youtube.com/embed/zMsnnH7Tu34"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe> */}
             {/* marvina reynolds - little boxes*/}
             {/* <iframe
               width="100%"
@@ -175,15 +181,15 @@ const PricingTable = () => (
 
           <iframe
             width="100%"
-            height="662"
+            height="800"
             src="https://miro.com/app/live-embed/uXjVOX94E5k=/?moveToViewport=-416978,-324908,567200,420000"
             frameBorder="0"
             scrolling="no"
             allowFullScreen
           ></iframe>
-          <div className={tw(`max-w-2xl mx-auto px-4 lg:px-12 sm:px-6 lg:px-8 md:mt-4`)}>
+          {/* <div className={tw(`max-w-2xl mx-auto px-4 lg:px-12 sm:px-6 lg:px-8 md:mt-4`)}>
             <img src="fork_the_system.png" alt="logo" className={tw(``)} width="100%" />
-          </div>
+          </div> */}
           <p
             className={tw(
               `text-base text-bolder leading-6 text-gray-800 lg:text-xl lg:w/2 md:text-l sm:text-l sm:py-4 sm:px-4 sm:w/2 text-center`,
@@ -231,6 +237,10 @@ const PricingTable = () => (
           >
             peaceful by design.
           </p>
+
+          <div className={tw(`max-w-2xl mx-auto px-4 lg:px-12 sm:px-6 lg:px-8 md:mt-4`)}>
+            <img src="the_revolution_will_be_minted.jpg" alt="logo" className={tw(``)} width="100%" />
+          </div>
 
           {/* 
 <iframe
