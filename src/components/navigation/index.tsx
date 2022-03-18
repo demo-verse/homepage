@@ -38,7 +38,7 @@ type Link = {
 const secondaryLinks = [
   {
     label: `expressions`,
-    href: `https://expressions-editor.vercel.app`,
+    href: `https://expressions4peace-one.vercel.app/`,
   },
   {
     label: `imagination`,
@@ -192,7 +192,7 @@ const ButtonPairLarge0 = () => {
   return (
     <div>
       <Button modifier="border-60 text-black bg-blue-500 lg:ml-4 lg:px-4 lg:py-4">
-        <Link href="https://expressions-editor.vercel.app">
+        <Link href="https://expressions4peace-one.vercel.app/">
           <a className={tw(`px-2 py-2 bg-yellow-300 text-bolder md:text-l lg:text-xl  lg:px-4 lg:py-3`)}>
             expresssions
           </a>
