@@ -80,63 +80,35 @@ const FeatureSection = () => (
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               ></iframe>
-              <a href="https://en.wikipedia.org/wiki/Come_Together" target="_blank">
-                Come Together
-              </a>
-              {' by '}
-              <a href="https://en.wikipedia.org/wiki/The_Beatles" target="_blank">
-                The Beatles
-              </a>
             </div>
 
-            {/* iron sky - paolo nutini */}
+            {/* say yes - wax tailor */}
 
             <div className={tw(`w-full md:w-1/2 text-yellow-200 text-bolder`)}>
+              {/* <iframe
+                width="100%"
+                height="480"
+                src="https://www.youtube.com/embed/XRz-_u2tN0c"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe> */}
               <iframe
                 width="100%"
                 height="480"
-                src="https://www.youtube.com/embed/WoCSeIY0xdo"
+                src="https://www.youtube.com/embed/Vn8phH0k5HI"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
               ></iframe>
-              <a href="https://en.wikipedia.org/wiki/Iron_Sky_(song)" target="_blank">
-                Iron Sky
-              </a>
-              {' by '}
-              <a href="https://en.wikipedia.org/wiki/Paolo_Nutini" target="_blank">
-                Paolo Nutini
-              </a>
+              {/* <iframe
+                width="100%"
+                height="480"
+                src="https://www.youtube.com/embed/-FgcTZhEdk0?start=1714"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              ></iframe> */}
             </div>
-
-            {/* war pigs - black sabbath */}
-            {/* <iframe
-                width="100%"
-                height="320"
-                src="https://www.youtube.com/embed/6csiUGMC1fk"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe> */}
-            {/* want it back / guts ft patrice */}
-            {/* <iframe
-                width="100%"
-                height="320"
-                src="https://www.youtube.com/embed/jT6yx2kTvFQ"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              ></iframe> */}
           </div>
-          {/* 
-          <p className={tw(` mb-8 mt-4 text-xl text-4xl lg:text-4xl font-bold tracking-tight  text-white`)}>
-            the revolution will be minted
-          </p> */}
-
-          {/* <div className="mt-12 lg:mt-16 lg:mb-16">
-            <div data-upvoty></div>
-          </div> */}
-          {/* <div className={tw(`lg:ml-100`)}>
-
-            <img src="demoverse-logo-horizontal.png" alt="logo" width="24%" height={60} className={tw(`  lg:ml-30 rounded-full bg-black`)} />
-          </div> */}
 
           <p className={tw(`mt-10 lg:mt-16 text-xl lg:text-2xl ftracking-tight text-white`)}>
             Imagining blockchain as a public ledger for writing future, from now.
