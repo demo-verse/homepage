@@ -126,6 +126,14 @@ const Footer = () => {
                 </a>
               </div>
             </li>
+            <li>
+              <div className={tw(`mt-6 lg:mt-4 ml-6 lg:ml-12 lg:my-2  text-center font-bolder  text-black lg:text-xl`)}>
+                <a href="https://stateful.art">
+                  {/* <img className={tw(`h-16 w-16`)} src="logo.png" alt="world peace" /> */}
+                  <img src="start.svg" alt="logo" width={60} height={60} className={tw(`rounded-full bg-black`)} />
+                </a>
+              </div>
+            </li>
 
             {/* <li>
               <div className={tw(`mt-8 lg:ml-40  lg:mt-6 my-4 lg:py-2 lg:ml-12 text-yellow`)}>
