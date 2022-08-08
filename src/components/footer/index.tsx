@@ -12,9 +12,9 @@ const solutions = [
 
 //  { TODO: link to blog posts about concepts }
 const actions = [
-  { name: 'Expression of Peace', link: 'https://github.com/demo-verse/expressions-metadata-standard' },
-  { name: 'Expression of Demand', link: 'https://github.com/demo-verse/expressions-metadata-standard' },
-  { name: 'Acknowledgement of Civil', link: 'https://github.com/demo-verse/expressions-metadata-standard' },
+  { name: 'Expressions of Peace', link: 'https://expressionsofpeace.org' },
+  // { name: 'Expression of Demand', link: 'https://github.com/demo-verse/expressions-metadata-standard' },
+  // { name: 'Acknowledgement of Civil', link: 'https://github.com/demo-verse/expressions-metadata-standard' },
 ];
 
 const resources = [
