@@ -124,17 +124,17 @@ const FeatureSection = () => (
             <span className="underline"> In fact, as world residents, looking for better user experiences.</span>
           </p>
 
-          <p className={tw(`text-xl lg:text-2xl ftracking-tight text-white`)}>
+          {/* <p className={tw(`text-xl lg:text-2xl ftracking-tight text-white`)}>
             this will be probably a hybrid systems theory,
           </p>
 
-          <p className={tw(`mt-10 lg:mt-6 text-xl lg:text-2xl ftracking-tight text-white`)}>@ web2 & web3</p>
+          <p className={tw(`mt-10 lg:mt-6 text-xl lg:text-2xl ftracking-tight text-white`)}>@ web2 & web3</p> */}
 
           {/* <ExpressonOfPeace /> */}
 
-          <div className={tw(`max-w-2xl mx-auto px-4 lg:px-12 sm:px-6 lg:px-8 md:mt-4`)}>
+          {/* <div className={tw(`max-w-2xl mx-auto px-4 lg:px-12 sm:px-6 lg:px-8 md:mt-4`)}>
             <img src="a_flow_of_peace.png" alt="logo" className={tw(``)} width="100%" />
-          </div>
+          </div> */}
         </div>
 
         {/* <div className={tw(`flex flex-wrap my-12 text-white`)}>

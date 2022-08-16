@@ -155,8 +155,8 @@ const Navigation = () => {
           </div> */}
 
               <ButtonPairLarge0 />
-              <ButtonPairLarge1 />
-              <ButtonPairLarge2 />
+              {/* <ButtonPairLarge1 /> */}
+              {/* <ButtonPairLarge2 /> */}
 
               {/* <Button modifier="border-60 text-black bg-blue-400 lg:ml-4 lg:px-4 lg:py-4 mx-2">
                 <Link href="https://guild.xyz/peacemakers">
@@ -191,17 +191,27 @@ const Navigation = () => {
 const ButtonPairLarge0 = () => {
   return (
     <div>
-      <Button modifier="border-60 text-black bg-blue-500 lg:ml-4 lg:px-4 lg:py-4">
+      <Button modifier="border-60 text-black mx-4 bg-blue-500 lg:ml-4 lg:px-4 lg:py-4">
         <Link href="https://expressionsofpeace.org">
           <a className={tw(`px-2 py-2 bg-yellow-300 text-bolder md:text-l lg:text-xl  lg:px-4 lg:py-3`)}>
             expresssions
           </a>
         </Link>
       </Button>
-      <Button modifier="border-60 text-black bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4 mt-2">
+      <Button modifier="border-60 text-black mx-4 bg-yellow-800 lg:ml-4 lg:px-4 lg:py-4 mt-2">
         <Link href="https://discord.gg/CfGzp3st3k">
           <a className={tw(`px-2 py-2 bg-yellow-300 text-bolder text-l lg:text-xl  lg:px-4 lg:py-3`)} target="_blank">
             community
+          </a>
+        </Link>
+      </Button>
+      <Button modifier=" border-20 lg:border-60 mx-4 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 px-2">
+        <Link href="https://miro.com/app/board/uXjVOX94E5k=/?invite_link_id=638195022576">
+          <a
+            className={tw(`px-2 py-2 bg-yellow-300 text-bolder text-l lg:text-xl py-2 lg:px-4 lg:py-3 `)}
+            target="_blank"
+          >
+            imagination
           </a>
         </Link>
       </Button>
