@@ -37,8 +37,11 @@ const PricingTable = () => (
             "Blockchain belongs to all, as power does."
             <br></br>
             <br></br>
-            Introducing a Peacemaker decentralized dapp, <br></br> launched on the test networks of Ethereum blockchain.
+            Introducing <br></br>
+            Peacemaker dapp
           </p>
+          <br></br>
+          use it responsibly and peacefully <br></br>
           <br></br>
           <Button modifier=" border-20 lg:border-60 mx-4 text-black bg-black lg:ml-4 lg:px-4 lg:py-4 px-2">
             <Link href="https://expressionsofpeace.org">
@@ -52,7 +55,6 @@ const PricingTable = () => (
           </Button>{' '}
           <br></br>
           <br></br>
-          use it responsibly and peacefully
           <div
             className={tw(
               ` mt-8 flex md:mt-4 md:mb-8 lg:mt-6 object-none object-center bg-yellow-300 w-42 h-42 lg:py-4`,
@@ -114,7 +116,9 @@ const PricingTable = () => (
             exploring potential ways of using technology for freedom, with good will.
           </p>
           <p className={tw(`mt-4 mb-6 lg:mb-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
-            For this vision, blockchain technology is enabling us on sharing rights, as well as resources.
+            For this vision, blockchain technology is enabling us
+            <br></br>
+            on sharing rights, as well as resources.
           </p>
           <p className={tw(`mt-4 text-base leading-6 text-gray-800 lg:text-xl`)}>
             Consensus is what we need to solve global problems.

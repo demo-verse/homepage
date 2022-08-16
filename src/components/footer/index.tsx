@@ -7,12 +7,13 @@ const solutions = [
   { name: 'Critical thinking', link: 'https://en.wikipedia.org/wiki/Critical_thinking' },
   { name: '+Impact design', link: 'https://www.unepfi.org/positive-impact/positive-impact' },
   { name: 'Game theory', link: 'https://en.wikipedia.org/wiki/Game_theory' },
-  { name: 'Creative disruption', link: 'https://en.wikipedia.org/wiki/Creative_disruption' },
 ];
 
 //  { TODO: link to blog posts about concepts }
 const actions = [
   { name: 'Expressions of Peace', link: 'https://expressionsofpeace.org' },
+  { name: 'Mutual Assured Regeneration', link: 'https://expressionsofpeace.org' },
+
   // { name: 'Expression of Demand', link: 'https://github.com/demo-verse/expressions-metadata-standard' },
   // { name: 'Acknowledgement of Civil', link: 'https://github.com/demo-verse/expressions-metadata-standard' },
 ];
