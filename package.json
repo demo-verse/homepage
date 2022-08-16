@@ -31,7 +31,7 @@
     "@svgr/webpack": "5.5.0",
     "@tiptap/core": "2.0.0-beta.174",
     "@tiptap/starter-kit": "2.0.0-beta.183",
-    "next": "10.0.7",
+    "next": "12.1.0",
     "next-seo": "4.20.0",
     "react": "17.0.1",
     "react-awesome-button": "6.5.1",
